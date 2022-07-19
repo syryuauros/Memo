@@ -10,5 +10,9 @@
 #+NAME: table.1
 | git clone git@github.com:<userID>/<repo_name>.git | local repo에 remote repo를 복사  |
 |---------------------------------------------------+----------------------------|
-| of                                                | four cells                 |
-[[https://orgmode.org/guide/Hyperlinks.html]]
+| of                                                | [[REF]]                       |
+**  link REF for hyperlink
++ [[https://orgmode.org/guide/Hyperlinks.html]]
+* REF
+* REF
+Reference test
