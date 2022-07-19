@@ -1,7 +1,6 @@
 # -*- mode: org -*-
 #+STARTUP: showall
 
-
 * basic functions
 **  initialisation (git clone, git init, git remote)
 # #+CAPTION: test for insert picture
@@ -14,13 +13,13 @@
 **  link REF for hyperlink
 + [[https://orgmode.org/guide/Hyperlinks.html]]
 * REF
-a
-b
-c
-d
-e
-f
-g
++ a
++ b
++ c
++ d
++ e
++ f
++ g
 * link1
 + link1_test
 + is it working well?

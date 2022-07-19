@@ -1,24 +1,24 @@
 
 # Table of Contents
 
-1.  [basic functions](#org41b065f)
-    1.  [initialisation (git clone, git init, git remote)](#org599d1da)
-    2.  [link REF for hyperlink](#org7966cdc)
-2.  [REF](#org7207d6f)
-3.  [link1](#orgbbdee70)
+1.  [basic functions](#orgaf5d517)
+    1.  [initialisation (git clone, git init, git remote)](#orga8d2a09)
+    2.  [link REF for hyperlink](#org65949bd)
+2.  [REF](#org6696985)
+3.  [link1](#org36f4474)
 
 
 
-<a id="org41b065f"></a>
+<a id="orgaf5d517"></a>
 
 # basic functions
 
 
-<a id="org599d1da"></a>
+<a id="orga8d2a09"></a>
 
 ## initialisation (git clone, git init, git remote)
 
-<table id="org76749b8" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org3ea5281" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -36,33 +36,33 @@
 <tbody>
 <tr>
 <td class="org-left">of</td>
-<td class="org-left"><a href="#orgbbdee70">3</a>[for ref_test]</td>
+<td class="org-left"><a href="#org36f4474">3</a>[for ref_test]</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org7966cdc"></a>
+<a id="org65949bd"></a>
 
 ## link REF for hyperlink
 
 -   <https://orgmode.org/guide/Hyperlinks.html>
 
 
-<a id="org7207d6f"></a>
+<a id="org6696985"></a>
 
 # REF
 
-a
-b
-c
-d
-e
-f
-g
+-   a
+-   b
+-   c
+-   d
+-   e
+-   f
+-   g
 
 
-<a id="orgbbdee70"></a>
+<a id="org36f4474"></a>
 
 # link1
 
