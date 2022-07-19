@@ -10,7 +10,7 @@
 #+NAME: table.1
 | git clone git@github.com:<userID>/<repo_name>.git | local repo에 remote repo를 복사 |
 |---------------------------------------------------+---------------------------------|
-| of                                                | [[YES REF]][for ref_test]           |
+| of                                                | [[link1]][for ref_test]             |
 **  link REF for hyperlink
 + [[https://orgmode.org/guide/Hyperlinks.html]]
 * REF
@@ -21,5 +21,6 @@ d
 e
 f
 g
-* YES REF
-Reference test
+* link1
++ link1_test
++ is it working well?
