@@ -8,11 +8,18 @@
 # #+NAME: fig:a-1
 # [[./imgs/a.png]]
 #+NAME: table.1
-| git clone git@github.com:<userID>/<repo_name>.git | local repo에 remote repo를 복사  |
-|---------------------------------------------------+----------------------------|
-| of                                                | [[REF]]                       |
+| git clone git@github.com:<userID>/<repo_name>.git | local repo에 remote repo를 복사 |
+|---------------------------------------------------+---------------------------------|
+| of                                                | [[YES REF]][for ref_test]           |
 **  link REF for hyperlink
 + [[https://orgmode.org/guide/Hyperlinks.html]]
 * REF
-* REF
++ a
++ b
++ c
++ d
++ e
++ f
++ g
+* YES REF
 Reference test
