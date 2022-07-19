@@ -1,0 +1,13 @@
+#-*- mode: org -*-
+#+STARTUP: showall
+#test
+
+* basic functions
+**  initialisation (git clone, git init, git remote)
+# #+CAPTION: test for insert picture
+# #+NAME: fig:a-1
+# [[./imgs/a.png]]
+#+NAME: My table
+| git clone git@github.com:<userID>/<repo_name>.git | local repo에 remote repo를 복사  |
+|---------------------------------------------------+----------------------------|
+| of                                                | four cells                 |
