@@ -1,24 +1,22 @@
 
 # Table of Contents
 
-1.  [basic functions](#orge42e806)
-    1.  [initialisation (git clone, git init, git remote)](#org833ce3d)
+1.  [basic functions](#org6db069e)
+    1.  [initialisation (git clone, git init, git remote)](#org44d592c)
 
-\#-**- mode: org -**-
-
-\#test
+-**- mode: org -**-
 
 
-<a id="orge42e806"></a>
+<a id="org6db069e"></a>
 
 # basic functions
 
 
-<a id="org833ce3d"></a>
+<a id="org44d592c"></a>
 
 ## initialisation (git clone, git init, git remote)
 
-<table id="org8ac2353" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="orga77a13f" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -40,3 +38,5 @@
 </tr>
 </tbody>
 </table>
+
+<https://orgmode.org/guide/Hyperlinks.html>
