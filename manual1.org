@@ -1,4 +1,4 @@
--*- mode: org -*-
+# -*- mode: org -*-
 #+STARTUP: showall
 
 
@@ -14,12 +14,12 @@
 **  link REF for hyperlink
 + [[https://orgmode.org/guide/Hyperlinks.html]]
 * REF
-+ a
-+ b
-+ c
-+ d
-+ e
-+ f
-+ g
+a
+b
+c
+d
+e
+f
+g
 * YES REF
 Reference test
