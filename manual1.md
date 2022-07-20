@@ -1,26 +1,26 @@
 
 # Table of Contents
 
-1.  [basic functions](#org99d1139)
-    1.  [initialisation (git clone, git init, git remote)](#org33c36f0)
-    2.  [link REF for hyperlink](#org2d9ff3e)
-2.  [REF](#org3d246eb)
-3.  [link1](#org8620bb1)
+1.  [basic functions](#org866346d)
+    1.  [initialisation (git clone, git init, git remote)](#org0079e2e)
+    2.  [link REF for hyperlink](#org54771c7)
+2.  [REF](#orge7ab256)
+3.  [link1](#org7876b12)
 
 
 
-<a id="org99d1139"></a>
+<a id="org866346d"></a>
 
 # basic functions
 
 
-<a id="org33c36f0"></a>
+<a id="org0079e2e"></a>
 
 ## initialisation (git clone, git init, git remote)
 
-+NAME: table.1
+\# ![img](./imgs/a.png "test for insert picture")
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org3ce1c0a" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -38,20 +38,20 @@
 <tbody>
 <tr>
 <td class="org-left">of</td>
-<td class="org-left"><a href="#org8620bb1">3</a>[for ref_test]</td>
+<td class="org-left"><a href="#org7876b12">3</a>[for ref_test]</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org2d9ff3e"></a>
+<a id="org54771c7"></a>
 
 ## link REF for hyperlink
 
 -   <https://orgmode.org/guide/Hyperlinks.html>
 
 
-<a id="org3d246eb"></a>
+<a id="orge7ab256"></a>
 
 # REF
 
@@ -64,7 +64,7 @@
 -   g
 
 
-<a id="org8620bb1"></a>
+<a id="org7876b12"></a>
 
 # link1
 
