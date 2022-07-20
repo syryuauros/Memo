@@ -2,15 +2,17 @@
 ** sub title | * * TAB or * TAB * |
 #+CAPTION: How to make Built-in Table
 #+NAME: fig:a-1
- [[./img/samples1.png]]
+ [[./img/samples/samples1.png]]
 https://orgmode.org/org.html
 
+#+CAPTION: Insert caption
+#+NAME: table: 1
   | Name  | phone | age |
   |-------+-------+-----|
   | peter |  1234 |  17 |
   | Anna  |  4321 |  25 |
-#+CAPTION: Insert caption
-#+NAME: table.1
+
+
 
 * Plain Lists | + TAB or - TAB |
 + link1_test
