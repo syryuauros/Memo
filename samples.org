@@ -24,3 +24,4 @@ from https://orgmode.org/org.html
 + https    [[https://syryuauros.github.io/Manuals/][Map inex in the remote]]
 + file       [[file:Map.org][to the map.org]]
 + folder  [[./img/samples/][img folder]]
++ radio target <<<title>>>
