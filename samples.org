@@ -21,10 +21,10 @@ from https://orgmode.org/org.html
 
 
 * Links | [  [link url or file path]  [displayed comment]  ] |
-+ https    [[https://syryuauros.github.io/Manuals/][Map inex in the remote]]
-+ file       [[file:Map.org][to the map.org]]
-+ folder  [[./img/samples/][img folder]]
-+ internal link [[./samples.org::head][a]]
++ https    [[https://syryuauros.github.io/Manuals/]]
++ file       [[./Map.org]]
++ folder  [[./img/samples/]]
++ internal link [[./samples.org#head][./samples.org#head]]
 
 * a
 + asdfas
