@@ -21,5 +21,5 @@ from https://orgmode.org/org.html
 
 
 * Links | [[]] |
-+ https    https://syryuauros.github.io/Manuals/
-+ file       [[file:Map.org]][to the map.org]
++ https    [[https://syryuauros.github.io/Manuals/][Map inex in the remote]]
++ file       [[file:Map.org][to the map.org]]
