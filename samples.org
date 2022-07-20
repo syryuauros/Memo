@@ -15,7 +15,7 @@ from https://orgmode.org/org.html
 
 
 * Plain Lists | + TAB or - TAB |
-+ link1_test
++ link1_test #<<target>>
 - is it working well?
 + 안녕하세요.
 
@@ -25,3 +25,4 @@ from https://orgmode.org/org.html
 + file       [[file:Map.org][to the map.org]]
 + folder  [[./img/samples/][img folder]]
 + radio target <<<title>>>
++ internal link(target) [[target][targetting]]
