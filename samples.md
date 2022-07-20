@@ -1,25 +1,25 @@
 
 # Table of Contents
 
-1.  [Title head  | \*  TAB |](#orgbc99b38)
-    1.  [sub title | \* \* TAB or \* TAB \* |](#org80c3d64)
-2.  [Plain Lists | + TAB or - TAB |](#orge067925)
-3.  [Links | [[]] |](#orgc4adea2)
+1.  [Title head  | \*  TAB |](#orge3cb04e)
+    1.  [sub title | \* \* TAB or \* TAB \* |](#org5d29d69)
+2.  [Plain Lists | + TAB or - TAB |](#org68fdd81)
+3.  [Links | [  [link url or file path]  [displayed comment]  ] |](#orgad35f9c)
 
 
-<a id="orgbc99b38"></a>
+<a id="orge3cb04e"></a>
 
 # Title head  | \*  TAB |
 
 
-<a id="org80c3d64"></a>
+<a id="org5d29d69"></a>
 
 ## sub title | \* \* TAB or \* TAB \* |
 
  ![img](./img/samples/samples1.png "How to make Built-in Table")
 from <https://orgmode.org/org.html>
 
-<table id="org3999794" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org8c4ca2d" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Insert caption</caption>
 
 <colgroup>
@@ -54,7 +54,7 @@ from <https://orgmode.org/org.html>
 </table>
 
 
-<a id="orge067925"></a>
+<a id="org68fdd81"></a>
 
 # Plain Lists | + TAB or - TAB |
 
@@ -63,9 +63,10 @@ from <https://orgmode.org/org.html>
 -   안녕하세요.
 
 
-<a id="orgc4adea2"></a>
+<a id="orgad35f9c"></a>
 
-# Links | [[]] |
+# Links | [  [link url or file path]  [displayed comment]  ] |
 
--   https    <https://syryuauros.github.io/Manuals/>
--   file       <Map.md>
+-   https    [Map inex in the remote](https://syryuauros.github.io/Manuals/)
+-   file       [to the map.org](Map.md)
+-   folder  [img folder](./img/samples/)
