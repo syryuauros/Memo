@@ -1,24 +1,25 @@
 
 # Table of Contents
 
-1.  [Title head  | \*  TAB |](#org96537d7)
-    1.  [sub title | \* \* TAB or \* TAB \* |](#org884fc89)
-2.  [Plain Lists | + TAB or - TAB |](#org18b04af)
+1.  [Title head  | \*  TAB |](#org470711e)
+    1.  [sub title | \* \* TAB or \* TAB \* |](#org86c0693)
+2.  [Plain Lists | + TAB or - TAB |](#orgbf7192e)
+3.  [Links | [[]] |](#orgc38e983)
 
 
-<a id="org96537d7"></a>
+<a id="org470711e"></a>
 
 # Title head  | \*  TAB |
 
 
-<a id="org884fc89"></a>
+<a id="org86c0693"></a>
 
 ## sub title | \* \* TAB or \* TAB \* |
 
-![img](./img/samples/samples1.png "How to make Built-in Table")
-<https://orgmode.org/org.html>
+ ![img](./img/samples/samples1.png "How to make Built-in Table")
+from <https://orgmode.org/org.html>
 
-<table id="orgffa6b2d" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="orgde7e829" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Insert caption</caption>
 
 <colgroup>
@@ -53,10 +54,19 @@
 </table>
 
 
-<a id="org18b04af"></a>
+<a id="orgbf7192e"></a>
 
 # Plain Lists | + TAB or - TAB |
 
 -   link1\_test
 -   is it working well?
 -   안녕하세요.
+
+
+<a id="orgc38e983"></a>
+
+# Links | [[]] |
+
+https    <https://syryuauros.github.io/Manuals/>
+file       <file:///home/Manuals/Manuals/Map>
+             /home/Manuals/Manuals/Map.org
