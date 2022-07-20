@@ -20,6 +20,6 @@ from https://orgmode.org/org.html
 + 안녕하세요.
 
 
-* Links | [[]] |
+* Links | [  [link url or file path]  [displayed comment]  ] |
 + https    [[https://syryuauros.github.io/Manuals/][Map inex in the remote]]
 + file       [[file:Map.org][to the map.org]]
