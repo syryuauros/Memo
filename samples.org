@@ -24,7 +24,7 @@ from https://orgmode.org/org.html
 + https    [[https://syryuauros.github.io/Manuals/][Map inex in the remote]]
 + file       [[file:Map.org][to the map.org]]
 + folder  [[./img/samples/][img folder]]
-+ internal link [[./samples.org#title head]]
++ internal link [[./title]]
 
 * a
 + asdfas
