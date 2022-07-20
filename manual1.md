@@ -1,26 +1,24 @@
 
 # Table of Contents
 
-1.  [basic functions](#org866346d)
-    1.  [initialisation (git clone, git init, git remote)](#org0079e2e)
-    2.  [link REF for hyperlink](#org54771c7)
-2.  [REF](#orge7ab256)
-3.  [link1](#org7876b12)
+1.  [basic functions](#orgfb2064a)
+    1.  [initialisation (git clone, git init, git remote)](#org48b38f2)
+    2.  [link REF for hyperlink](#orgb8dd7c3)
+2.  [REF](#org60dd5c8)
+3.  [link1](#orgd938908)
 
 
 
-<a id="org866346d"></a>
+<a id="orgfb2064a"></a>
 
 # basic functions
 
 
-<a id="org0079e2e"></a>
+<a id="org48b38f2"></a>
 
 ## initialisation (git clone, git init, git remote)
 
-\# ![img](./imgs/a.png "test for insert picture")
-
-<table id="org3ce1c0a" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -38,20 +36,20 @@
 <tbody>
 <tr>
 <td class="org-left">of</td>
-<td class="org-left"><a href="#org7876b12">3</a>[for ref_test]</td>
+<td class="org-left"><a href="#orgd938908">3</a>[for ref_test]</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org54771c7"></a>
+<a id="orgb8dd7c3"></a>
 
 ## link REF for hyperlink
 
 -   <https://orgmode.org/guide/Hyperlinks.html>
 
 
-<a id="orge7ab256"></a>
+<a id="org60dd5c8"></a>
 
 # REF
 
@@ -63,10 +61,46 @@
 -   f
 -   g
 
+    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-<a id="org7876b12"></a>
+
+    <colgroup>
+    <col  class="org-left" />
+
+    <col  class="org-right" />
+
+    <col  class="org-right" />
+    </colgroup>
+    <thead>
+    <tr>
+    <th scope="col" class="org-left">Name</th>
+    <th scope="col" class="org-right">phone</th>
+    <th scope="col" class="org-right">age</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+    <td class="org-left">peter</td>
+    <td class="org-right">1234</td>
+    <td class="org-right">17</td>
+    </tr>
+
+
+    <tr>
+    <td class="org-left">Anna</td>
+    <td class="org-right">4321</td>
+    <td class="org-right">25</td>
+    </tr>
+    </tbody>
+    </table>
+
+
+<a id="orgd938908"></a>
 
 # link1
 
 -   link1\_test
 -   is it working well?
+-   asdfsadf
+-   안녕하세요.
