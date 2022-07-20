@@ -22,4 +22,4 @@ from https://orgmode.org/org.html
 
 * Links | [[]] |
 + https    https://syryuauros.github.io/Manuals/
-+ file       [[file:Map.org]]
++ file       [[file:Map.org]][to the map.org]
