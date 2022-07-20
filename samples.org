@@ -21,6 +21,6 @@ from https://orgmode.org/org.html
 
 
 * Links | [[]] |
-https    https://syryuauros.github.io/Manuals/
-file       file:/home/Manuals/Manuals/Map
-             /home/Manuals/Manuals/Map.org
++ https    https://syryuauros.github.io/Manuals/
++ file       [[file:/home/Manuals/Manuals/Map.org]]
+  + [[/home/Manuals/Manuals/Map.org]]
