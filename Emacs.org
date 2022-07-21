@@ -1,4 +1,4 @@
-[[./emacs.org#Vi][1.Vi mode (default control)]]
+[[./Emacs.org#vi][1.Vi mode(default control)]]
 
 * Vi mode (default control)
 | esc                          | i           | v          | :                  |
