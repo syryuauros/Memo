@@ -1,0 +1,12 @@
+* Vi mode (default control)
+| esc          | i        | v        | :          |
+|--------------+----------+----------+------------|
+| default 상태 | 입력모드 | 선택모드 | 명령어모드 |
+|              |          |          |            |
+* Windows (spc-w)
+* Buffer (spc-b)
+* work space (spc-TAB)
+* Dired mode(spc-.)
+* Command(M-x)
+* magit (spc-g)
+* org mode
