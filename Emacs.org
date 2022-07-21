@@ -1,3 +1,5 @@
+[[./emacs.org#Vi][1.Vi mode (default control)]]
+
 * Vi mode (default control)
 | esc                          | i           | v          | :                  |
 |------------------------------+-------------+------------+--------------------|
@@ -18,6 +20,7 @@
 | u 실행 취소(undo)            |             | esc와 동일 |                    |
 | ctrl-r 다시 실행(redo)       |             | esc와 동일 |                    |
 * Windows (spc-w)
+#+STARTUP: align
 | 새로 생성 | s | v | n       |   |   |   |   |   |
 | 창 이동   | h | j | k       | l | b | t | r | R |
 | 배열 변경 | H | J | K       | L |   |   |   |   |
