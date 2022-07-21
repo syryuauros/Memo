@@ -18,6 +18,11 @@
 | u 실행 취소(undo)            |             | esc와 동일 |                    |
 | ctrl-r 다시 실행(redo)       |             | esc와 동일 |                    |
 * Windows (spc-w)
+| 새로 생성 | s | v | n       |   |   |   |   |   |
+| 창 이동   | h | j | k       | l | b | t | r | R |
+| 배열 변경 | H | J | K       | L |   |   |   |   |
+| 크기 조정 | = | _ | shift-\ | o |   |   |   |   |
+| 창 닫기   | c | d | q       |   |   |   |   |   |
 * work space (spc-TAB)
 * Buffer (spc-b)
 * Dired mode(spc-.)
