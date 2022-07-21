@@ -1,11 +1,25 @@
 * Vi mode (default control)
-| esc          | i        | v        | :          |
-|--------------+----------+----------+------------|
-| default 상태 | 입력모드 | 선택모드 | 명령어모드 |
-|              |          |          |            |
+| esc                          | i           | v          | :                  |
+|------------------------------+-------------+------------+--------------------|
+| default 상태                 | 입력모드    | 선택모드   | 명령어모드         |
+| l(or right) 한 칸 이동       | 키보드 입력 | esc와 동일 | :w 저장            |
+| h(or left) 한 칸 뒤로 이동   |             | esc와 동일 | :q 끝내기          |
+| j(or down) 아래로 한 줄 이동 |             | esc와 동일 | :wq 저장 후 끝내기 |
+| k(or up) 위로 한 줄 이동     |             | esc와 동일 |                    |
+| w(or e) 한 단어 앞으로 이동  |             | esc와 동일 |                    |
+| b 한 단어 뒤로 이동          |             | esc와 동일 |                    |
+| ) 한 문장 앞으로 이동        |             | esc와 동일 |                    |
+| } 한 문단 앞으로 이동        |             | esc와 동일 |                    |
+| y 선택영역 복사              |             | esc와 동일 |                    |
+| yy 한 줄 복사                |             | yy 없음    |                    |
+| p 붙여넣기                   |             | esc와 동일 |                    |
+| d 선택영역 잘라내기          |             | esc와 동일 |                    |
+| dd 한 줄 잘라내기            |             | dd 없음    |                    |
+| u 실행 취소(undo)            |             | esc와 동일 |                    |
+| ctrl-r 다시 실행(redo)       |             | esc와 동일 |                    |
 * Windows (spc-w)
-* Buffer (spc-b)
 * work space (spc-TAB)
+* Buffer (spc-b)
 * Dired mode(spc-.)
 * Command(M-x)
 * magit (spc-g)
