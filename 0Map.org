@@ -1,4 +1,4 @@
 
-* [[./Emacs.org][1.Emacs]]
-* [[./surfingkeys.org][2.Surfingkeys setup]]
+* [[./1Emacs.org][1.Emacs]]
+* [[./2surfingkeys.org][2.Surfingkeys setup]]
 * [[./samples.org][etc.samples]]
