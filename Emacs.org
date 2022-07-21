@@ -1,10 +1,10 @@
-* [[./Emacs.org#vi][1.Vi mode(default control)]]
-* [[./Emacs.org#windows][2.Windows (spc-w)]]
-* [[./Emacs.org#work][3.work space (spc-TAB)]]
-* [[./Emacs.org#buffer][4.Buffer (spc-b)]]
-* [[./Emacs.org#dired][5.Dired mode(spc-.)]]
-* [[./Emacs.org#command][6.Command(M-x)]]
-* [[./Emacs.org#magit][7.magit (spc-g)]]
+ [[./Emacs.org#vi][1.Vi mode(default control)]]
+ [[./Emacs.org#windows][2.Windows (spc-w)]]
+ [[./Emacs.org#work][3.work space (spc-TAB)]]
+ [[./Emacs.org#buffer][4.Buffer (spc-b)]]
+ [[./Emacs.org#dired][5.Dired mode(spc-.)]]
+ [[./Emacs.org#command][6.Command(M-x)]]
+ [[./Emacs.org#magit][7.magit (spc-g)]]
 
 * Vi mode (default control)
 | esc                          | i           | v          | :                  |
