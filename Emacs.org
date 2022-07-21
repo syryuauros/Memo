@@ -28,7 +28,13 @@
 | 창 닫기   | c | d | q       |   |   |   |   |   |
 * work space (spc TAB)
 * Buffer (spc b)
+| 버퍼이동    | [ or p        | ] or n         | b                | B                      | l                |
+| 버퍼생성/킬 | C 새창에 복사 | d 현재 버퍼 킬 | K 모든 버퍼 킬   | O 현재 버퍼 제외 올 킬 | s 현재 버퍼 저장 |
+| spc b i     | m 마크        | u 언마크       | t 모든 버퍼 마크 | D  선택된 버퍼 킬      | q 나가기         |
 * Dired mode(spc .)
-* Command(M x)
+| ^ 한 단계 위로 | + 새 폴더 만들기                 | R 이름 변경 , 경로 지정 | m 마크      | u 언마크 |
+| d 지우기 마크  | x 지우기 마크된 파일/폴더 지우기 | D 바로 지우기           | M 이동 모드 |          |
+* Command(M x or spc :)
+| ansi-term | term | shell |
 * magit (spc g g)
 * org mode
