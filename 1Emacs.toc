@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Vi mode (default control)}{1}{section.1}%
+\contentsline {section}{\numberline {2}Windows (spc w)}{2}{section.2}%
+\contentsline {section}{\numberline {3}work space (spc TAB)}{2}{section.3}%
+\contentsline {section}{\numberline {4}Buffer (spc b)}{2}{section.4}%
+\contentsline {section}{\numberline {5}Dired mode(spc .)}{2}{section.5}%
+\contentsline {section}{\numberline {6}Command(M x or spc :)}{3}{section.6}%
+\contentsline {section}{\numberline {7}magit (spc g)}{3}{section.7}%
+\contentsline {subsection}{\numberline {7.1}basic command}{3}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}시작(remote-repository를 local에 복사, git clone)}{3}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}시작( local을 remote-repository에 복사, git init)}{3}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}staging(git add)}{3}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}commit(git commit -m)}{3}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}push(git push)}{3}{subsection.7.6}%
+\contentsline {section}{\numberline {8}org mode}{5}{section.8}%
