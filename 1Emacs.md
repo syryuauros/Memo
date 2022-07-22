@@ -1,23 +1,23 @@
 
 # Table of Contents
 
-1.  [Vi mode (default control)](#org08f2427)
-2.  [Windows (spc w)](#org7fa13aa)
-3.  [work space (spc TAB)](#org0f6d3b6)
-4.  [Buffer (spc b)](#org22efda9)
-5.  [Dired mode(spc .)](#org4187685)
-6.  [Command(M x or spc :)](#org79fe512)
-7.  [magit (spc g)](#org6bf8ff5)
-    1.  [basic command](#org85c193a)
-    2.  [시작(remote-repository를 local에 복사, git clone)](#org9317bb9)
-    3.  [시작( local을 remote-repository에 복사, git init)](#orgb13c55c)
-    4.  [staging(git add)](#orgeab0018)
-    5.  [commit(git commit -m)](#org62e0140)
-    6.  [push(git push)](#org7e598b8)
-8.  [org mode](#orgd00c102)
+1.  [Vi mode (default control)](#orgc71d37a)
+2.  [Windows (spc w)](#org8186a05)
+3.  [work space (spc TAB)](#org36fb925)
+4.  [Buffer (spc b)](#org818f048)
+5.  [Dired mode(spc .)](#org3878962)
+6.  [Command(M x or spc :)](#org6241a66)
+7.  [magit (spc g)](#orgc8e4146)
+    1.  [basic command](#orgbfddffb)
+    2.  [시작(remote-repository를 local에 복사, git clone)](#org55b6a86)
+    3.  [시작( local을 remote-repository에 복사, git init)](#orga494eac)
+    4.  [staging(git add)](#orga2834a7)
+    5.  [commit(git commit -m)](#org9f560fc)
+    6.  [push(git push)](#orgf1e4857)
+8.  [org mode](#org3639934)
 
 
-<a id="org08f2427"></a>
+<a id="orgc71d37a"></a>
 
 # Vi mode (default control)
 
@@ -181,7 +181,7 @@
 </table>
 
 
-<a id="org7fa13aa"></a>
+<a id="org8186a05"></a>
 
 # Windows (spc w)
 
@@ -275,12 +275,12 @@
 </table>
 
 
-<a id="org0f6d3b6"></a>
+<a id="org36fb925"></a>
 
 # work space (spc TAB)
 
 
-<a id="org22efda9"></a>
+<a id="org818f048"></a>
 
 # Buffer (spc b)
 
@@ -333,7 +333,7 @@
 </table>
 
 
-<a id="org4187685"></a>
+<a id="org3878962"></a>
 
 # Dired mode(spc .)
 
@@ -372,7 +372,7 @@
 </table>
 
 
-<a id="org79fe512"></a>
+<a id="org6241a66"></a>
 
 # Command(M x or spc :)
 
@@ -392,16 +392,23 @@
 <td class="org-left">term</td>
 <td class="org-left">shell</td>
 </tr>
+
+
+<tr>
+<td class="org-left">터미널 위치에서 &rsquo;spc o -&rsquo; 현재 위치가 dired mode로 열림</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
 </tbody>
 </table>
 
 
-<a id="org6bf8ff5"></a>
+<a id="orgc8e4146"></a>
 
 # magit (spc g)
 
 
-<a id="org85c193a"></a>
+<a id="orgbfddffb"></a>
 
 ## basic command
 
@@ -422,7 +429,7 @@
 </table>
 
 
-<a id="org9317bb9"></a>
+<a id="org55b6a86"></a>
 
 ## 시작(remote-repository를 local에 복사, git clone)
 
@@ -443,7 +450,7 @@
 </table>
 
 
-<a id="orgb13c55c"></a>
+<a id="orga494eac"></a>
 
 ## 시작( local을 remote-repository에 복사, git init)
 
@@ -470,7 +477,7 @@
 </table>
 
 
-<a id="orgeab0018"></a>
+<a id="orga2834a7"></a>
 
 ## staging(git add)
 
@@ -491,7 +498,7 @@
 </table>
 
 
-<a id="org62e0140"></a>
+<a id="org9f560fc"></a>
 
 ## commit(git commit -m)
 
@@ -509,7 +516,7 @@
 </table>
 
 
-<a id="org7e598b8"></a>
+<a id="orgf1e4857"></a>
 
 ## push(git push)
 
@@ -534,7 +541,7 @@
 <https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0>
 
 
-<a id="orgd00c102"></a>
+<a id="org3639934"></a>
 
 # org mode
 

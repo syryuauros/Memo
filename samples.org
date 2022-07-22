@@ -17,7 +17,6 @@ from https://orgmode.org/org.html
 * Plain Lists | + TAB or - TAB |
 + link1_test #<<target>>
 - is it working well?
-+ 안녕하세요.
 
 
 * Links | [  [link url or file path]  [displayed comment]  ] |
