@@ -54,7 +54,7 @@
 #+NAME: fig:1
 [[./img/git_structure.png]]
 #+NAME: fig:2
-[[./img/branch_structure.png][branch_structure]]
+[[./img/branch_structure.png]]
 
 https://velog.io/@csy9604/%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC
 https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0
