@@ -1,4 +1,5 @@
 * 자주 사용하는 키
 #+CAPTION: 자주 사용하는 키
 #+NAME: fig:1
+| yt 현재 탭 복사 |
  [[./img/surfingkeys/image.png]]
