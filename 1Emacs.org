@@ -52,7 +52,7 @@
 | 'g C-c C-c P u' or 'spc g / P u' |
 
 #+NAME: fig:1
-[[./img/git_structure.png][git_structure]]
+[[./img/git_structure.png]]
 #+NAME: fig:2
 [[./img/branch_structure.png][branch_structure]]
 
