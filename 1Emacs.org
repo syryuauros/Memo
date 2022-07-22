@@ -48,8 +48,13 @@
 | 'g s' = 선택항목 staging | 'g S'= 전체변경사항 staging   |
 **  commit(git commit -m)
 | 'g C-c C-c c c <메세지> C-c C-c' |
-**  commit(git push)
-| 'g C-c C-c P u' or '/ P u' |
+**  push(git push)
+| 'g C-c C-c P u' or 'spc g / P u' |
 
+[[/home/auros/Manuals/Manuals/img/git_structure.png][git_structure
+[[/home/auros/Manuals/Manuals/img/branch_structure.png][branch_structure]]
+
+https://velog.io/@csy9604/%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC
+https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0
 * org mode
 | C-c C-e 파일 extract | * TAB 헤드 타이틀 생성 |
