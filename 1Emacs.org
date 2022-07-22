@@ -51,7 +51,9 @@
 **  push(git push)
 | 'g C-c C-c P u' or 'spc g / P u' |
 
+#+NAME: fig:1
 [[./img/git_structure.png][git_structure]]
+#+NAME: fig:2
 [[./img/branch_structure.png][branch_structure]]
 
 https://velog.io/@csy9604/%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC
