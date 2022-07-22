@@ -47,7 +47,9 @@
 **  staging(git add)
 | 'g s' = 선택항목 staging | 'g S'= 전체변경사항 staging   |
 **  commit(git commit -m)
-| 'g C-c C-c c c <메세지> C-c C-c' | 'g S'= 전체변경사항 staging |
+| 'g C-c C-c c c <메세지> C-c C-c' |
+**  commit(git push)
+| 'g C-c C-c P u' or '/ P u' |
 
 * org mode
 | C-c C-e 파일 extract | * TAB 헤드 타이틀 생성 |
