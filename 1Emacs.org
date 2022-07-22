@@ -1,24 +1,24 @@
 #+options: H: 3 toc: 2
 
 * Vi mode (default control)
-| esc                          | i           | v          | :                        |
-|------------------------------+-------------+------------+--------------------------|
-| default 상태                 | 입력모드    | 선택모드   | 명령어모드               |
-| l(or right) 한 칸 이동       | 키보드 입력 | esc와 동일 | :w 저장                  |
-| h(or left) 한 칸 뒤로 이동   |             | esc와 동일 | :q 끝내기                |
-| j(or down) 아래로 한 줄 이동 |             | esc와 동일 | :wq or :x 저장 후 끝내기 |
-| k(or up) 위로 한 줄 이동     |             | esc와 동일 | :q! 강제 종료            |
+| esc                          | i           | v          | :                                    |
+|------------------------------+-------------+------------+--------------------------------------|
+| default 상태                 | 입력모드    | 선택모드   | 명령어모드                           |
+| l(or right) 한 칸 이동       | 키보드 입력 | esc와 동일 | :w 저장                              |
+| h(or left) 한 칸 뒤로 이동   |             | esc와 동일 | :q 끝내기                            |
+| j(or down) 아래로 한 줄 이동 |             | esc와 동일 | :wq or :x 저장 후 끝내기             |
+| k(or up) 위로 한 줄 이동     |             | esc와 동일 | :q! 강제 종료                        |
 | w(or e) 한 단어 앞으로 이동  |             | esc와 동일 | :w /path/file_name 다른이름으로 저장 |
-| b 한 단어 뒤로 이동          |             | esc와 동일 |                          |
-| ) 한 문장 앞으로 이동        |             | esc와 동일 |                          |
-| } 한 문단 앞으로 이동        |             | esc와 동일 |                          |
-| y 선택영역 복사              |             | esc와 동일 |                          |
-| yy 한 줄 복사                |             | yy 없음    |                          |
-| p 붙여넣기                   |             | esc와 동일 |                          |
-| d 선택영역 잘라내기          |             | esc와 동일 |                          |
-| dd 한 줄 잘라내기            |             | dd 없음    |                          |
-| u 실행 취소(undo)            |             | esc와 동일 |                          |
-| ctrl-r 다시 실행(redo)       |             | esc와 동일 |                          |
+| b 한 단어 뒤로 이동          |             | esc와 동일 |                                      |
+| ) 한 문장 앞으로 이동        |             | esc와 동일 |                                      |
+| } 한 문단 앞으로 이동        |             | esc와 동일 |                                      |
+| y 선택영역 복사              |             | esc와 동일 |                                      |
+| yy 한 줄 복사                |             | yy 없음    |                                      |
+| p 붙여넣기                   |             | esc와 동일 |                                      |
+| d 선택영역 잘라내기          |             | esc와 동일 |                                      |
+| dd 한 줄 잘라내기            |             | dd 없음    |                                      |
+| u 실행 취소(undo)            |             | esc와 동일 |                                      |
+| ctrl-r 다시 실행(redo)       |             | esc와 동일 |                                      |
 * Windows (spc w)
 #+STARTUP: align
 | 새로 생성 | s | v | n       |   |   |   |   |   |
@@ -36,5 +36,13 @@
 | d 지우기 마크  | x 지우기 마크된 파일/폴더 지우기 | D 바로 지우기           | M 이동 모드 | C 다른이름으로 저장 |
 * Command(M x or spc :)
 | ansi-term | term | shell |
-* magit (spc g g)
+* magit (spc g)
+**  basic command
+| 'g' = git status | '/' or 'g C-c C-c'  dispatch mode |
+**  시작(remote-repository를 local에 복사, git clone)
+| dired mode에서 상위 폴더에 위치 (home/git_test/를 연동시키려면 home/에 위치) | 'C u url주소(C-v로 가능)' =  git clone by url |
+**  시작( local을 remote-repository에 복사, git init)
+| dired mode에서 원하는 폴더에 위치 (home/git_test/를 연동시키려면 home/git_test에 위치) | '/ I' = git init |
+| '/ M a' = git remote add <Remote name> <url>                                           |                  |
 * org mode
+| C-c C-e 파일 extract | * TAB 헤드 타이틀 생성 |
