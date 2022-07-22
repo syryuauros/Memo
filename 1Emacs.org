@@ -19,6 +19,7 @@
 | dd 한 줄 잘라내기            |             | dd 없음    |                                      |
 | u 실행 취소(undo)            |             | esc와 동일 |                                      |
 | ctrl-r 다시 실행(redo)       |             | esc와 동일 |                                      |
+| ctrl-h t 테마설정(nova)      |             |            |                                      |
 * Windows (spc w)
 #+STARTUP: align
 | 새로 생성 | s | v | n       |   |   |   |   |   |
@@ -45,7 +46,7 @@
 | dired mode에서 원하는 폴더에 위치 (home/git_test/를 연동시키려면 home/git_test에 위치) | '/ I' = git init |
 | '/ M a' = git remote add <Remote name> <url>                                           |                  |
 **  staging(git add)
-| 'g s' = 선택항목 staging | 'g S'= 전체변경사항 staging   |
+| 'g s' = 선택항목 staging | 'g S'= 전체변경사항 staging |
 **  commit(git commit -m)
 | 'g C-c C-c c c <메세지> C-c C-c' |
 **  push(git push)
