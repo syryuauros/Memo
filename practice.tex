@@ -1,4 +1,4 @@
-% Created 2022-07-22 금 16:23
+% Created 2022-07-25 월 10:11
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -12,11 +12,21 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\author{JJ Kim}
+\documentclass[10pt, twoside, a4paper]{slides}
+\usepackage[landscape, fleqn]{geometry}
+\usepackage{blindtext, fancyhdr}
+\usepackage{kotex}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[table, xcdraw]{xcolor}
+\usepackage{listings}
+\author{syryu}
 \date{\today}
 \title{}
 \hypersetup{
- pdfauthor={JJ Kim},
+ pdfauthor={syryu},
  pdftitle={},
  pdfkeywords={},
  pdfsubject={},
@@ -26,8 +36,9 @@
 
 \tableofcontents
 
+
 \section{Vi mode (default control)}
-\label{sec:org1c91afe}
+\label{sec:org0ce81b0}
 \begin{center}
 \begin{tabular}{llll}
 esc & i & v & :\\
@@ -52,7 +63,7 @@ ctrl-h t 테마설정(nova) &  &  & \\
 \end{tabular}
 \end{center}
 \section{Windows (spc w)}
-\label{sec:org6bb8e6a}
+\label{sec:org0846ee3}
 \begin{center}
 \begin{tabular}{lllllllll}
 새로 생성 & s & v & n &  &  &  &  & \\
@@ -63,9 +74,9 @@ ctrl-h t 테마설정(nova) &  &  & \\
 \end{tabular}
 \end{center}
 \section{work space (spc TAB)}
-\label{sec:orga16cc33}
+\label{sec:org9658dc1}
 \section{Buffer (spc b)}
-\label{sec:org06a1c80}
+\label{sec:orgd457401}
 \begin{center}
 \begin{tabular}{llllll}
 버퍼이동 & [ or p & ] or n & b 목록에서 선택 & B b의 확장판 & l 마지막 버퍼\\
@@ -74,7 +85,7 @@ spc b i (목록) & m 마크 & u 언마크 & t 모든 버퍼 마크 & D  선택�
 \end{tabular}
 \end{center}
 \section{Dired mode(spc .)}
-\label{sec:org9d244e7}
+\label{sec:org278f5fa}
 \begin{center}
 \begin{tabular}{lllll}
 \^{} 한 단계 위로 & + 새 폴더 만들기 & R 이름 변경 , 경로 지정 & m 마크 & u 언마크\\
@@ -82,30 +93,31 @@ d 지우기 마크 & x 지우기 마크된 파일/폴더 지우기 & D 바로 �
 \end{tabular}
 \end{center}
 \section{Command(M x or spc :)}
-\label{sec:org518105c}
+\label{sec:org09842a3}
 \begin{center}
 \begin{tabular}{lll}
 ansi-term & term & shell\\
+터미널 위치에서 'spc o -' 현재 위치가 dired mode로 열림 &  & \\
 \end{tabular}
 \end{center}
 \section{magit (spc g)}
-\label{sec:org770b9d8}
+\label{sec:org1108879}
 \subsection{basic command}
-\label{sec:orgde63cc6}
+\label{sec:org66f527c}
 \begin{center}
 \begin{tabular}{ll}
 'g' = git status & '/' or 'g C-c C-c'  dispatch mode\\
 \end{tabular}
 \end{center}
 \subsection{시작(remote-repository를 local에 복사, git clone)}
-\label{sec:org351168c}
+\label{sec:orgd4ccf30}
 \begin{center}
 \begin{tabular}{ll}
 dired mode에서 상위 폴더에 위치 (home/git\_test/를 연동시키려면 home/에 위치) & 'C u url주소(C-v로 가능)' =  git clone <url>\\
 \end{tabular}
 \end{center}
 \subsection{시작( local을 remote-repository에 복사, git init)}
-\label{sec:org733f613}
+\label{sec:org3fe2962}
 \begin{center}
 \begin{tabular}{ll}
 dired mode에서 원하는 폴더에 위치 (home/git\_test/를 연동시키려면 home/git\_test에 위치) & '/ I' = git init\\
@@ -113,21 +125,21 @@ dired mode에서 원하는 폴더에 위치 (home/git\_test/를 연동시키려�
 \end{tabular}
 \end{center}
 \subsection{staging(git add)}
-\label{sec:org66efd40}
+\label{sec:org4263d36}
 \begin{center}
 \begin{tabular}{ll}
 'g s' = 선택항목 staging & 'g S'= 전체변경사항 staging\\
 \end{tabular}
 \end{center}
 \subsection{commit(git commit -m)}
-\label{sec:org46514b1}
+\label{sec:orgd9ac640}
 \begin{center}
 \begin{tabular}{l}
 'g C-c C-c c c <메세지> C-c C-c'\\
 \end{tabular}
 \end{center}
 \subsection{push(git push)}
-\label{sec:org0032d18}
+\label{sec:orgfd7f4ed}
 \begin{center}
 \begin{tabular}{l}
 'g C-c C-c P u' or 'spc g / P u'\\
@@ -146,7 +158,7 @@ dired mode에서 원하는 폴더에 위치 (home/git\_test/를 연동시키려�
 \url{https://velog.io/@csy9604/\%EA\%B8\%B0\%EB\%B3\%B8-\%EA\%B0\%9C\%EB\%85\%90-\%EC\%A0\%95\%EB\%A6\%AC}
 \url{https://git-scm.com/book/ko/v2/Git\%EC\%9D\%98-\%EA\%B8\%B0\%EC\%B4\%88-Git-\%EC\%A0\%80\%EC\%9E\%A5\%EC\%86\%8C-\%EB\%A7\%8C\%EB\%93\%A4\%EA\%B8\%B0}
 \section{org mode}
-\label{sec:org5ebc6a9}
+\label{sec:orgbce0be9}
 \begin{center}
 \begin{tabular}{ll}
 C-c C-e 파일 extract & * TAB 헤드 타이틀 생성\\

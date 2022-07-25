@@ -1,4 +1,4 @@
-#+SETUPFILE: 1Emacs.cfg
+#+SETUPFILE: ./org_set_g.org
 
 * Vi mode (default control)
 | esc                          | i           | v          | :                                    |
