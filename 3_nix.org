@@ -1,0 +1,9 @@
+#+SETUPFILE: 1Emacs.cfg
+
+* nix
+* nixos
+
+| [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake ./#syryuhds |
+* flake
+| [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |
+| [flake.nix가 있는 폴더]$nix run   | nix run  github:syryuauros/myflakes/master   |
