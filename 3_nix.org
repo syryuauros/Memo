@@ -7,3 +7,5 @@
 * flake
 | [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |
 | [flake.nix가 있는 폴더]$nix run   | nix run  github:syryuauros/myflakes/master   |
+* nix-shell
+| nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])' |
