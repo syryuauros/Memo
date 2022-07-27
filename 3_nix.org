@@ -1,8 +1,14 @@
 #+SETUPFILE: 1Emacs.cfg
 
 * nix
+| $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
+| $nix-env --rollback         |                                                    |
+| $nix-env -e firefox         | $nix-env -e '.*'                                   |
+| $nix-store --delete         | $nix-store --gc                                    |
+| $nix-collect-garbage -d     |                                                    |
+*
 * nixos
-
+| $nixos-rebuild switch --rollback                                      |
 | [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake ./#syryuhds |
 * flake
 | [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |
