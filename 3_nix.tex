@@ -1,0 +1,65 @@
+% Created 2022-07-27 수 09:33
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{JJ Kim}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={JJ Kim},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.5.2)},
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+
+\section{nix}
+\label{sec:org9eb5227}
+\begin{center}
+\begin{tabular}{ll}
+\$nix-env --list-generations & \$nix-env -G 42  or \$nix-env --switch-generation 42\\
+\$nix-env --rollback & \\
+\$nix-env -e firefox & \$nix-env -e '.*'\\
+\$nix-store --delete & \$nix-store --gc\\
+\$nix-collect-garbage -d & \\
+\end{tabular}
+\end{center}
+*
+\section{nixos}
+\label{sec:org368b7e3}
+\begin{center}
+\begin{tabular}{l}
+\$nixos-rebuild switch --rollback\\
+[flake.nix가 있는 폴더]\$sudo nixos-rebuild switch --flake ./\#syryuhds\\
+\end{tabular}
+\end{center}
+\section{flake}
+\label{sec:org386151b}
+\begin{center}
+\begin{tabular}{ll}
+[flake.nix가 있는 폴더]\$nix build & nix build  github:syryuauros/myflakes/master\\
+[flake.nix가 있는 폴더]\$nix run & nix run  github:syryuauros/myflakes/master\\
+\end{tabular}
+\end{center}
+\section{nix-shell}
+\label{sec:orgc828b1e}
+\begin{center}
+\begin{tabular}{l}
+nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])'\\
+\end{tabular}
+\end{center}
+\end{document}
