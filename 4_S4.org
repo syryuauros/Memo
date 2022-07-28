@@ -10,3 +10,6 @@ https://digiconfactory.tistory.com/entry/%EB%A3%A8%EC%95%84Lua-%ED%8A%9C%ED%86%A
 * basic usage of S4
 | $./result/bin/S4 ./helloWorld.lua                                                | $lua ./helloWorld.lua와 같다. 다만 S4를 라이브러리로 쓸 수 있다. |
 | $./result/bin/S4 ./examples/simple/simple.lua > ./examples/simple/simple_out.txt | example 실행                                                     |
+
+* examples execute script (too annoying to type...)
+|./result/bin/S4 ./examples/1d/Liu_OE_17_21897_2009/fig2a.lua > ./examples/1d/Liu_OE_17_21897_2009/fig2a_out.tx|
