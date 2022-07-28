@@ -1,5 +1,5 @@
 #+SETUPFILE: 1Emacs.cfg
-
+**  test!
 * basic usage of lua
 | $lua                  | interpreter mode 진입                    |            |           |                      |
 | >10 + 10              | 5.2버전에서는 에러 5.3이상에서는 20 출력 |            |           |                      |
