@@ -1,12 +1,25 @@
 #+SETUPFILE: 1Emacs.cfg
 
-* nix
+* nix- (nix original command)
 | $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
 | $nix-env --rollback         |                                                    |
 | $nix-env -e firefox         | $nix-env -e '.*'                                   |
 | $nix-store --delete         | $nix-store --gc                                    |
 | $nix-collect-garbage -d     |                                                    |
-*
+* nix (nix command improved)
+| $nix-env 대응| nix profile|
+
+| $nix-env -iA firefox        | $nix profile install firefox |
+| $nix-env -e firefox         | $nix profile remove firefox  |
+| $nix-env -q                 | $nix profile list            |
+| $nix-env --list-generations | $nix profile history         |
+| $nix-env --rollback         | $nix profile rollback        |
+
+| $nix profile install | $nix profile remove | $nix profile rollback |
+| $nix profile list    | $nix profile history |                       |
+nix-env로 설치한 App의 profile은  manifest.nix 파일로 관리되지만, nix profile 로 설치한 App은 manifest.json으로 관리된다.
+nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 때문에 더 이상 nix-env로 설치할 수 없다.
+
 * nixos
 | $nixos-rebuild switch --rollback                                      |
 | [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake ./#syryuhds |
