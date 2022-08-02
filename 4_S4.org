@@ -38,6 +38,8 @@ https://github.com/nixos/nixpkgs/commit/ede02b4ccb13557b95058d66146640a2b0bb198f
 
 $nix run nixpkgs#gnuplot
 gnuplot> plot './examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_copy_out.txt' using 1:2 with lines
-gnuplot> plot './examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_copy_out.txt' using 1:2 with lines lt rgb "red"
+gnuplot> plot './examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_copy_out.txt' using 1:2 with lines lt rgb 'red'
 
 $nix run nixpkgs#kolourpain
+
+$./result/bin/gnuplot -p -e "plot './examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_copy_out.txt' using 1:2 with lines lt rgb 'red'"

@@ -9,13 +9,13 @@
 * nix (nix command improved)
 | $nix-env 대응| nix profile|
 
-| $nix-env -iA firefox        | $nix profile install firefox |
-| $nix-env -e firefox         | $nix profile remove firefox  |
-| $nix-env -q                 | $nix profile list            |
-| $nix-env --list-generations | $nix profile history         |
-| $nix-env --rollback         | $nix profile rollback        |
-| $nix-env -qa                |                              |
-| $nix-env -qaPs              |                              |
+| $nix-env -iA firefox        | $nix profile install firefox | $nix profile install nixpkgs#hello |
+| $nix-env -e firefox         | $nix profile remove firefox  |                                    |
+| $nix-env -q                 | $nix profile list            |                                    |
+| $nix-env --list-generations | $nix profile history         |                                    |
+| $nix-env --rollback         | $nix profile rollback        |                                    |
+| $nix-env -qa                |                              |                                    |
+| $nix-env -qaPs              |                              |                                    |
 
 | $nix profile install | $nix profile remove | $nix profile rollback |
 | $nix profile list    | $nix profile history |                       |
@@ -49,7 +49,7 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 |"https://github.com/<owner>/<project>/commit/<hash>"|
 |example |https://github.com/nixos/nixpkgs/commit/ede02b4ccb13557b95058d66146640a2b0bb198f|
 
-
+| $nix build | $nix build .#s4 .#gnuplot |
 
 * nix-shell
 | nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])' |
