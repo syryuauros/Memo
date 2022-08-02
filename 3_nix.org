@@ -49,5 +49,11 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 |"https://github.com/<owner>/<project>/commit/<hash>"|
 |example |https://github.com/nixos/nixpkgs/commit/ede02b4ccb13557b95058d66146640a2b0bb198f|
 
+
+
 * nix-shell
 | nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])' |
+
+* pictures
+#+name: flake input url
+[[./img/3_nix/flake input url.png]]
