@@ -21,8 +21,8 @@ nix-env로 설치한 App의 profile은  manifest.nix 파일로 관리되지만, 
 nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 때문에 더 이상 nix-env로 설치할 수 없다.
 
 * nixos
-| $nixos-rebuild switch --rollback                                      |
-| [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake ./#syryuhds |
+| $nixos-rebuild switch --rollback                                              |
+| [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake .#syryuhds --impure |
 * flake
 | [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |
 | [flake.nix가 있는 폴더]$nix run   | nix run  github:syryuauros/myflakes/master   |

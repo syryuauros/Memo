@@ -12,8 +12,32 @@ https://digiconfactory.tistory.com/entry/%EB%A3%A8%EC%95%84Lua-%ED%8A%9C%ED%86%A
 | $./result/bin/S4 ./examples/simple/simple.lua > ./examples/simple/simple_out.txt | example 실행                                                     |
 
 * examples execute script (too annoying to type...)
-|./result/bin/S4 ./examples/1d/Liu_OE_17_21897_2009/fig2a.lua > ./examples/1d/Liu_OE_17_21897_2009/fig2a_out.tx|
+| $./result/bin/S4 ./examples/1d/Liu_OE_17_21897_2009/fig2a.lua > ./examples/1d/Liu_OE_17_21897_2009/fig2a_out.tx |
 
-./result/bin/S4 ./examples/2d/Tikhodeev_PRB_66_45102_2002/fig4.lua
+| $./result/bin/S4 ./examples/2d/Tikhodeev_PRB_66_45102_2002/fig4.lua |
 
-./result/bin/S4 ./examples/2d/Tikhodeev_PRB_66_45102_2002/fig4.lua >  ./examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_out.txt
+| $./result/bin/S4 ./examples/2d/Tikhodeev_PRB_66_45102_2002/fig4.lua >  ./examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_out.txt |
+
+| $realpath ./result/bin/S4|
+
+| $nix-store -q --tree `realpath ./result/bin/S4` |
+
+| $nix flake metadata github:edolstra/dwarffs |
+
+| $nix flake show github:edolstra/dwarffs |
+
+| $nix-store -q --referrers-closure `realpath ./result/bin/S4 |
+
+$ nix registry add nixpkgs github:NixOS/nixpkgs/5272327b81ed355bbed5659b8d303cf2979b6953
+
+$nix-info -m
+
+https://github.com/<owner>/<project>/commit/<hash>
+
+https://github.com/nixos/nixpkgs/commit/ede02b4ccb13557b95058d66146640a2b0bb198f
+
+$nix run nixpkgs#gnuplot
+gnuplot> plot './examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_copy_out.txt' using 1:2 with lines
+gnuplot> plot './examples/2d/Tikhodeev_PRB_66_45102_2002/fig4_copy_out.txt' using 1:2 with lines lt rgb "red"
+
+$nix run nixpkgs#kolourpain
