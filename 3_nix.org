@@ -14,17 +14,40 @@
 | $nix-env -q                 | $nix profile list            |
 | $nix-env --list-generations | $nix profile history         |
 | $nix-env --rollback         | $nix profile rollback        |
+| $nix-env -qa                |                              |
+| $nix-env -qaPs              |                              |
 
 | $nix profile install | $nix profile remove | $nix profile rollback |
 | $nix profile list    | $nix profile history |                       |
 nix-env로 설치한 App의 profile은  manifest.nix 파일로 관리되지만, nix profile 로 설치한 App은 manifest.json으로 관리된다.
 nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 때문에 더 이상 nix-env로 설치할 수 없다.
 
+| $nix-store -q --tree `realpath ./result/bin/S4              |
+| $nix-store -q --referrers-closure `realpath ./result/bin/S4 |
+
 * nixos
 | $nixos-rebuild switch --rollback                                              |
 | [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake .#syryuhds --impure |
+
 * flake
 | [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |
 | [flake.nix가 있는 폴더]$nix run   | nix run  github:syryuauros/myflakes/master   |
+| $ nix run nixpkgs#gnuplot|
+
+| $realpath ./result/bin/S4 | $nix-store -q --tree `realpath ./result/bin/S4` |
+
+| $nix flake metadata github:edolstra/dwarffs |
+
+| $nix flake show github:edolstra/dwarffs |
+
+| $nix-store -q --referrers-closure `realpath ./result/bin/S4 |
+
+|$ nix registry add nixpkgs github:NixOS/nixpkgs/5272327b81ed355bbed5659b8d303cf2979b6953|
+
+|$nix-info -m|
+
+|"https://github.com/<owner>/<project>/commit/<hash>"|
+example |https://github.com/nixos/nixpkgs/commit/ede02b4ccb13557b95058d66146640a2b0bb198f|
+
 * nix-shell
 | nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])' |
