@@ -1,5 +1,9 @@
 #+SETUPFILE: 1Emacs.cfg
+
 https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
+
+https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
+
 * Vi mode (default control)
 | esc                          | i             | v           | :                                    |
 |------------------------------+---------------+-------------+--------------------------------------|
