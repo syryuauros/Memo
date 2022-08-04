@@ -21,7 +21,7 @@ https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
 | ctrl-r 다시 실행(redo)       |               | esc와 동일  |                                      |
 | ctrl-h t 테마설정(nova)      | material-dark | tokyo-night | opera                                |
 
-* Windows (spc w)
+* Windows (spc w, M x window)
 #+STARTUP: align
 | 새로 생성 | s | v | n       |   |   |   |   |   |
 | 창 이동   | h | j | k       | l | b | t | r | R |
@@ -29,19 +29,19 @@ https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
 | 크기 조정 | = | _ | shift-\ | o |   |   |   |   |
 | 창 닫기   | c | d | q       |   |   |   |   |   |
 
-* work space (spc TAB)
+* work space (spc TAB, M x workspace)
 
-* Buffer (spc b)
+* Buffer (spc b, M x buffer)
 | 버퍼이동       | [ or p        | ] or n         | b 목록에서 선택  | B b의 확장판           | l 마지막 버퍼    |
 | 버퍼생성/킬    | C 새창에 복사 | d 현재 버퍼 킬 | K 모든 버퍼 킬   | O 현재 버퍼 제외 올 킬 | s 현재 버퍼 저장 |
 | spc b i (목록) | m 마크        | u 언마크       | t 모든 버퍼 마크 | D  선택된 버퍼 킬      | q 나가기         |
 
-* Code내부 명령 - 문서 상 기록된 내용을 추적 (spc c, g, spc : +lookup )
+* Code내부 명령 - 문서 상 기록된 내용을 추적 (spc c, g, M x +lookup )
 | spc c | d | D | i | k |   |
 | g     | f | d | D | I | A |
 |       |   |   |   |   |   |
 
-* Dired mode(spc .)
+* Dired mode(spc ., M x dired)
 | ^ 한 단계 위로 | + 새 폴더 만들기                 | R 이름 변경 , 경로 지정 | m 마크      | u 언마크            |
 | d 지우기 마크  | x 지우기 마크된 파일/폴더 지우기 | D 바로 지우기           | M 이동 모드 | C 다른이름으로 저장 |
 
