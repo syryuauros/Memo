@@ -36,8 +36,10 @@ https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
 | 버퍼생성/킬    | C 새창에 복사 | d 현재 버퍼 킬 | K 모든 버퍼 킬   | O 현재 버퍼 제외 올 킬 | s 현재 버퍼 저장 |
 | spc b i (목록) | m 마크        | u 언마크       | t 모든 버퍼 마크 | D  선택된 버퍼 킬      | q 나가기         |
 
-* Code내부 명령 - 문서 상 기록된 내용을 추적 (spc c)
-| d | D | i        | k                |                   |          |
+* Code내부 명령 - 문서 상 기록된 내용을 추적 (spc c, g, spc : +lookup )
+| spc c | d | D | i | k |   |
+| g     | f | d | D | I | A |
+|       |   |   |   |   |   |
 
 * Dired mode(spc .)
 | ^ 한 단계 위로 | + 새 폴더 만들기                 | R 이름 변경 , 경로 지정 | m 마크      | u 언마크            |
