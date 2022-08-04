@@ -1,0 +1,9 @@
+#+SETUPFILE: 1Emacs.cf
+
+| 클러스터링 | 고계산용 HPC(High Performance) = Beowulf | 부하분산용 LVS(Linux Virtual Server) | 고가용성 HA(High Availability) |
+
+| 노드 연결(네트웍) | 스위칭 허브(1G, 10G) | 인피니밴드(infiniBand) |
+
+| 각 노드(pc)에 OS(linux) 설치 | OpenMPI 설치 |
+
+| PATH, Master에서 hosts 잡기 | ssh-key 취합/배포 | 작업공간 nfs로 마운트 |
