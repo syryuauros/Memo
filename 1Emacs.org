@@ -4,6 +4,10 @@ https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
 
 https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 
+* using starship prompt
++ $eval "$(starship init bash)"
++ configuration:   ~/.config/starship.toml
+
 #+NAME: fig:1
 [[./img/1_emacs/1.png]]
 
