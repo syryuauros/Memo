@@ -5,6 +5,7 @@ https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
 https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 
 * using starship prompt
+https://starship.rs/guide/#%F0%9F%9A%80-installation
 + $eval "$(starship init bash)"
 + configuration:   ~/.config/starship.toml
 
