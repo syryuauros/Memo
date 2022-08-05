@@ -1,8 +1,9 @@
 #+SETUPFILE: 1Emacs.cf
 
-| $./result/bin/python ./projects/test.p                |
-| $./result/bin/python -m py_compile ./projects/test.py |
-| $#!./result/bin/python3                               |
-|                                                       |
+| $./result/bin/python ./projects/test.p                                        |
+| $./result/bin/python -m py_compile ./projects/test.py                         |
+| $#!./result/bin/python3 -- result 폴더나 projests폴더 말고  python3_9폴더에서 |
+|                                                                               |
+|                                                                               |
 
 |
