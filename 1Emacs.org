@@ -4,6 +4,9 @@ https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
 
 https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 
+#+NAME: fig:1
+[[./img/1_ emacs/how to find function and short_cut.png]]
+
 * Vi mode (default control)
 | esc                          | i             | v           | :                                    |
 |------------------------------+---------------+-------------+--------------------------------------|
