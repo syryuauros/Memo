@@ -58,6 +58,21 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 * nix-shell
 | nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])' |
 
+* nixpkgs
+**  confirm packages for nix-build, nix-instantiate, nix-channel
+| 1 | $nixrepl [Ret] nix-repl>:l <nixpkgs> [Ret] nix-repl>keyword(ex:rust) + TAB         |
+| 2 | /nix/var/nix/profiles/per-user/root/channels/nixos/pkgs/top-level/all-packages.nix |
+| 3 | $cd `nix-instantiate --eval -E '<nixpkgs>'` [Ret] cat > all-packages.nix                |
+| 4 | $NIX_PATH, 경로 확인 후 이동해서 all-packages.nix 확인                                          |
+
+**  confirm packages for nix-env
+| 1 | $nix-env -qa 'keyword.*' or $nix-env -qaPs 'keyword'                    |
+| 2 | $cd ~/.nix-defexpr/channels_root/nixos/pkgs/top-level, all-packages.nix |
+
+**  confirm packages for flakes
+| 1 | flake.lock 파일 확인 >> "nixpkgs" 항목의 "rev" term 확인 >> github.com/[owner]/[repo]/tree/[rev] |
+그림 참조
+
 * pictures
 #+name: flake input url
 [[./img/3_nix/flake input url.png]]
