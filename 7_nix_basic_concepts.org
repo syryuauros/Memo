@@ -7,6 +7,7 @@
   + https://nixos.org/guides/nix-pills/override-design-pattern.html#idm140737319818208
 
   + Input Pattern
+
     [[./img/7/Input pattern.png]]
 
   + callPackage Pattern
