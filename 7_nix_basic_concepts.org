@@ -48,9 +48,9 @@
 
         https://bestalign.github.io/dev/lexical-scope-and-dynamic-scope/
 
-     + fixed point in overlay
+   + fixed point in overlay
 
-                 [[./img/7/fixedpoint.png]]
+               [[./img/7/fixedpoint.png]]
 
 **  summary
  + summary
