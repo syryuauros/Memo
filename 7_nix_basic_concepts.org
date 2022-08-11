@@ -33,7 +33,7 @@
        [[./img/7/limit of recursive att.png]]
 
    + fixed point method as a fake dynamic binding (apply all the changes to the referrers)
-         lexical & dynamic scope references:
+        + lexical & dynamic scope references:
 
           https://stackoverflow.com/questions/22394089/static-lexical-scoping-vs-dynamic-scoping-pseudocode
 
