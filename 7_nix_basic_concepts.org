@@ -6,15 +6,15 @@
 **  Pattern for how to record dependencies in package
   + https://nixos.org/guides/nix-pills/override-design-pattern.html#idm140737319818208
 
-  + Input Pattern
+  + Input Pattern (record all references explicitly)
 
     [[./img/7/Input pattern.png]]
 
-  + callPackage Pattern
+  + callPackage Pattern (using callPackage function for automatic call of references)
 
     [[./img/7/callPackage pattern.png]]
 
-  + override pattern
+  + override pattern (change the references of .drv file without re-instantiating)
 
     [[./img/7/override pattern.png]]
 
