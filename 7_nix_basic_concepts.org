@@ -11,9 +11,11 @@
     [[./img/7/Input pattern.png]]
 
   + callPackage Pattern
+
     [[./img/7/callPackage pattern.png]]
 
   + override pattern
+
     [[./img/7/override pattern.png]]
 
 
@@ -25,13 +27,18 @@
  + https://nixos.org/guides/nix-pills/nixpkgs-overriding-packages.html
 
  + fixed point in a nix repl as an example
-   [[./img/7/fixedpoint_at_function.png]]   %n
-   [[./img/7/fixedpoint_at_function2.png]]  %n
-   [[./img/7/fixedpoint_at_function3.png]]  %n
+
+   [[./img/7/fixedpoint_at_function.png]]
+
+   [[./img/7/fixedpoint_at_function2.png]]
+
+   [[./img/7/fixedpoint_at_function3.png]]
 
  + fixed point in overlay
+
    [[./img/7/fixedpoint.png]]
 
 **  summary
  + summary
+
    [[./img/7/summary.png]]
