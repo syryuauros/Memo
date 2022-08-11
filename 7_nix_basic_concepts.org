@@ -1,0 +1,36 @@
+
+#+SETUPFILE: 1Emacs.cfg
+
+* callPackage, override, fixed Point and overlay
+
+**  Pattern for how to record dependencies in package
+  + https://nixos.org/guides/nix-pills/override-design-pattern.html#idm140737319818208
+
+  + Input Pattern
+    [[./img/7/Input pattern.png]]
+
+  + callPackage Pattern
+    [[./img/7/callPackage pattern.png]]
+
+  + override pattern
+    [[./img/7/override pattern.png]]
+
+
+**  fixed point
+ + https://nixos.wiki/wiki/Overlays
+
+ + http://r6.ca/blog/20140422T142911Z.html
+
+ + https://nixos.org/guides/nix-pills/nixpkgs-overriding-packages.html
+
+ + fixed point in a nix repl as an example
+   [[./img/7/fixedpoint_at_function.png]]   %n
+   [[./img/7/fixedpoint_at_function2.png]]  %n
+   [[./img/7/fixedpoint_at_function3.png]]  %n
+
+ + fixed point in overlay
+   [[./img/7/fixedpoint.png]]
+
+**  summary
+ + summary
+   [[./img/7/summary.png]]
