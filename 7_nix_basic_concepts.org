@@ -28,6 +28,8 @@
 
  + fixed point in a nix repl as an example
 
+   [[./img/7/limit of recursive att.png]]
+
    [[./img/7/fixedpoint_at_function.png]]
 
    [[./img/7/fixedpoint_at_function2.png]]
