@@ -49,7 +49,7 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 |"https://github.com/<owner>/<project>/commit/<hash>"|
 |example |https://github.com/nixos/nixpkgs/commit/ede02b4ccb13557b95058d66146640a2b0bb198f|
 
-| $nix build  # default package만 설치 | $nix build .#s4 .#gnuplot # default외에 다른 package설치를 위해서는 직접 package명을 입력해야 한다. |
+| $nix build   (default package만 설치) | $nix build .#s4 .#gnuplot (default외에 다른 package설치를 위해서는 직접 package명을 입력해야 한다.) |
 
 **  flake override
 | ex) (openblas.override { singleThreaded = true;})      |
