@@ -33,23 +33,24 @@
        [[./img/7/limit of recursive att.png]]
 
    + fixed point method as a fake dynamic binding (apply all the changes to the referrers)
-        + lexical & dynamic scope references:
-
-          https://stackoverflow.com/questions/22394089/static-lexical-scoping-vs-dynamic-scoping-pseudocode
-
-           https://bestalign.github.io/dev/lexical-scope-and-dynamic-scope/
 
                [[./img/7/fixedpoint_at_function.png]]
 
                [[./img/7/fixedpoint_at_function2.png]]
 
-       + Change original argument of x2
+   + Change original argument of x2
 
-                [[./img/7/fixedpoint_at_function3.png]]
+                 [[./img/7/fixedpoint_at_function3.png]]
 
- + fixed point in overlay
+     - -- lexical & dynamic scope references:
 
-             [[./img/7/fixedpoint.png]]
+       https://stackoverflow.com/questions/22394089/static-lexical-scoping-vs-dynamic-scoping-pseudocode
+
+        https://bestalign.github.io/dev/lexical-scope-and-dynamic-scope/
+
+     + fixed point in overlay
+
+                 [[./img/7/fixedpoint.png]]
 
 **  summary
  + summary
