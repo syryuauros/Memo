@@ -35,6 +35,9 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 | ctrl-r 다시 실행(redo)       |               | esc와 동일  |                                      |
 | ctrl-h t 테마설정(nova)      | material-dark | tokyo-night | opera                                |
 
+* Comment (M x comment-line)
+| C-x, C-; |
+
 * Windows (spc w, M x window)
 #+STARTUP: align
 | 새로 생성 | s | v | n       |   |   |   |   |   |
