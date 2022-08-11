@@ -28,17 +28,23 @@
 
  + fixed point in a nix repl as an example
 
-   [[./img/7/limit of recursive att.png]]
+   + limit of recursive attribute method
 
-   [[./img/7/fixedpoint_at_function.png]]
+       [[./img/7/limit of recursive att.png]]
 
-   [[./img/7/fixedpoint_at_function2.png]]
+   + fixed point method as a fake dynamic binding (apply all the changes to the referrers)
 
-   [[./img/7/fixedpoint_at_function3.png]]
+           [[./img/7/fixedpoint_at_function.png]]
 
- + fixed point in overlay
+           [[./img/7/fixedpoint_at_function2.png]]
 
-   [[./img/7/fixedpoint.png]]
+   + Change original argument of x2
+
+            [[./img/7/fixedpoint_at_function3.png]]
+
+     + fixed point in overlay
+
+       [[./img/7/fixedpoint.png]]
 
 **  summary
  + summary
