@@ -35,6 +35,12 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 | ctrl-r 다시 실행(redo)       |               | esc와 동일  |                                      |
 | ctrl-h t 테마설정(nova)      | material-dark | tokyo-night | opera                                |
 
+| themes blue  | nova, misterioso, oceanic-next                 |
+| themes black | material-d, manoj-d, doom-dark+, tokyo-night   |
+| themes gray  | plain-d                                        |
+| theme etc    | tango-d, monokai-machine(green), tsdh-d(brown) |
+|              | fairy-floss, moonlight(purple)                 |
+
 * Comment (M x comment-line)
 | C-x, C-; |
 
