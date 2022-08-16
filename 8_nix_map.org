@@ -21,4 +21,4 @@
 | * systemd           | /etc/systemd/ |
 | * machine status    | $ top         |
 | * fonts.conf        | /etc/fonts/   |
-| *                   |               |
+| * storage check     | $ df          |
