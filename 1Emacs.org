@@ -53,7 +53,6 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 | 크기 조정 | = | _ | shift-\ | o |   |   |   |   |
 | 창 닫기   | c | d | q       |   |   |   |   |   |
 
-* work space (spc TAB, M x workspace)
 
 * Buffer (spc b, M x buffer)
 | 버퍼이동       | [ or p        | ] or n         | b 목록에서 선택  | B b의 확장판           | l 마지막 버퍼    |

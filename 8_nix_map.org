@@ -1,0 +1,24 @@
+
+#+SETUPFILE: 1Emacs.cfg
+
+* nix file/dir position (as increased priority)
+
+| * configuration.nixos   | /etc/nixos/                                              |
+| * nix store             | /nix/store/                                              |
+| * nix pkgs(nix-env)     | ~/.nix-defexpr/channels_root/nixos/pkgs/                 |
+| * nix pkgs(nix profile) | /nix/var/nix/profiles/per-user/root/channels/nixos/pkgs/ |
+| * all-packages.nix      | [path to pkgs]/pkgs/top-level/                           |
+| * make-derivation.nix   | [path to pkgs]/pkgs/generic/                             |
+| * mkshell, fechurl...   | [path to pkgs]/pkgs/build-support                        |
+| * systemd               | /nix/var/nix/profiles/system/systemd/                    |
+
+
+
+* system command
+
+| * config.gz(system) | /proc/        |
+| * cpuinfo           | /proc/        |
+| * systemd           | /etc/systemd/ |
+| * machine status    | $ top         |
+| * fonts.conf        | /etc/fonts/   |
+| *                   |               |
