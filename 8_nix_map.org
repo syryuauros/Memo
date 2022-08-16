@@ -16,9 +16,11 @@
 
 * system command
 
-| * config.gz(system) | /proc/        |
-| * cpuinfo           | /proc/        |
-| * systemd           | /etc/systemd/ |
-| * machine status    | $ top         |
-| * fonts.conf        | /etc/fonts/   |
-| * storage check     | $ df          |
+| * config.gz(system) | /proc/          |
+| * cpuinfo           | /proc/          |
+| * systemd           | /etc/systemd/   |
+| * machine status    | $ top           |
+| * fonts.conf        | /etc/fonts/     |
+| * storage check     | $ df -h ~/gits/ |
+http://blog.imm.cnr.it/content/linux-check-disk-space-command-view-system-disk-usage-df-and-du
+|                     |                 |
