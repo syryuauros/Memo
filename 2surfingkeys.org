@@ -3,3 +3,17 @@
 #+NAME: fig:1
 | yt 현재 탭 복사 |
  [[./img/surfingkeys/image.png]]
+
+* brave command
+ | C-Sh-t | menu-history-recently closed (most recently) |
+ | C-w    | close tab                                    |
+ |        |                                              |
+
+* gnome command
+[[https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html.en][REF]]
+| M-F2        | command                                          |
+| Su-a        | Show Activities                                  |
+| Su-F1       | help                                             |
+| Su-`        | change between same applications                 |
+| Sh-Su-arrow | moving current window to monitor arrow direction |
+|             |                                                  |
