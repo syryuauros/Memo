@@ -1,5 +1,7 @@
 #+SETUPFILE: ./org_set_g.org
 
+[[https://orgmode.org/worg/org-tutorials/images-and-xhtml-export.html][insert link, html, images]]
+
 * Vi mode (default control)
 | esc                          | i           | v          | :                                    |
 |------------------------------+-------------+------------+--------------------------------------|
