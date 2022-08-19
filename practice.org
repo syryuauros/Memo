@@ -17,9 +17,13 @@
 [[https://bnolet.me/posts/2019/06/macros-in-org-mode/][local and global macro, #+macro and setq ]]
 ~setq 즉 글로벌 매크로는 .el 파일에 설정 되어 있다. https://github.com/syryuauros/doom-private  config.el 참조~
 
-[[https://manime.tistory.com/entry/function-%EC%A0%95%EC%9D%98-%EB%B0%8F-%EC%98%88%EC%A0%9C][lisp 함수 정의 및 사용]]
+Emacs lisp tutorials (empty buffer open = C-b N,  execute the lisp script = C-x C-e)   [[https://benwindsorcode.github.io/Getting-Started-With-Emacs-Lisp/][link1]]
+
+lisp함수의 정의와 사용(setq 문법) [[https://manime.tistory.com/entry/function-%EC%A0%95%EC%9D%98-%EB%B0%8F-%EC%98%88%EC%A0%9C][link1]]   [[https://m.blog.naver.com/jodi999/221346705290][link2]]
 
 [[https://seorenn.github.io/note/org-syntax.html][블록문법 #+]]
+
+org file to blog (org2blog) [[https://bbingju.wordpress.com/tag/org-mode/][link1]]   [[https://github.com/org2blog/org2blog][link2]]
 
 * Vi mode (default control)
 | esc                          | i           | v          | :                                    |
