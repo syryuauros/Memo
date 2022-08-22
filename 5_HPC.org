@@ -7,3 +7,8 @@
 | 각 노드(pc)에 OS(linux) 설치 | OpenMPI 설치 |
 
 | PATH, Master에서 hosts 잡기 | ssh-key 취합/배포 | 작업공간 nfs로 마운트 |
+
+
+* WOL(Wake On Lan)    [[https://7508.tistory.com/2070][link]]
+| ./result/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D | 8번 포트로 mac ID 54:...인 매직 패킷을 보냄 |
+|                                               |                                             |
