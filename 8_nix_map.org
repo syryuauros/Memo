@@ -11,6 +11,9 @@
 | * make-derivation.nix   | [path to pkgs]/pkgs/stdenv/generic/                      |
 | * mkshell, fechurl...   | [path to pkgs]/pkgs/build-support/                       |
 | * systemd               | /nix/var/nix/profiles/system/systemd/                    |
+| * modules               | ~/.nix-defexpr/channels_root/nixos/nixos/modules/        |
+| * kernel, initrd        | path to modules/system/boot/                             |
+|                         |                                                          |
 
 
 
