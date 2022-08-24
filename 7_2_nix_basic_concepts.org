@@ -1,0 +1,9 @@
+
+#+SETUPFILE: 1Emacs.cfg
+
+* modules, config
+
+**  modules
+[[https://nixos.wiki/wiki/NixOS_modules][link1]]       [[https://nixos.wiki/wiki/NixOS:config_argument][link2]]      [[https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution][link3]]      [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link4]]
+
++ NixOS has a _modular system for declarative configuration_. This system _combines multiple modules_ to produce the full system configuration. One of the modules that constitute the configuration is _*/etc/nixos/configuration.nix*_. Most of the others live in the _*nixos/modules*_ subdirectory of the Nixpkgs tree.
