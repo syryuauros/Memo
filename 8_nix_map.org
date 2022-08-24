@@ -12,10 +12,22 @@
 | * mkshell, fechurl...   | [path to pkgs]/pkgs/build-support/                       |
 | * systemd               | /nix/var/nix/profiles/system/systemd/                    |
 | * modules               | ~/.nix-defexpr/channels_root/nixos/nixos/modules/        |
-| * kernel, initrd        | path to modules/system/boot/                             |
-|                         |                                                          |
+| * kernel, initrd        | [path to modules]/system/boot/                           |
+| * modules.nix           |                                                          |
 
-
+* under /channels_root/ or /root/channels/ (서로 다른 폴더이지만 하위 구조는 같음)
+| * channels_root    | ~./nix-defexpr/channels_root/                 |
+| * root/channels/   | /nix/var/nix/profiles/per-user/root/channels/ |
+|                    |                                               |
+| * pkgs             | [...channels_root]/nixos/pkgs/                |
+| * modules          | [...channels_root]/nixos/modules/             |
+| * kernel, initrd   | [...modules]/system/boot                      |
+| * modules.nix      | [...channels_root]/nixos/nixpkgs/lib/         |
+| * fixed-points.nix | [...modules.nix]                              |
+| * kernel.nix       | [...modules.nix]                              |
+| * options.nix      | [...modules.nix]                              |
+| * module-list.nix  | [...modules]                                  |
+|                    |                                               |
 
 * system command
 
