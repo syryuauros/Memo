@@ -12,3 +12,7 @@
 * WOL(Wake On Lan)    [[https://7508.tistory.com/2070][link]]
 | ./result/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D | 8번 포트로 mac ID 54:...인 매직 패킷을 보냄 |
 |                                               |                                             |
+
+* booting USB(syslinux) [[https://www.debian.org/releases/etch/i386/ch04s04.html.ko][link]]   [[https://nixos.wiki/wiki/NixOS_Installation_Guide/Manual_USB_Creation][link2]]
+
+* getting kernel [[https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html][link]]
