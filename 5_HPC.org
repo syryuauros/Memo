@@ -8,6 +8,19 @@
 
 | PATH, Master에서 hosts 잡기 | ssh-key 취합/배포 | 작업공간 nfs로 마운트 |
 
+* netboot, pixiecore, ipxe
+| * overall concept              | [[https://github.com/danderson/netboot/blob/master/pixiecore/README.booting.md][link]]                                                |
+| * old manual(Tinycore for x86) | [[https://gitlab.com/daveanderson/pixiecore][link]]                                                |
+| * cpio compress                | [[https://byeonely.tistory.com/114][link]] [[https://hellocbc.blogspot.com/2012/07/cpio.html][link2]]                                          |
+| * Tinycore src for x86_64      | [[http://tinycorelinux.net/6.x/x86_64/release/distribution_files/][link]]                                                |
+| * pixiecore boot               | $ sudo [...]pixiecore boot [kernel] [initrd] [flag] |
+|                                |                                                     |
+
+$ wget http://tinycorelinux.net/6.x/x86_64/release/distribution_files/{vmlinuz64,modules64.gz,corepure64.gz,rootfs64.gz}
+$ find . -name '*.gz' -print | cpio -o > initrd.cpio.gz
+$ sudo ./result-3/bin/pixiecore boot vmlinuz64 corepure64.gz rootfs64.gz modules64.gz --dhcp-no-bind -d -p80
+$ ./result-2/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D
+
 
 * WOL(Wake On Lan)    [[https://7508.tistory.com/2070][link]]
 | ./result/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D | 8번 포트로 mac ID 54:...인 매직 패킷을 보냄 |
