@@ -15,6 +15,8 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 [[./img/1_emacs/1.png]]
 
 * Vi mode (default control)
+[[https://www.youtube.com/watch?v=cY0JxzENBJg][link-video]]
+
 | esc                          | i             | v           | :                                    |
 |------------------------------+---------------+-------------+--------------------------------------|
 | default 상태                 | 입력모드      | 선택모드    | 명령어모드                           |

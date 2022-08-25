@@ -3,7 +3,7 @@
 
 * nix file/dir position (as increased priority)
 
-| * configuration.nixos   | /etc/nixos/                                              |
+| * configuration.nix     | /etc/nixos/                                              |
 | * nix store             | /nix/store/                                              |
 | * nix pkgs(nix-env)     | ~/.nix-defexpr/channels_root/nixos/pkgs/                 |
 | * nix pkgs(nix profile) | /nix/var/nix/profiles/per-user/root/channels/nixos/pkgs/ |
@@ -16,18 +16,29 @@
 | * modules.nix           |                                                          |
 
 * under /channels_root/ or /root/channels/ (서로 다른 폴더이지만 하위 구조는 같음)
-| * channels_root    | ~./nix-defexpr/channels_root/                 |            |
-| * root/channels/   | /nix/var/nix/profiles/per-user/root/channels/ |            |
-|                    |                                               |            |
-| * pkgs             | [...channels_root]/nixos/pkgs/                |            |
-| * modules          | [...channels_root]/nixos/modules/             | [[https://nixos.wiki/wiki/NixOS:config_argument][link]] [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link2]] |
-| * kernel, initrd   | [...modules]/system/boot                      |            |
-| * modules.nix      | [...channels_root]/nixos/nixpkgs/lib/         | [[https://nixos.wiki/wiki/NixOS_modules][link]]       |
-| * fixed-points.nix | [...modules.nix]                              |            |
-| * kernel.nix       | [...modules.nix]                              |            |
-| * options.nix      | [...modules.nix]                              |            |
-| * module-list.nix  | [...modules]                                  |            |
-|                    |                                               |            |
+| * channels_root    | ~./nix-defexpr/channels_root/                 |             |             |
+| * root/channels/   | /nix/var/nix/profiles/per-user/root/channels/ |             |             |
+|                    |                                               |             |             |
+| * pkgs             | [...channels_root]/nixos/pkgs/                |             | [[https://github.com/nixos/nixpkgs/][github]]      |
+| * modules          | [...channels_root]/nixos/modules/             | [[https://nixos.wiki/wiki/NixOS:config_argument][link]] [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link2]]  | [[https://github.com/NixOS/nixpkgs/tree/master/nixos/modules][github]]      |
+| * kernel, initrd   | [...modules]/system/boot                      |             | [[https://github.com/NixOS/nixpkgs/tree/master/nixos/modules/system/boot][github]]      |
+| * modules.nix      | [...channels_root]/nixos/nixpkgs/lib/         | [[https://nixos.wiki/wiki/NixOS_modules][link]]        | [[https://github.com/NixOS/nixpkgs/tree/master/lib][github]]      |
+| * fixed-points.nix | [...modules.nix]                              |             | [[https://github.com/NixOS/nixpkgs/blob/master/lib/fixed-points.nix][github]]      |
+| * kernel.nix       | [...modules.nix]                              |             | [[https://github.com/NixOS/nixpkgs/blob/master/lib/kernel.nix][github]]      |
+| * options.nix      | [...modules.nix]                              |             | [[https://github.com/NixOS/nixpkgs/blob/master/lib/options.nix][github]]      |
+| * module-list.nix  | [...modules]                                  | [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link]]        | [[https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/module-list.nix][github]]      |
+| * etc.nix          | [...modules]/system/etc/etc.nix               | [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link]]  [[https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/system/etc/etc.nix][link2]] | [[https://github.com/NixOS/nixpkgs/tree/master/nixos/modules/system/etc][github]]      |
+|                    |                                               |             | [[][github] |
+|                    |                                               |             |             |
+
+* documentation
+| * doc           | [...channels_root]/nixos/nixpkgs/doc/   |             | [[https://github.com/NixOS/nixpkgs/tree/master/doc][github]] |
+|                 |                                         |             |        |
+| * configuration | [...doc]/using/configuration.chapter.md |             | [[https://github.com/NixOS/nixpkgs/blob/master/doc/using/configuration.chapter.md][github]] |
+| * overlay       | [...doc]/using/overlays.chapter.md      | [[https://www.youtube.com/watch?v=W85mF1zWA2o][link]]        | [[https://github.com/NixOS/nixpkgs/blob/master/doc/using/overlays.chapter.md][github]] |
+| * overrides     | [...doc]/using/overrides.chapter.md     |             | [[https://github.com/NixOS/nixpkgs/blob/master/doc/using/overrides.chapter.md][github]] |
+| * modules       |                                         | [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link]]  [[https://discourse.nixos.org/t/best-resources-for-learning-about-the-nixos-module-system/1177][link2]] |        |
+
 
 * system command
 | * config.gz(system) | /proc/          |      |
