@@ -22,7 +22,7 @@
 
 * reference
 | popular kernel commands | [[https://psj-study.tistory.com/142?category=1036590][link]] |
-|                         |      |
+| copy                    | [[https://coding-factory.tistory.com/750][link]] |
 
 
 
