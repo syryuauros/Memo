@@ -14,5 +14,19 @@
 |                                               |                                             |
 
 * booting USB(syslinux) [[https://www.debian.org/releases/etch/i386/ch04s04.html.ko][link]]   [[https://nixos.wiki/wiki/NixOS_Installation_Guide/Manual_USB_Creation][link2]]
+| boot loader   | SYSLINUX(ldlinux.sys), LILO        | [[https://www.debian.org/releases/etch/i386/ch04s04.html.ko#usb-copy-easy][link]]             |
+| kernel binary | vmlinuz                            | [[https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/][link]]             |
+| initrd.gz     | or initramfs(cpio archives)        | [[https://wiki.debian.org/Initrd][link]] [[https://www.kernel.org/doc/html/latest/admin-guide/initrd.html][link2]]       |
+| initramfs     | improved initrd (above kernel 2.4) | [[https://wiki.gentoo.org/wiki/Initramfs/Guide/ko][link]] [[https://intrepidgeeks.com/tutorial/manufacturing-method-of-initramfs][link2]] [[https://velog.io/@markyang92/initramfs][link3]] |
+| syslinux.cfg  | syslinux 설정파일                  |                  |
+| additional    | additional modules                 |                  |
+|               |                                    |                  |
+
+syslinux archive down: $ wget https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/syslinux-5.10.tar.gz
+https://velog.io/@markyang92/kernel
 
 * getting kernel [[https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html][link]]
+
+* kernel position
+| * kernel  | /run/booted-system/kernel-modules/modules/[version number]/kernel/ | [[https://velog.io/@markyang92/kernel][link]] |
+| * bZImage | [...kernel]                                                        |      |
