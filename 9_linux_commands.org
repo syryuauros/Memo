@@ -12,10 +12,12 @@
 | * disk info      | $ sudo fdisk -l /dev/sdc1 | [[https://techcrop.net/ko/%EC%95%84%EC%B9%98-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90-syslinux%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95][link]]       |
 | * tar.gz unzip   | $ tar -zxvf [file name]   | [[https://nota.tistory.com/53][link]]       |
 | * shutdown       | $ reboot -f (or -p)       | [[https://jhnyang.tistory.com/50][link]]       |
+|                  |                           |            |
 
 
 * cpio 압축
 | $ find . -name '*.gz' -print | cpio -o > initrd.cpio.gz | [[https://hellocbc.blogspot.com/2012/07/cpio.html][link]] |
+| * cpio compress              | [[https://byeonely.tistory.com/114][link]] [[https://hellocbc.blogspot.com/2012/07/cpio.html][link2]]               |      |
 |                              |                          |      |
 
 * reference

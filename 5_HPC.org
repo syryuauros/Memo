@@ -11,10 +11,11 @@
 * netboot, pixiecore, ipxe
 | * overall concept              | [[https://github.com/danderson/netboot/blob/master/pixiecore/README.booting.md][link]]                                                |
 | * old manual(Tinycore for x86) | [[https://gitlab.com/daveanderson/pixiecore][link]]                                                |
-| * cpio compress                | [[https://byeonely.tistory.com/114][link]] [[https://hellocbc.blogspot.com/2012/07/cpio.html][link2]]                                          |
 | * Tinycore src for x86_64      | [[http://tinycorelinux.net/6.x/x86_64/release/distribution_files/][link]]                                                |
 | * pixiecore boot               | $ sudo [...]pixiecore boot [kernel] [initrd] [flag] |
 |                                |                                                     |
+
+$ nix build .#pixiecore .#wakeonlan .#syslinux .#mtools .#cpio
 
 $ wget http://tinycorelinux.net/6.x/x86_64/release/distribution_files/{vmlinuz64,modules64.gz,corepure64.gz,rootfs64.gz}
 $ sudo ./result-3/bin/pixiecore boot vmlinuz64 corepure64.gz rootfs64.gz modules64.gz --dhcp-no-bind -d -p80
