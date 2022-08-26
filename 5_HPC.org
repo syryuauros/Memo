@@ -63,6 +63,8 @@ https://velog.io/@markyang92/kernel
 | $ nix-build -A netboot.x86_64-linux '<nixpkgs/nixos/release.nix>' |
 
 * command for install nixos through pixiecore
+| $ sudo [...pixiecore]/pixiecore boot [...bzImage]/bzImage [...initrd]/initrd --cmdline "init=[netboot.ipxe file 내부에서 'init='으로 시작하는 구문, 즉 init(initrd와는 다르다.) 파일의 위치]" [flag] |
+
 | $ sudo ~/gits/pxe/pixiecore/bin/pixiecore boot bzImage initrd --cmdline "init=/nix/store/x6rxs500w67bvbs5g25z7vsqn67865jd-nixos-system-nixos-21.05beta-160507.gfedcba/init loglevel=4" --debug --dhcp-no-bind --port 64172 --status-port 64172 | [[https://nixos.wiki/wiki/Netboot][link]] |
 
 | $ grep -ohP 'init=\S+' ./netboot_media/netboot.ipxe                                               |
