@@ -3,16 +3,17 @@
 
 * system commands
 
-| * kernel version | uname -r                  | [[https://vense.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BB%A4%EB%84%90-%EB%B2%84%EC%A0%84-linux-kernel-version-%ED%99%95%EC%9D%B8-%EB%B0%A9%EB%B2%95-%EB%AA%87%EA%B0%80%EC%A7%80][link]]       |
-| * cpuinfo        | /proc/                    |            |
-| * systemd        | /etc/systemd/             |            |
-| * machine status | $ top                     |            |
-| * fonts.conf     | /etc/fonts/               |            |
-| * storage check  | $ df -h -T ~/gits/        | [[http://blog.imm.cnr.it/content/linux-check-disk-space-command-view-system-disk-usage-df-and-du][link]] [[https://big-sun.tistory.com/23][link2]] |
-| * disk info      | $ sudo fdisk -l /dev/sdc1 | [[https://techcrop.net/ko/%EC%95%84%EC%B9%98-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90-syslinux%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95][link]]       |
-| * tar.gz unzip   | $ tar -zxvf [file name]   | [[https://nota.tistory.com/53][link]]       |
-| * shutdown       | $ reboot -f (or -p)       | [[https://jhnyang.tistory.com/50][link]]       |
-|                  |                           |            |
+| * kernel version | uname -r                | [[https://vense.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BB%A4%EB%84%90-%EB%B2%84%EC%A0%84-linux-kernel-version-%ED%99%95%EC%9D%B8-%EB%B0%A9%EB%B2%95-%EB%AA%87%EA%B0%80%EC%A7%80][link]]       |
+| * cpuinfo        | /proc/                  |            |
+| * systemd        | /etc/systemd/           |            |
+| * machine status | $ top                   |            |
+| * fonts.conf     | /etc/fonts/             |            |
+| * storage check  | $ df -h -T ~/gits/      | [[http://blog.imm.cnr.it/content/linux-check-disk-space-command-view-system-disk-usage-df-and-du][link]] [[https://big-sun.tistory.com/23][link2]] |
+| * disk info      | # fdisk -l or lsblk     | [[https://techcrop.net/ko/%EC%95%84%EC%B9%98-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90-syslinux%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95][link]]       |
+| * tar.gz unzip   | $ tar -zxvf [file name] | [[https://nota.tistory.com/53][link]]       |
+| * shutdown       | $ reboot -f (or -p)     | [[https://jhnyang.tistory.com/50][link]]       |
+| * disk manager   | # fdisk /dev/sdc        | [[https://thornelabs.net/posts/create-a-bootable-windows-7-or-10-usb-drive-in-linux/][link]]       |
+|                  |                         |            |
 
 
 * cpio 압축
@@ -23,6 +24,10 @@
 * reference
 | popular kernel commands | [[https://psj-study.tistory.com/142?category=1036590][link]] |
 | copy                    | [[https://coding-factory.tistory.com/750][link]] |
+| new file                | [[https://recipes4dev.tistory.com/177][link]] |
+| dd command              | [[https://bigsun84.tistory.com/312][link]] |
+| /dev/zero, /dev/null    | [[https://faq.hostway.co.kr/Linux_ETC/3572][link]] |
+|                         |      |
 
 
 

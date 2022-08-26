@@ -19,14 +19,14 @@ $ nix build .#pixiecore .#wakeonlan .#syslinux .#mtools .#cpio .#dosfstools
 
 $ wget http://tinycorelinux.net/6.x/x86_64/release/distribution_files/{vmlinuz64,modules64.gz,corepure64.gz,rootfs64.gz}
 
-$ sudo ./result-4/bin/pixiecore boot vmlinuz64 corepure64.gz rootfs64.gz modules64.gz --dhcp-no-bind -d -p80
+$ sudo ./pixiecore/bin/pixiecore boot vmlinuz64 corepure64.gz rootfs64.gz modules64.gz --dhcp-no-bind -d -p80
 
-$ ./result-3/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D
+$ ./wakeonlan/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D
 
 
 * WOL(Wake On Lan)    [[https://7508.tistory.com/2070][link]]
-| ./result/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D | 8번 포트로 mac ID 54:...인 매직 패킷을 보냄 |
-|                                               |                                             |
+| ./wakeonlan/bin/wakeonlan -p 8 54:05:DB:DC:4C:9D     | 8번 포트로 mac ID 54:...인 매직 패킷을 보냄 |
+|                                                 |                                             |
 
 * booting USB(syslinux) [[https://www.debian.org/releases/etch/i386/ch04s04.html.ko][link]]   [[https://nixos.wiki/wiki/NixOS_Installation_Guide/Manual_USB_Creation][link2]]
 | boot loader   | SYSLINUX(ldlinux.sys), LILO        | [[https://www.debian.org/releases/etch/i386/ch04s04.html.ko#usb-copy-easy][link]]             |
@@ -41,14 +41,15 @@ syslinux archive down: $ wget https://mirrors.edge.kernel.org/pub/linux/utils/bo
 https://velog.io/@markyang92/kernel
 
 | * usb format                  | $ mkfs.fat -n USB -v /dev/sdc1                             | [[https://wnw1005.tistory.com/426][link]] |
-| * generate DOS file system    | # mkdosfs /dev/sdc1                                        | [[https://www.debian.org/releases/etch/i386/ch04s04.html.ko][link]] |
-| * install ldlinux(bootloader) | # ./result-5/bin/syslinux /dev/sdc1                        |      |
+| * generate DOS file system    | # ./home/auros/gits/pxe/dosfstools/bin/mkdosfs /dev/sdc1   | [[https://www.debian.org/releases/etch/i386/ch04s04.html.ko][link]] |
+| * install ldlinux(bootloader) | # ./home/auros/gits/pxe/Syslinux/bin/syslinux /dev/sdc1    |      |
 | * usb mount                   | # mount /dev/sdc1 /mnt                                     |      |
+| * move to pxe                 | # cd [...pxe]                                              |      |
 | * kernel initrd files copy    | # cp vmlinuz64 corepure64.gz rootfs64.gz modules64.gz /mnt |      |
-| * generate syslinux.cfg       | # cat > syslinux.cfg                                       |      |
+| * generate syslinux.cfg       | # cat > ~/mnt/syslinux.cfg                                 |      |
 | syslinux.cfg contents         | default vmlinuz                                            |      |
 |                               | append initrd=initrd.gz                                    |      |
-|                               |                                                            |      |
+|                               | C-d to end                                                 |      |
 | * usb(sdc1) unmount           | # umount /mnt  or # umount /dev/sdc1                       |      |
 |                               |                                                            |      |
 
@@ -72,4 +73,6 @@ https://velog.io/@markyang92/kernel
 | * systemd-boot                   | [[https://stackframe.tistory.com/32][link]]  [[https://forcecore.tistory.com/1322][link]] |
 | * about systemd                  | [[https://www.kernelpanic.kr/17][link]]       |
 | * systemd systemctl              | [[https://hedone21.tistory.com/18][link]]       |
+| * bootable usb prepare           | [[http://knoppix.net/wiki/Bootable_USB_Key][link]]       |
+| * fdisk, disk manager            | [[https://thornelabs.net/posts/create-a-bootable-windows-7-or-10-usb-drive-in-linux/][link]]       |
 |                                  |            |
