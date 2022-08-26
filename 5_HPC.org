@@ -57,7 +57,18 @@ https://velog.io/@markyang92/kernel
 |                     | # findmnt [device] -D |      |
 
 * installing nixos
-|   | [[https://nixos.wiki/wiki/Bootloader][link]] |
+|                                          | [[https://nixos.wiki/wiki/Bootloader][link]]           |
+| * get bzImage initrd netboot.ipxe(=init) | [[https://nixos.org/manual/nixos/stable/index.html#sec-installation-additional-notes][link-2.5.2 PXE]] |
+
+| $ nix-build -A netboot.x86_64-linux '<nixpkgs/nixos/release.nix>' |
+
+* command for install nixos through pixiecore
+| $ sudo ~/gits/pxe/pixiecore/bin/pixiecore boot bzImage initrd --cmdline "init=/nix/store/x6rxs500w67bvbs5g25z7vsqn67865jd-nixos-system-nixos-21.05beta-160507.gfedcba/init loglevel=4" --debug --dhcp-no-bind --port 64172 --status-port 64172 | [[https://nixos.wiki/wiki/Netboot][link]] |
+
+| $ grep -ohP 'init=\S+' ./netboot_media/netboot.ipxe                                               |
+|                                                                                                   |
+| init=/nix/store/x6rxs500w67bvbs5g25z7vsqn67865jd-nixos-system-nixos-21.05beta-160507.gfedcba/init |
+|                                                                                                   |
 
 * getting kernel [[https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html][link]]
 
