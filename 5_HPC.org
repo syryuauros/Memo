@@ -74,6 +74,17 @@ https://velog.io/@markyang92/kernel
 | init=/nix/store/x6rxs500w67bvbs5g25z7vsqn67865jd-nixos-system-nixos-21.05beta-160507.gfedcba/init |
 |                                                                                                   |
 
+* Windows on nixos
+| * windows install with qemu | [[https://stackframe.tistory.com/28?category=849329][link]] |
+| * check cpu, core           | [[https://4lugin.tistory.com/148][link]] |
+|                             |      |
+
+| $ ~/gits/qemus/result/bin/qemu-system-x86_64 -m 4G -cpu host -smp sockets=1,cores=2,threads=2 -cdrom Win10_21H2_Korean_x64.iso -drive file=windows.raw,format=raw -enable-kvm | 최초 설치 |
+
+| $ ~/gits/qemus/result/bin/qemu-system-x86_64 -m 4G -enable-kvm -cpu host -smp sockets=1,cores=2,threads=2 -drive file=windows.raw,format=raw -soundhw all | 설치된 windows 실행 |
+
+
+
 * getting kernel [[https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html][link]]
 
 * kernel position
@@ -81,15 +92,22 @@ https://velog.io/@markyang92/kernel
 | * bZImage | [...kernel]                                                        |      |
 
 * references
-| * GPT MBR                        | [[https://www.easeus.co.kr/partition-manager-software/mbr-vs-gpt.html][link]]       |
-| * GRUB2 for MBR & GPT in one usb | [[https://devbin.kr/grub2-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A7%8C%EB%8A%A5-usb-%EB%A7%8C%EB%93%A4%EA%B8%B0-windows-installer-%EB%93%B1/][link]]       |
-| * bootloaders                    | [[http://no1linux.org/hottips/22876][link]]       |
-| * GPT2                           | [[https://lascrea.tistory.com/40][link]]       |
-| * systemd-boot                   | [[https://stackframe.tistory.com/32][link]]  [[https://forcecore.tistory.com/1322][link]] |
-| * about systemd                  | [[https://www.kernelpanic.kr/17][link]]       |
-| * systemd systemctl              | [[https://hedone21.tistory.com/18][link]]       |
-| * bootable usb prepare           | [[http://knoppix.net/wiki/Bootable_USB_Key][link]]       |
-| * fdisk, disk manager            | [[https://thornelabs.net/posts/create-a-bootable-windows-7-or-10-usb-drive-in-linux/][link]]       |
-| * tmux                           | [[https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95][link]]       |
-| * ssh remote connect             | [[https://hei-jung.github.io/linux/linux-remote-access/][link]]       |
-|                                  |            |
+| * GPT MBR                          | [[https://www.easeus.co.kr/partition-manager-software/mbr-vs-gpt.html][link]]         |
+| * GRUB2 for MBR & GPT in one usb   | [[https://devbin.kr/grub2-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A7%8C%EB%8A%A5-usb-%EB%A7%8C%EB%93%A4%EA%B8%B0-windows-installer-%EB%93%B1/][link]]         |
+| * bootloaders                      | [[http://no1linux.org/hottips/22876][link]]         |
+| * GPT2                             | [[https://lascrea.tistory.com/40][link]]         |
+| * systemd-boot                     | [[https://stackframe.tistory.com/32][link]]  [[https://forcecore.tistory.com/1322][link]]   |
+| * about systemd                    | [[https://www.kernelpanic.kr/17][link]]         |
+| * systemd systemctl                | [[https://hedone21.tistory.com/18][link]]         |
+| * bootable usb prepare             | [[http://knoppix.net/wiki/Bootable_USB_Key][link]]         |
+| * fdisk, disk manager              | [[https://thornelabs.net/posts/create-a-bootable-windows-7-or-10-usb-drive-in-linux/][link]]         |
+| * tmux                             | [[https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95][link]]         |
+| * ssh remote connect               | [[https://hei-jung.github.io/linux/linux-remote-access/][link]]         |
+| * sftp                             | [[https://jjeongil.tistory.com/1422][link1]]  [[https://dejavuqa.tistory.com/359][link2]] |
+| * curl                             | [[https://hbase.tistory.com/224][link]]         |
+| * wget                             | [[https://www.lesstif.com/lpt/linux-command-line-http-wget-95879932.html][link]]         |
+| * telnet IP PORT, /dev/tcp/IP/PORT | [[https://uutopia.tistory.com/41][link]]         |
+|                                    |              |
+| * infiniBand                       | [[https://m.blog.naver.com/skauter/10169437853][link]]         |
+| * series, parallel interface       | [[https://velog.io/@ckstn0777/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-%EC%A7%81%EB%A0%AC%ED%86%B5%EC%8B%A0%EA%B3%BC-%EB%B3%91%EB%A0%AC%ED%86%B5%EC%8B%A0][link]]         |
+|                                    |              |
