@@ -1,0 +1,22 @@
+
+#+SETUPFILE: 1Emacs.cfg
+
+* Table calculation -  [[https://orgmode.org/manual/The-Spreadsheet.html][link0]]   [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][link1]]   [[https://orgmode.org/manual/Field-and-range-formulas.html][link2]]  [[https://orgmode.org/manual/Advanced-features.html][link3]]
+
+
+
+| st    |  M |  P | mean |
+|-------+----+----+------|
+| B     | 13 |  9 |   11 |
+| H     | 15 | 14 |      |
+| A     | 17 | 13 |      |
+|-------+----+----+------|
+| means | 15 | 12 |      |
+#+TBLFM: @2$4=vmean($2..$3)::@5$2=vmean(@2$2..@4$2)::@5$3=vmean(@2$3..@4$3)
+
+
+
+
+
+
+[[][link]
