@@ -60,7 +60,7 @@ https://velog.io/@markyang92/kernel
 |                                          | [[https://nixos.wiki/wiki/Bootloader][link]]           |
 | * get bzImage initrd netboot.ipxe(=init) | [[https://nixos.org/manual/nixos/stable/index.html#sec-installation-additional-notes][link-2.5.2 PXE]] |
 
-| $ nix-build -A netboot.x86_64-linux '<nixpkgs/nixos/release.nix>' |
+| $  nix-build -A netboot.x86_64-linux '<nixpkgs/nixos/release.nix>' |
 
 * command for install nixos through pixiecore
 | $ sudo [...pixiecore]/pixiecore boot [...bzImage]/bzImage [...initrd]/initrd --cmdline "init=[netboot.ipxe file 내부에서 'init='으로 시작하는 구문, 즉 init(initrd와는 다르다.) 파일의 위치]" [flag] |
@@ -69,6 +69,15 @@ https://velog.io/@markyang92/kernel
 
 | $ sudo ~/gits/pxe/pixiecore/bin/pixiecore boot ~/gits/pxe/netboot_media/bzImage ~/gits/pxe/netboot_media/initrd --cmdline "init=/nix/store/x6rxs500w67bvbs5g25z7vsqn67865jd-nixos-system-nixos-21.05beta-160507.gfedcba/init loglevel=4" --debug --dhcp-no-bind --port 64172 --status-port 64172 | 아무 폴더에서나 실행 가능한 명령 |
 
+| * ssh connect   | $ ssh user@IP    | $ ssh nixos@192.168.0.2  | [[https://hei-jung.github.io/linux/linux-remote-access/][link]]             |
+| * stfp connect  | $ sftp user@IP   | $ sftp nixos@192.168.0.2 | [[https://dejavuqa.tistory.com/359][link1]]   [[https://jjeongil.tistory.com/1422][link2]]    |
+| remote folder   | sftp> pwd        | sftp> ls -lah            |                  |
+| local folder    | sftp> lpwd       | sftp> lls -lah           | l+remote command |
+| local >> remote | sftp> put [file] |                          |                  |
+
+
+
+* backup for nixos install through pixiecore
 | $ grep -ohP 'init=\S+' ./netboot_media/netboot.ipxe                                               |
 |                                                                                                   |
 | init=/nix/store/x6rxs500w67bvbs5g25z7vsqn67865jd-nixos-system-nixos-21.05beta-160507.gfedcba/init |

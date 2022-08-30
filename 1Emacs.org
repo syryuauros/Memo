@@ -88,6 +88,9 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 | 'g C-c C-c c c <메세지> C-c C-c' |
 **  push(git push)
 | 'g C-c C-c P u' or 'spc g / P u' |
+** git ignore
+| make .gitignore >> git push | [[https://programming119.tistory.com/105][link1]] |
+|                             |       |
 
 #+NAME: fig:1
 [[./img/git_structure.png]]
