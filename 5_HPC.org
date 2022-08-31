@@ -82,6 +82,10 @@ https://velog.io/@markyang92/kernel
 |                      |                           |
 
 
+* bootable usb with nixos image(ISO)
+| * nixos bootable usb making | [[https://nix.dev/tutorials/building-bootable-iso-image][link]] |
+|                             |      |
+
 
 * backup for nixos install through pixiecore
 | $ grep -ohP 'init=\S+' ./netboot_media/netboot.ipxe                                               |
