@@ -76,11 +76,20 @@ https://velog.io/@markyang92/kernel
 | local >> remote | sftp> put [file] |                          |                  |
 
 
+* installing nixos by nix flake (dhpc_test)
+| * nix flake execute  | $ nix run .#run-pixiecore |
+| * after installation | $ ssh nixos@192.168.0.2   |
+|                      |                           |
+
+
 
 * backup for nixos install through pixiecore
 | $ grep -ohP 'init=\S+' ./netboot_media/netboot.ipxe                                               |
 |                                                                                                   |
 | init=/nix/store/x6rxs500w67bvbs5g25z7vsqn67865jd-nixos-system-nixos-21.05beta-160507.gfedcba/init |
+|                                                                                                   |
+| <nixpkgs/nixos/release.nix>                                                                       |
+| <nixpkgs/nixos/modules/installer/cd-dvd/install-cd-graphical-gnome.nix>                           |
 |                                                                                                   |
 
 * Windows on nixos
