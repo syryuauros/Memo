@@ -132,7 +132,11 @@ https://velog.io/@markyang92/kernel
 | * curl                             | [[https://hbase.tistory.com/224][link]]         |
 | * wget                             | [[https://www.lesstif.com/lpt/linux-command-line-http-wget-95879932.html][link]]         |
 | * telnet IP PORT, /dev/tcp/IP/PORT | [[https://uutopia.tistory.com/41][link]]         |
+| * socket command                   | [[https://jaynamm.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%99%95%EC%9D%B8%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC][link]]         |
 |                                    |              |
+
+
+
 | * infiniBand                       | [[https://m.blog.naver.com/skauter/10169437853][link]]         |
 | * series, parallel interface       | [[https://velog.io/@ckstn0777/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-%EC%A7%81%EB%A0%AC%ED%86%B5%EC%8B%A0%EA%B3%BC-%EB%B3%91%EB%A0%AC%ED%86%B5%EC%8B%A0][link]]         |
 |                                    |              |
