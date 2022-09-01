@@ -83,8 +83,11 @@ https://velog.io/@markyang92/kernel
 
 
 * bootable usb with nixos image(ISO)
-| * nixos bootable usb making | [[https://nix.dev/tutorials/building-bootable-iso-image][link]] |
-|                             |      |
+| * usb format                 | [[https://jjeongil.tistory.com/1769][link]]                                               |      |
+| * nixos bootable usb making  | [[https://nix.dev/tutorials/building-bootable-iso-image][link]]  [[https://hoverbear.org/blog/nix-flake-live-media/][link2]]  [[https://github.com/NixOS/nix/issues/5880][link3]]                                 |      |
+| * make bootable usb by flake | $ nix build .#auto-usb                             | [[https://github.com/haedosa/declarative-hpc/blob/pxeboot/pixiecore-experiment/flake.nix][link]] |
+|                              | $ dd if=[...iso]/~.iso of=/dev/sdz status=progress | [[https://nixos.org/manual/nixos/stable/index.html#sec-installation-additional-notes][link]] |
+|                              |                                                    |      |
 
 
 * backup for nixos install through pixiecore
