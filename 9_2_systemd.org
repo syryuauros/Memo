@@ -1,0 +1,27 @@
+
+#+SETUPFILE: 1Emacs.cfg
+
+[pl] = pipeline = | (shift + \)
+[... name] = name까지의 경로
+
+* REFs
+| * systemd startup script write | [[https://unix.stackexchange.com/questions/47695/how-to-write-startup-script-for-systemd][link]]             |
+| * video instruction(korean)    | [[https://www.youtube.com/watch?v=vg8bcRlNXB8][link]]             |
+| * startup scripts (systemd)    | [[https://www.otacanonline.com/courses/nix-commands][link]] [[https://opensource.com/article/20/5/manage-startup-systemd][link2]] [[https://conory.com/blog/42241][link3]] |
+|                                | [[https://m.blog.naver.com/mymissu/220881455209][link4]]            |
+| * daemon                       | [[https://blogger.pe.kr/770][link]] [[https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%AA%AC_(%EC%BB%B4%ED%93%A8%ED%8C%85)][link2]]       |
+|                                |                  |
+|                                |                  |
+
+* practice
+| * systemd create unitfile & service  |                                     | [[https://www.diskinternals.com/linux-reader/systemd-startup-script/][link]] |
+| * emacs as daemon(background server) | $ sudo emacs --daemon=foo           | [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html][link]] |
+| * confirm daemon                     | $ ps -el [pl] grep emacs            |      |
+| * kill daemon                        | $ kill -[option, 15=finish] [PID #] | [[https://121202.tistory.com/45][link]] |
+|                                      |                                     |      |
+
+
+
+
+
+[[][link]

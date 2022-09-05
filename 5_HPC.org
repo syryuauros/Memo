@@ -117,28 +117,29 @@ https://velog.io/@markyang92/kernel
 | * bZImage | [...kernel]                                                        |      |
 
 * references
-| * GPT MBR                          | [[https://www.easeus.co.kr/partition-manager-software/mbr-vs-gpt.html][link]]         |
-| * GRUB2 for MBR & GPT in one usb   | [[https://devbin.kr/grub2-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A7%8C%EB%8A%A5-usb-%EB%A7%8C%EB%93%A4%EA%B8%B0-windows-installer-%EB%93%B1/][link]]         |
-| * bootloaders                      | [[http://no1linux.org/hottips/22876][link]]         |
-| * GPT2                             | [[https://lascrea.tistory.com/40][link]]         |
-| * systemd-boot                     | [[https://stackframe.tistory.com/32][link]]  [[https://forcecore.tistory.com/1322][link]]   |
-| * about systemd                    | [[https://www.kernelpanic.kr/17][link]]         |
-| * systemd systemctl                | [[https://hedone21.tistory.com/18][link]]         |
-| * bootable usb prepare             | [[http://knoppix.net/wiki/Bootable_USB_Key][link]]         |
-| * fdisk, disk manager              | [[https://thornelabs.net/posts/create-a-bootable-windows-7-or-10-usb-drive-in-linux/][link]]         |
-| * tmux                             | [[https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95][link]]         |
-| * ssh remote connect               | [[https://hei-jung.github.io/linux/linux-remote-access/][link]]         |
-| * sftp                             | [[https://jjeongil.tistory.com/1422][link1]]  [[https://dejavuqa.tistory.com/359][link2]] |
-| * curl                             | [[https://hbase.tistory.com/224][link]]         |
-| * wget                             | [[https://www.lesstif.com/lpt/linux-command-line-http-wget-95879932.html][link]]         |
-| * telnet IP PORT, /dev/tcp/IP/PORT | [[https://uutopia.tistory.com/41][link]]         |
-| * socket command                   | [[https://jaynamm.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%99%95%EC%9D%B8%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC][link]]         |
-| * booting stages                   | [[https://yonlog.tistory.com/m/59][link]]         |
-| * rc.local                         | [[https://hoing.io/archives/16180][link]] [[https://joonyon.tistory.com/entry/Linux-%EB%B6%80%ED%8C%85%EC%8B%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%8F%99-%EC%8B%A4%ED%96%89%EC%8B%9C%ED%82%A4%EA%B8%B0rclocal][link2]]   |
-| * cron, at                         | [[https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%EC%9E%91%EC%97%85-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-at-crontab][link]] [[https://nixos.wiki/wiki/Cron][link2]]   |
-| * command upon startup in nixos    | [[https://www.reddit.com/r/NixOS/comments/cg102t/how_to_run_a_shell_command_upon_startup/][link]]         |
-| * startup scripts (systemd)        | [[https://www.otacanonline.com/courses/nix-commands][link]]         |
-|                                    |              |
+| * GPT MBR                          | [[https://www.easeus.co.kr/partition-manager-software/mbr-vs-gpt.html][link]]             |
+| * GRUB2 for MBR & GPT in one usb   | [[https://devbin.kr/grub2-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A7%8C%EB%8A%A5-usb-%EB%A7%8C%EB%93%A4%EA%B8%B0-windows-installer-%EB%93%B1/][link]]             |
+| * bootloaders                      | [[http://no1linux.org/hottips/22876][link]]             |
+| * GPT2                             | [[https://lascrea.tistory.com/40][link]]             |
+| * systemd-boot                     | [[https://stackframe.tistory.com/32][link]]  [[https://forcecore.tistory.com/1322][link]]       |
+| * about systemd                    | [[https://www.kernelpanic.kr/17][link]]             |
+| * systemd systemctl                | [[https://hedone21.tistory.com/18][link]]             |
+| * bootable usb prepare             | [[http://knoppix.net/wiki/Bootable_USB_Key][link]]             |
+| * fdisk, disk manager              | [[https://thornelabs.net/posts/create-a-bootable-windows-7-or-10-usb-drive-in-linux/][link]]             |
+| * tmux                             | [[https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95][link]]             |
+| * ssh remote connect               | [[https://hei-jung.github.io/linux/linux-remote-access/][link]]             |
+| * sftp                             | [[https://jjeongil.tistory.com/1422][link1]]  [[https://dejavuqa.tistory.com/359][link2]]     |
+| * curl                             | [[https://hbase.tistory.com/224][link]]             |
+| * wget                             | [[https://www.lesstif.com/lpt/linux-command-line-http-wget-95879932.html][link]]             |
+| * telnet IP PORT, /dev/tcp/IP/PORT | [[https://uutopia.tistory.com/41][link]]             |
+| * socket command                   | [[https://jaynamm.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%99%95%EC%9D%B8%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC][link]]             |
+| * booting stages                   | [[https://yonlog.tistory.com/m/59][link]]             |
+| * rc.local                         | [[https://hoing.io/archives/16180][link]] [[https://joonyon.tistory.com/entry/Linux-%EB%B6%80%ED%8C%85%EC%8B%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%8F%99-%EC%8B%A4%ED%96%89%EC%8B%9C%ED%82%A4%EA%B8%B0rclocal][link2]]       |
+| * cron, at                         | [[https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%EC%9E%91%EC%97%85-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-at-crontab][link]] [[https://nixos.wiki/wiki/Cron][link2]]       |
+| * command upon startup in nixos    | [[https://www.reddit.com/r/NixOS/comments/cg102t/how_to_run_a_shell_command_upon_startup/][link]]             |
+| * startup scripts (systemd)        | [[https://www.otacanonline.com/courses/nix-commands][link]] [[https://opensource.com/article/20/5/manage-startup-systemd][link2]] [[https://conory.com/blog/42241][link3]] |
+|                                    | [[https://m.blog.naver.com/mymissu/220881455209][link4]]            |
+| * daemon                           | [[https://blogger.pe.kr/770][link]] [[https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%AA%AC_(%EC%BB%B4%ED%93%A8%ED%8C%85)][link2]]       |
 
 
 
