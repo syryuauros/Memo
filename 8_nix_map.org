@@ -38,6 +38,7 @@
 | * overlay       | [...doc]/using/overlays.chapter.md      | [[https://www.youtube.com/watch?v=W85mF1zWA2o][link]]        | [[https://github.com/NixOS/nixpkgs/blob/master/doc/using/overlays.chapter.md][github]] |
 | * overrides     | [...doc]/using/overrides.chapter.md     |             | [[https://github.com/NixOS/nixpkgs/blob/master/doc/using/overrides.chapter.md][github]] |
 | * modules       |                                         | [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link]]  [[https://discourse.nixos.org/t/best-resources-for-learning-about-the-nixos-module-system/1177][link2]] |        |
+| * search        |                                         | [[https://search.nixos.org/options?channel=22.05&show=programs.starship.settings&from=0&size=50&sort=relevance&type=packages&query=programs.starship][link]]        |        |
 
 
 * system command
@@ -48,3 +49,8 @@
 | * fonts.conf        | /etc/fonts/        |            |
 | * storage check     | $ df -h -T ~/gits/ | [[http://blog.imm.cnr.it/content/linux-check-disk-space-command-view-system-disk-usage-df-and-du][link]] [[https://big-sun.tistory.com/23][link2]] |
 |                     |                    |            |
+|                     |                    |            |
+
+* systemd in nixos
+| * create serviced in nixos |   | [[https://stackoverflow.com/questions/58243712/how-to-install-systemd-service-on-nixos][link]] [[https://gitlab.com/kevincox/nixos-auto-install][link2]] |
+|                            |   |            |

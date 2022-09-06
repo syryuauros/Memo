@@ -15,7 +15,7 @@
 
 * practice
 | * systemd create unitfile & service  |                                     | [[https://www.diskinternals.com/linux-reader/systemd-startup-script/][link]] |
-| * emacs as daemon(background server) | $ sudo emacs --daemon=foo           | [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html][link]] |
+| * emacs as daemon(background server) | $ ${pkgs.emacs} --bg-daemon         | [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html][link]] |
 | * confirm daemon                     | $ ps -el [pl] grep emacs            |      |
 | * kill daemon                        | $ kill -[option, 15=finish] [PID #] | [[https://121202.tistory.com/45][link]] |
 |                                      |                                     |      |
