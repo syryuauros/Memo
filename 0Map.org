@@ -2,3 +2,12 @@ t
 * [[./1Emacs.org][1.Emacs]]
 * [[./2surfingkeys.org][2.Surfingkeys setup]]
 * [[./samples.org][etc.samples]]
+
+* REFs
+  1. Emacs
+    1-1.  org mode
+     | *한글 문서 | [[https://jeongmin.github.io/2017/11/15/emacs/emacs-org-mode-intro/][link]] |
+     | * Intro    | [[https://orgmode.org/features.html][link]] |
+     |            |      |
+
+* TODO test org

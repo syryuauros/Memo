@@ -1,4 +1,5 @@
-
+#+TODO: TODO IN-PROGRESS WAITING DONE
+#+TAGS: { @system(s) @daemon(d) } emacs(e) background(b) READING(r)
 #+SETUPFILE: 1Emacs.cfg
 
 [pl] = pipeline = | (shift + \)
@@ -13,16 +14,19 @@
 |                                |                  |
 |                                |                  |
 
-* practice
+* practice :@system:
 | * systemd create unitfile & service  |                                     | [[https://www.diskinternals.com/linux-reader/systemd-startup-script/][link]]  [[https://ko.linux-console.net/?p=1621#gsc.tab=0][link]] |
 |                                      |                                     | [[https://sh-safer.tistory.com/56][link]]       |
 | * emacs as daemon(background server) | $ ${pkgs.emacs} --bg-daemon         | [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html][link]]       |
 | * confirm daemon                     | $ ps -el [pl] grep emacs            |            |
 | * kill daemon                        | $ kill -[option, 15=finish] [PID #] | [[https://121202.tistory.com/45][link]]       |
-|                                      |                                     |            |
-
+|                                      |                                     |
 
 
 
 
 [[][link]
+
+** TODO buying airplane
+** IN-PROGRESS buying car
+** DONE buying budget

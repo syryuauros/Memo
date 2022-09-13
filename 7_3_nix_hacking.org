@@ -1,0 +1,35 @@
+
+#+SETUPFILE: 1Emacs.cfg
+
+* on-line refs
+| * nixpkgs                              | [[https://github.com/NixOS/nixpkgs/find/master][link]] |
+| * nix search                           | [[https://search.nixos.org/options?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=nixos+system][link]] |
+| * nix learn(see the mid in search bar) | [[https://nixos.org/learn.html][link]] |
+| * nix basic manual                     | [[https://nixos.org/manual/nix/stable/][link]] |
+| * nixpkgs manual                       | [[https://nixos.org/manual/nixpkgs/stable/][link]] |
+| * nixos manual                         | [[https://nixos.org/manual/nixos/stable/][link]] |
+|                                        |      |
+| * tweag.io(nix flakes series)          | [[https://www.tweag.io/blog/2020-05-25-flakes/][link]] |
+| * nix repl(nixos wiki)                 | [[https://nixos.wiki/wiki/Nix_command/repl][link]] |
+| * nix in pills                         | [[https://nixos.org/guides/nix-pills/][link]] |
+| *                                      |      |
+
+* local-essence
+ | * 8_nix_map.org | [[./8_nix_map.org][link]] |
+ |                 |      |
+
+* tools (assume emacs environment)
+**  check the scope - using nix repl ($ nix repl)
+  | * load the pkgs & check    | nix-repl> :l <nixpkgs>                      |
+  |                            | nix-repl> lib. [TAB click]                  |
+  |                            | nix-repl> lib.systems. [TAB click]          |
+  | * load the flakes in scope | nix-repl> :lf #.                            |
+  |                            | nix-repl> packages. [TAB click]             |
+  |                            | nix-repl> packages.x86_64linux. [TAB click] |
+  |                            |                                             |
+
+**  using emacs (search)
+| * search for symbol in project | spc *    | search files in the project               |
+| * +lookup/file                 | g f      | open the file if the file is in the scope |
+| * search                       | / [word] | find the [word] in the file               |
+|                                |          |                                           |

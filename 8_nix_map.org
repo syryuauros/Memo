@@ -53,4 +53,5 @@
 
 * systemd in nixos
 | * create serviced in nixos |   | [[https://stackoverflow.com/questions/58243712/how-to-install-systemd-service-on-nixos][link]] [[https://gitlab.com/kevincox/nixos-auto-install][link2]] |
+|                            |   | [[https://github.com/serokell/systemd-nix][github]]     |
 |                            |   |            |
