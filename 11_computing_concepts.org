@@ -1,0 +1,13 @@
+* C-base
+| * how to compile c++ in nixos | [[https://blog.galowicz.de/2019/04/17/tutorial_nix_cpp_setup/][link]]                |
+| * examples & grammar          | [[https://boycoding.tistory.com/137][link1]]  [[https://ansohxxn.github.io/cpp/chapter7-2/][link2]]  [[https://topnanis.tistory.com/172][link3]] |
+
+| * memory management                        |              |
+| * memory structure: code,                  |              |
+| * call by: pointer(*), reference(&), value | [[https://gracefulprograming.tistory.com/11][link1]]  [[https://topnanis.tistory.com/172][link2]] |
+| * parameter, argument                      | [[https://boycoding.tistory.com/139?category=1006674][link]]         |
+| *                                          |              |
+
+* Java-base
+
+* functional

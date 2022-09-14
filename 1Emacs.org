@@ -14,6 +14,9 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 #+NAME: fig:1
 [[./img/1_emacs/1.png]]
 
+* markdown(md file)
+| [[https://hongsii.github.io/2017/06/01/How-to-Write-with-Markdown/][link]] |
+
 * Vi mode (default control)
 [[https://www.youtube.com/watch?v=cY0JxzENBJg][link-video]]
 
