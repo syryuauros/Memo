@@ -1,13 +1,48 @@
+* programming language generic
+| * generic concepts & classification | [[https://namu.wiki/w/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4][link]] |
+|                                     |      |
+
+* Computability theory(계산가능성 이론) - Turing machine, Lambda algebra, mathematical logic
+**  함수, 정의, 외연, 기수(외연의 크기), bijection, 콤팩트성, 논리구조, 가산집합, 뢰벤하임-스콜렘 정리, 1차 논리
+| * Computability theory                   | [[https://yoda.wiki/wiki/Computability_theory][link]] [[https://ko.wikipedia.org/wiki/%EA%B3%84%EC%82%B0_%EA%B0%80%EB%8A%A5%EC%84%B1_%EC%9D%B4%EB%A1%A0][link2]]       |
+| * Turing machine and Turing completeness | [[https://namu.wiki/w/%ED%8A%9C%EB%A7%81%20%EB%A8%B8%EC%8B%A0?from=%ED%8A%9C%EB%A7%81%20%EC%99%84%EC%A0%84#%ED%8A%9C%EB%A7%81%20%EC%99%84%EC%A0%84%ED%95%9C%20%EC%96%B8%EC%96%B4][link]]             |
+| * Turing machine and Turing completeness | [[https://namu.wiki/w/%ED%8A%9C%EB%A7%81%20%EB%A8%B8%EC%8B%A0?from=%ED%8A%9C%EB%A7%81%20%EC%99%84%EC%A0%84#%ED%8A%9C%EB%A7%81%20%EC%99%84%EC%A0%84%ED%95%9C%20%EC%96%B8%EC%96%B4][link]]             |
+| * mathemetical logic                     | [[https://namu.wiki/w/%EC%88%98%EB%A6%AC%EB%85%BC%EB%A6%AC%ED%95%99][link]] [[https://chocobear.tistory.com/category/%EC%88%98%ED%95%99/%EB%85%BC%EB%A6%AC%ED%95%99%20%7C%20Mathematical%20Logic][link2]] [[https://imnt.tistory.com/56][link3]] |
+| * topology & cardinals(aleph)            | [[https://ko.wikipedia.org/wiki/%EB%B6%84%ED%95%B4_%EA%B0%80%EB%8A%A5_%EA%B3%B5%EA%B0%84][link]] [[https://namu.wiki/w/%EC%B4%88%ED%95%9C%EA%B8%B0%EC%88%98][link2]]       |
+| * first-order logic                      | [[https://doorbw.tistory.com/76][link]]             |
+|                                          |                  |
+
 * C-base
 | * how to compile c++ in nixos | [[https://blog.galowicz.de/2019/04/17/tutorial_nix_cpp_setup/][link]]                |
 | * examples & grammar          | [[https://boycoding.tistory.com/137][link1]]  [[https://ansohxxn.github.io/cpp/chapter7-2/][link2]]  [[https://topnanis.tistory.com/172][link3]] |
 
-| * memory management                        |              |
-| * memory structure: code,                  |              |
-| * call by: pointer(*), reference(&), value | [[https://gracefulprograming.tistory.com/11][link1]]  [[https://topnanis.tistory.com/172][link2]] |
-| * parameter, argument                      | [[https://boycoding.tistory.com/139?category=1006674][link]]         |
-| *                                          |              |
+| * memory management                               |                    |
+| * memory structure: code,                         |                    |
+| * call by: address(*,=point), reference(&), value | [[https://gracefulprograming.tistory.com/11][link1]]  [[https://topnanis.tistory.com/172][link2]] [[https://namu.wiki/w/%EC%B0%B8%EC%A1%B0%EC%97%90%20%EC%9D%98%ED%95%9C%20%ED%98%B8%EC%B6%9C][link3]] |
+| * parameter, argument                             | [[https://boycoding.tistory.com/139?category=1006674][link]]               |
+| *                                                 |                    |
+
+우리가 일반적으로 변수를 선언(inr a;)한다는 것은 1. 해당주소할당(0X$#%^)과 2. 이름표(a)가 하나씩 만들어지는 것이라고 볼 수 있습니다.
+레퍼런스 변수는 해당 주소에 이름표를 두개( a랑 rep) 만들어 주었다고 할 수 있지요.
+-- call by, link2
+
+보이는 결과값만으로는 분명 Call by Reference와 동일하고, 동작도 비슷해보이겠지만 실제로는 다르다. 예를 들어, main 함수에 정의된 int a의 주소값이 0x1000이라고 치자면, Call by Reference 예시에서는 functionB의 int& b의 주소값도 0x1000이다. 하지만 Call by Address 예시에서 functionD의 int* v는 functionD 스택에서 정의된 새로운 포인터 변수이며, int* v의 주소값은 0x1000이 아닌, functionD에서 생성된 새로운 주소값(이를테면 0x1012 등)이고, 이 변수에 저장된 값이 0x1000인 것이다. 즉, functionD 함수에서 매개변수로 정의된 int* v에 main 함수의 a의 주소값을 복사함으로서 매개변수 v가 main 함수의 a에 접근할 수 있는 것.
+-- call by, link3
 
 * Java-base
+| * browser                     |      |
+| * JIT compile                 | [[https://ko.wikipedia.org/wiki/JIT_%EC%BB%B4%ED%8C%8C%EC%9D%BC][link]] |
+| * object-oriented(proto-type) | [[https://namu.wiki/w/JavaScript][link]] |
+| * closure                     |      |
+| * hoisting                    |      |
+|                               |      |
 
 * functional
+
+* hacking tool
+| * video |   | [[https://www.youtube.com/watch?v=dZLw-6BoASk][link]] |
+| *       |   | [[https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%95%B4%ED%82%B9/%EA%B8%B0%EB%B2%95][link]] |
+
+** 취약점 공격
+| * SQL injection | [[https://namu.wiki/w/SQL%20injection][link]] |
+|                 |      |

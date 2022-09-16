@@ -20,6 +20,7 @@
 | * root/channels/   | /nix/var/nix/profiles/per-user/root/channels/ |             |             |
 |                    |                                               |             |             |
 | * pkgs             | [...channels_root]/nixos/pkgs/                |             | [[https://github.com/nixos/nixpkgs/][github]]      |
+| * libraries        | [...channels_root]/nixos/lib/                 |             | [[https://github.com/NixOS/nixpkgs/tree/master/lib][github]]      |
 | * modules          | [...channels_root]/nixos/modules/             | [[https://nixos.wiki/wiki/NixOS:config_argument][link]] [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link2]]  | [[https://github.com/NixOS/nixpkgs/tree/master/nixos/modules][github]]      |
 | * kernel, initrd   | [...modules]/system/boot                      |             | [[https://github.com/NixOS/nixpkgs/tree/master/nixos/modules/system/boot][github]]      |
 | * modules.nix      | [...channels_root]/nixos/nixpkgs/lib/         | [[https://nixos.wiki/wiki/NixOS_modules][link]]        | [[https://github.com/NixOS/nixpkgs/tree/master/lib][github]]      |
