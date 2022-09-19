@@ -9,7 +9,7 @@
 + ex) mapAttrs: lib.attrsets.mapAttrs (lib/attrsets.nix 파일안에 정의됨)은 단순히 lib.mapAttrs로 사용 가능하다.
 |                                                    |      |
 
-| * nix search references, functions     | [[https://gsc.io/search-docs/chap-functions.html#sec-functions-library][link]] |
+| * nix using override & overlays        | [[https://nixos.wiki/wiki/Overlays][link]] |
 | * nix learn(see the mid in search bar) | [[https://nixos.org/learn.html][link]] |
 | * nix basic manual                     | [[https://nixos.org/manual/nix/stable/][link]] |
 | * nixpkgs manual                       | [[https://nixos.org/manual/nixpkgs/stable/][link]] |

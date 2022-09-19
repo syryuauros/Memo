@@ -1,5 +1,10 @@
 
 #+SETUPFILE: 1Emacs.cfg
+* searching (spc *)
+| * nix pkgs | packages              | /nix/var/nix/profiles/per-user/root/channels/nixos/pkgs/ |
+| * nixos    | built-in or libraries | /nix/var/nix/profiles/per-user/root/channels/nixos/      |
+|            |                       |                                                          |
+
 
 * nix file/dir position (as increased priority)
 
