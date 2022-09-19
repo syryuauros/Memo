@@ -39,3 +39,8 @@
 | * +lookup/file                 | g f      | open the file if the file is in the scope |
 | * search                       | / [word] | find the [word] in the file               |
 |                                |          |                                           |
+
+** linux commands
+| * basic commands |                               | [[https://hackingpassion.com/best-linux-commands-hacks-and-other-cool-tricks-for-beginners/][link]]                   |
+| * nc(netcat)     | arbitrary TCP, UDP connection | [[https://medium.com/@snk.nitin/linux-commands-and-cool-tricks-8fe6ac855b06][link]] [[https://linuxhint.com/nc-command-examples/][link2]] [[https://devanix.tistory.com/307][link3]] [[https://hand-over.tistory.com/14][link4]] |
+|                  |                               |                        |
