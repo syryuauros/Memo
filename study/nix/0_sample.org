@@ -19,7 +19,8 @@ see figure [[../../img/7/Input pattern.png]]
 
 #+caption: figures with captions
 #+NAME:   fig:subfig
-\begin{figure}
+\ [[../../img/7/Input pattern.png]]
+begin{figure}
     \centering
     \subfloat[label 1]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}
     \subfloat[label 2]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}
