@@ -8,15 +8,15 @@
 
   + Input Pattern (record all references explicitly)
 
-    [[home/img/7/Input pattern.png]]
+    [[../img/7/Input pattern.png]]
 
   + callPackage Pattern (using callPackage function for automatic call of references)
 
-    [[~/img/7/callPackage pattern.png]]
+    [[../img/7/callPackage pattern.png]]
 
   + override pattern (change the references of .drv file without re-instantiating)
 
-    [[./img/7/override pattern.png]]
+    [[.../img/7/override pattern.png]]
 
 
 **  fixed point
@@ -30,17 +30,17 @@
 
    + limit of recursive attribute method
 
-       [[./img/7/limit of recursive att.png]]
+       [[../img/7/limit of recursive att.png]]
 
    + fixed point method as a fake dynamic binding (apply all the changes to the referrers)
 
-               [[./img/7/fixedpoint_at_function.png]]
+               [[../img/7/fixedpoint_at_function.png]]
 
-               [[./img/7/fixedpoint_at_function2.png]]
+               [[../img/7/fixedpoint_at_function2.png]]
 
    + Change original argument of x2
 
-                 [[./img/7/fixedpoint_at_function3.png]]
+                 [[../img/7/fixedpoint_at_function3.png]]
 
      - -- lexical & dynamic scope references:
 
@@ -50,9 +50,9 @@
 
  + fixed point in overlay
 
-             [[./img/7/fixedpoint.png]]
+             [[../img/7/fixedpoint.png]]
 
 **  summary
  + summary
 
-   [[./img/7/summary.png]]
+   [[../img/7/summary.png]]
