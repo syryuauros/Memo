@@ -12,7 +12,7 @@ https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html
 https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 
 #+NAME: fig:1
-[[./img/1_emacs/1.png]]
+[[../img/1_emacs/1.png]]
 
 * markdown(md file)
 | [[https://hongsii.github.io/2017/06/01/How-to-Write-with-Markdown/][link]] |
@@ -81,7 +81,7 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 **  basic command
 | 'g' = git status | '/' or 'g C-c C-c'  dispatch mode |
 **  시작(remote-repository를 local에 복사, git clone)
-| dired mode에서 상위 폴더에 위치 (home/git_test/를 연동시키려면 home/에 위치) | 'C u url주소(C-v로 가능)' =  git clone <url> |
+|   | 'C u url주소(C-v로 가능)' =  git clone <url> |
 **  시작( local을 remote-repository에 복사, git init)
 | dired mode에서 원하는 폴더에 위치 (home/git_test/를 연동시키려면 home/git_test에 위치) | '/ I' = git init |
 | '/ M a' = git remote add <Remote name> <url>                                           |                  |
@@ -96,9 +96,9 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 |                             |       |
 
 #+NAME: fig:1
-[[./img/git_structure.png]]
+[[../img/git_structure.png]]
 #+NAME: fig:2
-[[./img/branch_structure.png]]
+[[../img/branch_structure.png]]
 
 https://velog.io/@csy9604/%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC
 https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0

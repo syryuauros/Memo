@@ -2,7 +2,7 @@
 #+CAPTION: 자주 사용하는 키
 #+NAME: fig:1
 | yt 현재 탭 복사 |
- [[./img/surfingkeys/image.png]]
+ [[../img/surfingkeys/image.png]]
 
 * brave command
  | C-Sh-t | menu-history-recently closed (most recently) |
