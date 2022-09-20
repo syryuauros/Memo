@@ -15,7 +15,7 @@ This is an how we can refer to an image, see figure [[fig:leopard-icon]].
 [[../../img/7/Input pattern.png]]
 
 There are other ways of showing sub-images and display sub-captions like using in latex,
-see figure [[../../img/7/Input pattern.png][figure2]]
+see figure [[../../img/7/Input pattern.png]]
 
 #+caption: figures with captions
 #+NAME:   fig:subfig
