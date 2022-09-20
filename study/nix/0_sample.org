@@ -19,13 +19,12 @@ see figure
 
 #+caption: figures with captions
 #+NAME:   fig:subfig
- [[../../img/7/Input pattern.png]]
 \begin{figure}
     \centering
     \subfloat[label 1]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}
     \subfloat[label 2]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}
 \end{figure}
-
+ [[../../img/7/Input pattern.png]]
 
 ** Table
 
