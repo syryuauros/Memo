@@ -15,12 +15,12 @@ This is an how we can refer to an image, see figure [[fig:leopard-icon]].
 [[../../img/7/Input pattern.png]]
 
 There are other ways of showing sub-images and display sub-captions like using in latex,
-see figure [[../../img/7/Input pattern.png]]
+see figure
 
 #+caption: figures with captions
 #+NAME:   fig:subfig
-\ [[../../img/7/Input pattern.png]]
-begin{figure}
+ [[../../img/7/Input pattern.png]]
+\begin{figure}
     \centering
     \subfloat[label 1]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}
     \subfloat[label 2]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}

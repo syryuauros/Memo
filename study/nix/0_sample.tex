@@ -1,4 +1,4 @@
-% Created 2022-09-21 Wed 08:48
+% Created 2022-09-21 Wed 08:51
 % Intended LaTeX compiler: pdflatex
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -46,13 +46,13 @@
 \begin{document}
 
 \section*{Section title}
-\label{sec:orgffaccf5}
+\label{sec:org3f53205}
 
 This is a placeholder for writing contents
 
 
 \subsection*{Image}
-\label{sec:orgd62ab6d}
+\label{sec:org3c3341b}
 
 This is an how we can refer to an image, see figure \ref{fig:leopard-icon}.
 
@@ -63,24 +63,22 @@ This is an how we can refer to an image, see figure \ref{fig:leopard-icon}.
 \end{figure}
 
 There are other ways of showing sub-images and display sub-captions like using in latex,
-see figure \begin{center}
-\includegraphics[width=.9\linewidth]{../../img/7/Input pattern.png}
-\end{center}
+see figure
 
-$\backslash$ \begin{figure}[htbp]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{../../img/7/Input pattern.png}
 \caption{\label{fig:subfig}figures with captions}
 \end{figure}
-begin\{figure\}
+\begin{figure}
     \centering
-    \subfloat[label 1]\{\{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} \}\}
-    \subfloat[label 2]\{\{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} \}\}
+    \subfloat[label 1]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}
+    \subfloat[label 2]{{\includegraphics[width=0.3\textwidth]{../../img/7/Input pattern.png} }}
 \end{figure}
 
 
 \subsection*{Table}
-\label{sec:orgf202093}
+\label{sec:orgcc495a5}
 
 \begin{center}
 \begin{tabular}{llr}
@@ -95,10 +93,10 @@ another name &  & 3\\
 
 
 \section*{Section title}
-\label{sec:orgb67a25b}
+\label{sec:org7f37e4a}
 
 \subsection*{Mathematics in latex}
-\label{sec:orgbe941d4}
+\label{sec:orgca3a1dd}
 
 Check equation \ref{eqn:mls}.
 
@@ -120,7 +118,7 @@ s.t. \;\;\; {\bf{Ax}} & \le {\bf{b}} \\
 \end{equation}
 
 \subsection*{Graph}
-\label{sec:org8f998dc}
+\label{sec:org06ca3e9}
 
 Check out the graph in figure \ref{fig:step-result}.
 
@@ -162,7 +160,7 @@ every edge quotes/.style = {auto, pos=0.5, % <-- =.3?
 
 
 \subsection*{Algorithm}
-\label{sec:org3785c88}
+\label{sec:org702bb88}
 
 \begin{algorithm}[H]
 \SetAlgoLined
@@ -183,7 +181,7 @@ every edge quotes/.style = {auto, pos=0.5, % <-- =.3?
 \end{algorithm}
 
 \subsection*{Flowchart}
-\label{sec:org476fec5}
+\label{sec:orgf3ff82f}
 
 \tikzstyle{decision} = [diamond, draw, fill=blue!20,
     text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
@@ -239,7 +237,7 @@ This flowchart in Fig. \ref{fig:flowchart} is modified from \href{https://texamp
 \end{figure}
 
 \subsection*{Citation}
-\label{sec:org780393c}
+\label{sec:orgeb079d8}
 
 This is how we can cite paper \cite{kao2017assembly}
 
