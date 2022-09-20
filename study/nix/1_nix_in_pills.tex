@@ -1,6 +1,6 @@
-% Created 2022-09-20 Tue 10:10
+% Created 2022-09-20 Tue 15:49
 % Intended LaTeX compiler: pdflatex
-\documentclass[11pt]{article}
+\documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -12,23 +12,42 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\author{JJ Kim}
-\date{\today}
+\usepackage[table]{xcolor}
+\usepackage[margin=0.9in,bmargin=1.0in,tmargin=1.0in]{geometry}
+\usepackage{algorithm2e}
+\usepackage{algorithm}
+\usepackage{amsmath}
+\usepackage{arydshln}
+\usepackage{subcaption}
+\newcommand{\point}[1]{\noindent \textbf{#1}}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{subfig}
+\usepackage[mla]{ellipsis}
+\parindent = 0em
+\setlength\parskip{.5\baselineskip}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,automata,quotes}
+\usepackage[latin1]{inputenc}
+\usepackage{adjustbox}
+\author{Ryu Shinyoung}
+\date{}
 \title{}
 \hypersetup{
- pdfauthor={JJ Kim},
+ pdfauthor={Ryu Shinyoung},
  pdftitle={},
- pdfkeywords={},
- pdfsubject={},
+ pdfkeywords={latex, org-mode, writing},
+ pdfsubject={my org-mode to latex templates},
  pdfcreator={Emacs 28.1 (Org mode 9.5.2)},
  pdflang={English}}
 \begin{document}
 
-\tableofcontents
 
-
-\section{nix- (nix original command)}
-\label{sec:orgf3e498c}
+\section*{nix- (nix original command)}
+\label{sec:org0908f8b}
 \begin{center}
 \begin{tabular}{ll}
 \$nix-env --list-generations & \$nix-env -G 42  or \$nix-env --switch-generation 42\\
@@ -38,8 +57,8 @@
 \$nix-collect-garbage -d & \\
 \end{tabular}
 \end{center}
-\section{nix (nix command improved)}
-\label{sec:org35042e2}
+\section*{nix (nix command improved)}
+\label{sec:org0327ce7}
 \begin{center}
 \begin{tabular}{ll}
 \$nix-env 대응 & nix profile\\
@@ -74,8 +93,8 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 \end{tabular}
 \end{center}
 
-\section{nixos}
-\label{sec:org44b2af4}
+\section*{nixos}
+\label{sec:orgcbe839e}
 \begin{center}
 \begin{tabular}{l}
 \$nixos-rebuild switch --rollback\\
@@ -83,8 +102,8 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 \end{tabular}
 \end{center}
 
-\section{flake}
-\label{sec:orgd0070b0}
+\section*{flake}
+\label{sec:orgf5e5df6}
 \begin{center}
 \begin{tabular}{ll}
 [flake.nix가 있는 폴더]\$nix build & nix build  github:syryuauros/myflakes/master\\
@@ -142,8 +161,8 @@ example & \url{https://github.com/nixos/nixpkgs/commit/ede02b4ccb13557b95058d661
 \end{tabular}
 \end{center}
 
-\subsection{flake override}
-\label{sec:orgec3a25d}
+\subsection*{flake override}
+\label{sec:org490a9e0}
 \begin{center}
 \begin{tabular}{l}
 ex) (openblas.override \{ singleThreaded = true;\})\\
@@ -155,18 +174,18 @@ ex) (openblas.override \{ singleThreaded = true;\})\\
 or let openblas-single-thread = openblas.override \{ singleThreaded = true; \};\\
 \end{tabular}
 \end{center}
-\section{nix-shell}
-\label{sec:orge9e1a68}
+\section*{nix-shell}
+\label{sec:orgf3c9559}
 \begin{center}
 \begin{tabular}{l}
 nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])'\\
 \end{tabular}
 \end{center}
 
-\section{nixpkgs}
-\label{sec:org2eb11ea}
-\subsection{confirm packages for nix-build, nix-instantiate, nix-channel}
-\label{sec:org2a0d9ca}
+\section*{nixpkgs}
+\label{sec:orgce0b0b2}
+\subsection*{confirm packages for nix-build, nix-instantiate, nix-channel}
+\label{sec:org4704e1b}
 \begin{center}
 \begin{tabular}{rl}
 1 & \$nixrepl [Ret] nix-repl>:l <nixpkgs> [Ret] nix-repl>keyword(ex:rust) + TAB\\
@@ -176,8 +195,8 @@ nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])'\\
 \end{tabular}
 \end{center}
 
-\subsection{confirm packages for nix-env}
-\label{sec:orgcad9e51}
+\subsection*{confirm packages for nix-env}
+\label{sec:org8102f1b}
 \begin{center}
 \begin{tabular}{rl}
 1 & \$nix-env -qa 'keyword.*' or \$nix-env -qaPs 'keyword'\\
@@ -185,8 +204,8 @@ nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])'\\
 \end{tabular}
 \end{center}
 
-\subsection{confirm packages for flakes}
-\label{sec:org9bf190a}
+\subsection*{confirm packages for flakes}
+\label{sec:org38bb56a}
 \begin{center}
 \begin{tabular}{rl}
 1 & flake.lock 파일 확인 >> ``nixpkgs'' 항목의 ``rev'' term 확인 >> github.com/[owner]/[repo]/tree/[rev]\\
@@ -194,10 +213,10 @@ nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])'\\
 \end{center}
 그림 참조
 
-\section{nix repl}
-\label{sec:orgbe94e55}
-\subsection{nix-repl> 명령어}
-\label{sec:orgb636d9f}
+\section*{nix repl}
+\label{sec:org5958795}
+\subsection*{nix-repl> 명령어}
+\label{sec:org2c3d9d5}
 \begin{center}
 \begin{tabular}{ll}
 :help & 도움말\\
@@ -207,8 +226,8 @@ nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])'\\
 \end{tabular}
 \end{center}
 
-\section{pictures}
-\label{sec:orgaa3d11f}
+\section*{pictures}
+\label{sec:orgdd59ef3}
 \begin{center}
 \includegraphics[width=.9\linewidth]{./img/3_nix/flake input url.png}
 \label{flake input url}
