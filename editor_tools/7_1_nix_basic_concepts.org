@@ -8,7 +8,7 @@
 
   + Input Pattern (record all references explicitly)
 
-    [[~/img/7/Input pattern.png]]
+    [[home/img/7/Input pattern.png]]
 
   + callPackage Pattern (using callPackage function for automatic call of references)
 
