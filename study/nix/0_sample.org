@@ -1,4 +1,4 @@
-#+SETUPFILE: 1Emacs.cfg
+#+SETUPFILE: 0_format.cfg
 # [[https://raw.githubusercontent.com/GeneKao/orgmode-latex-templates/master/simple/simple.org]]
 * Section title
 
@@ -12,7 +12,7 @@ This is an how we can refer to an image, see figure [[fig:leopard-icon]].
 #+caption: Leopard icon
 #+NAME:   fig:leopard-icon
 #+ATTR_LATEX: :width 0.4\textwidth :placement
-[[./images/Leopard-ICON-circle.png]]
+[[../../img/7/Input pattern.png]]
 
 There are other ways of showing sub-images and display sub-captions like using in latex,
 see figure [[fig:subfig]]
