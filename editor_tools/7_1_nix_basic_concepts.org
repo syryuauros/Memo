@@ -8,11 +8,11 @@
 
   + Input Pattern (record all references explicitly)
 
-    [[./img/7/Input pattern.png]]
+    [[~/img/7/Input pattern.png]]
 
   + callPackage Pattern (using callPackage function for automatic call of references)
 
-    [[./img/7/callPackage pattern.png]]
+    [[~/img/7/callPackage pattern.png]]
 
   + override pattern (change the references of .drv file without re-instantiating)
 
