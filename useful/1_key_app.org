@@ -1,0 +1,12 @@
+#+SETUPFILE: 0_format.cfg
+
+* useful keys in emacs (editing)
+| command name         | key binding                        | action                                     |
+| describe key         | spc h k [key binding want to find] | explaration                                |
+| evil-visual-restore  | g v                                | select the seleted phrases one step before |
+| +evil/reselect-paste | g p                                | reselect paste                             |
+|                      | v i i                              |                                            |
+
+* useful apps(small)
+  | * wormhole | $magic-wormhole | sending & getting files between anonymous computers |
+  |            |                 |                                                     |
