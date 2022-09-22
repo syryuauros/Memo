@@ -1,6 +1,6 @@
-% Created 2022-09-21 Wed 09:59
+% Created 2022-09-22 Thu 09:04
 % Intended LaTeX compiler: pdflatex
-\documentclass[a4paper,11pt]{article}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -12,6 +12,8 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage{kotex}
+\usepackage{lmodern}
 \usepackage[table]{xcolor}
 \usepackage[margin=0.9in,bmargin=1.0in,tmargin=1.0in]{geometry}
 \usepackage{algorithm2e}
@@ -33,6 +35,8 @@
 \usetikzlibrary{shapes,arrows,automata,quotes}
 \usepackage[latin1]{inputenc}
 \usepackage{adjustbox}
+\usepackage{wrapfig}
+\usepackage{color}
 \author{Ryu Shinyoung}
 \date{}
 \title{}
@@ -46,13 +50,16 @@
 \begin{document}
 
 \section*{Section title}
-\label{sec:org954ffee}
+\label{sec:orge30729b}
 
 This is a placeholder for writing contents
-
+\begin{itemize}
+\item REFs
+\href{https://rtsd.tistory.com/72}{2x2 subfig, color, 한글}     \href{https://github.com/GeneKao/orgmode-latex-templates/tree/master/simple}{original templates}   \href{https://m.blog.naver.com/jieunz818/221380266593}{여백설정, 페이지 넘김}
+\end{itemize}
 
 \subsection*{Image}
-\label{sec:orgca07f5e}
+\label{sec:org7ca4420}
 
 This is an how we can refer to an image, see figure \ref{fig:leopard-icon}.
 
@@ -76,8 +83,20 @@ see figure \ref{fig:subfig}
 \caption{\label{fig:subfig}figures with captions}
 \end{figure}
 
+\pageclear
+\newpage
+
+\begin{wrapfigure}{l}{0.3\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{../../img/7/fixedpoint.png}
+\end{wrapfigure}
+\textcolor{red}{this is how to insert figures between paragraphs.} asdkfjl akjwe jk ajsk jflkjflkj i akkjdxf l
+skdjflkj safij kasfl jlkjaij kljwekj jkzxnnlk; wmnzkjojsaijra . jsalkjfpjwet askljlks flk  a sdklj
+asdlkfj jtqwijsf kj kjasj \textcolor{orange}{한글도 사용해보자!! 색까지 넣어서!!} \\
+
+
 \subsection*{Table}
-\label{sec:orgdda5cf3}
+\label{sec:orged5cd9e}
 
 \begin{center}
 \begin{tabular}{llr}
@@ -89,13 +108,11 @@ another name &  & 3\\
 \end{tabular}
 \end{center}
 
-
-
 \section*{Section title}
-\label{sec:org41a5115}
+\label{sec:org28a54a4}
 
 \subsection*{Mathematics in latex}
-\label{sec:org92be185}
+\label{sec:org6afb395}
 
 Check equation \ref{eqn:mls}.
 
@@ -117,7 +134,7 @@ s.t. \;\;\; {\bf{Ax}} & \le {\bf{b}} \\
 \end{equation}
 
 \subsection*{Graph}
-\label{sec:org3248207}
+\label{sec:orgdfba1ec}
 
 Check out the graph in figure \ref{fig:step-result}.
 
@@ -159,7 +176,7 @@ every edge quotes/.style = {auto, pos=0.5, % <-- =.3?
 
 
 \subsection*{Algorithm}
-\label{sec:orgd1969af}
+\label{sec:org7d625c8}
 
 \begin{algorithm}[H]
 \SetAlgoLined
@@ -180,7 +197,7 @@ every edge quotes/.style = {auto, pos=0.5, % <-- =.3?
 \end{algorithm}
 
 \subsection*{Flowchart}
-\label{sec:orga724468}
+\label{sec:org7b15dbf}
 
 \tikzstyle{decision} = [diamond, draw, fill=blue!20,
     text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
@@ -236,7 +253,7 @@ This flowchart in Fig. \ref{fig:flowchart} is modified from \href{https://texamp
 \end{figure}
 
 \subsection*{Citation}
-\label{sec:org4e38e5b}
+\label{sec:orgbac4f63}
 
 This is how we can cite paper \cite{kao2017assembly}
 

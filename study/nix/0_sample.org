@@ -3,7 +3,8 @@
 * Section title
 
 This is a placeholder for writing contents
-
++ REFs
+   [[https://rtsd.tistory.com/72][2x2 subfig, color, 한글]]     [[https://github.com/GeneKao/orgmode-latex-templates/tree/master/simple][original templates]]   [[https://m.blog.naver.com/jieunz818/221380266593][여백설정, 페이지 넘김]]
 
 ** Image
 
@@ -29,6 +30,18 @@ see figure [[fig:subfig]]
   \end{tabular}
 \end{figure}
 
+\pageclear
+\newpage
+
+\begin{wrapfigure}{l}{0.3\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{../../img/7/fixedpoint.png}
+\end{wrapfigure}
+\textcolor{red}{this is how to insert figures between paragraphs.} asdkfjl akjwe jk ajsk jflkjflkj i akkjdxf l
+skdjflkj safij kasfl jlkjaij kljwekj jkzxnnlk; wmnzkjojsaijra . jsalkjfpjwet askljlks flk  a sdklj
+asdlkfj jtqwijsf kj kjasj \textcolor{orange}{한글도 사용해보자!! 색까지 넣어서!!} \\
+
+
 ** Table
 
 | Author             | Email                | Institution-ID |
@@ -37,7 +50,7 @@ see figure [[fig:subfig]]
 | Your name          |                      |              2 |
 | another name       |                      |              3 |
 
-
+\\
 
 * Section title
 
