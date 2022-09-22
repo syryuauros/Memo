@@ -10,3 +10,10 @@
 * useful apps(small)
   | * wormhole | $magic-wormhole | sending & getting files between anonymous computers |
   |            |                 |                                                     |
+
+*  useful keys in emacs(windows, buffers)
+| * repeat command   | C-u 5 spc w >                  | spc w > (increase window width) 5times  |      |
+|                    | C-u 10 spc w <                 | spc w < (decrease window width) 10times | [[https://emacs.stackexchange.com/questions/582/how-to-change-size-of-split-screen-emacs-windows][link]] |
+|                    |                                |                                         |      |
+| * new project      | spc tab n                      |                                         |      |
+| * project checkout | spc tab tab M-[project number] |                                         |      |
