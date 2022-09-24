@@ -40,7 +40,10 @@
 | /dev/zero, /dev/null    | [[https://faq.hostway.co.kr/Linux_ETC/3572][link]] |
 |                         |      |
 
-
+-
+*  bash script
+ | *set | [[https://frankler.tistory.com/59][link]] |
+ |      |      |
 
 
 
