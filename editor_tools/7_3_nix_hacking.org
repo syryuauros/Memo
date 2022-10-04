@@ -36,6 +36,8 @@
   |                            | nix-repl> packages. [TAB click]                  |
   |                            | nix-repl> packages.x86_64linux. [TAB click]      |
   |                            |                                                  |
+  | * nix store search         | $ ls -lah [pl] grep [keyword]                    |
+  |                            |                                                  |
 
 **  using emacs (search)
 | * search for symbol in project | spc *    | search files in the project               |

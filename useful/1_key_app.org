@@ -9,7 +9,7 @@
 
 * useful apps(small)
   | * wormhole | $magic-wormhole | sending & getting files between anonymous computers |
-  |            |                 |                                                     |
+  | * ffmpeg   | video editing   | [[https://walkaroundthedevelop.tistory.com/16][link]]                                                |
 
 *  useful keys in emacs(windows, buffers)
 | * repeat command   | C-u 5 spc w >                  | spc w > (increase window width) 5times  |      |

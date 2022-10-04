@@ -1,4 +1,6 @@
 #+SETUPFILE: 1Emacs.cfg
+* trouble shoot
++ error: getting status of [file name], dired mode에서 파일명 옆에 '?'가 떠있다.  --- git이 untrack중인 파일이라서 생기는 문제, stage해주면 해결됨
 
 * nix- (nix original command)
 | $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |

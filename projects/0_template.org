@@ -1,0 +1,187 @@
+#+SETUPFILE: 0_format.cfg
+# [[https://raw.githubusercontent.com/GeneKao/orgmode-latex-templates/master/simple/simple.org]]
+* Section title
+
+This is a placeholder for writing contents
+
+
+** Image
+
+This is an how we can refer to an image, see figure [[fig:leopard-icon]].
+
+#+caption: Leopard icon
+#+NAME:   fig:leopard-icon
+#+ATTR_LATEX: :width 0.4\textwidth :placement
+[[../../img/7/Input pattern.png]]
+
+There are other ways of showing sub-images and display sub-captions like using in latex,
+see figure [[fig:subfig]]
+
+#+caption: figures with captions
+#+NAME:   fig:subfig
+\begin{figure}[htb]
+   \centering\
+   \begin{tabular}{cc}
+    \subfloat[label 1]{{\includegraphics[width=0.3\textwidth]{../../img/7/fixedpoint.png} }}&
+    \subfloat[label 2]{{\includegraphics[width=0.3\textwidth]{../../img/7/fixedpoint.png} }}\\
+    \subfloat[label 3]{{\includegraphics[width=0.3\textwidth]{../../img/7/fixedpoint.png} }}&
+    \subfloat[label 4]{{\includegraphics[width=0.3\textwidth]{../../img/7/fixedpoint.png} }}\\
+  \end{tabular}
+\end{figure}
+
+** Table
+
+| Author             | Email                | Institution-ID |
+|--------------------+----------------------+----------------|
+| Gene Ting-Chun Kao | your.email@email.edu |              1 |
+| Your name          |                      |              2 |
+| another name       |                      |              3 |
+
+
+
+* Section title
+
+** Mathematics in latex
+
+Check equation [[eqn:mls]].
+
+#+NAME: eqn:mls
+\begin{equation}
+f(x) = {s_0} = \frac{{\sum\limits_i {n_i^T(x - {x_i}){\Phi _i}(x)} }}{{\sum\limits_i {{\Phi _i}(x)} }}
+\end{equation}
+
+To have a set of equations and to align them:
+
+\begin{equation}
+\begin{array}{l}
+\begin{split}
+\max \;\;\; {{\bf{c}}^T}{\bf{x}} & \\
+s.t. \;\;\; {\bf{Ax}} & \le {\bf{b}} \\
+{\bf{x}} & \ge {\bf{0}}
+\end{split}
+\end{array}
+\end{equation}
+
+** Graph
+
+Check out the graph in figure [[fig:step-result]].
+
+#+NAME:   fig:step-result
+#+ATTR_LATEX: :width 1\textwidth :placement
+\begin{figure}[H]
+\caption{Max flow min cut, max flow = 19}
+\vspace*{5mm}
+\centering
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.8cm,
+                    semithick,
+xs/.style = {xshift=#1 mm},
+ys/.style = {yshift=#1 mm},
+every edge quotes/.style = {auto, pos=0.5, % <-- =.3?
+                            inner sep=2pt, font=\footnotesize}
+                        ]
+  \tikzstyle{every state}=[fill=black,draw=none,text=white]
+
+  \node[state]         (A)                    {$Source$};
+  \node[state]         (B) [above right of=A] {$n_0$};
+  \node[state]         (C) [right of=A]       {$n_1$};
+  \node[state]         (D) [below right of=A] {$n_2$};
+  \node[state]         (E) [right of=C]       {$Sink$};
+
+  \path (A) edge                            node {9} (B)
+            edge [color=blue]               node {7} (C)
+            edge [color=blue]               node {5} (D)
+        (B) edge [color=blue]               node {4} (E)
+            edge [color=blue, bend left=10] node {3} (C)
+        (C) edge [bend left=10]             node {5} (D)
+            edge [bend left=10]             node {2} (B)
+            edge                            node {7} (E)
+        (D) edge [bend left=10]             node {1} (C)
+            edge                            node {8} (E);
+\draw[rounded corners=10mm, red, densely dashed]
+    ( [xs=-10] D.west)  -- ( [xs=-10] C.west) -- ( [ys=10] C.north) -- ([ys=20] E.north);
+
+\end{tikzpicture}
+\end{figure}
+
+
+** Algorithm
+
+#+NAME: algorithm:bnb
+\begin{algorithm}[H]
+\SetAlgoLined
+ \KwData{Initial bounding-box $Q_0$ for $\Theta$, $QBest = Q_0$, $delta = 3$, stack $\Omega  = \{ {Q_0}\}$ }
+ \KwResult{Optimal Q^* = QBest \in \Omega }
+ \While{U_k - L_k > 1}{
+           Pop $Q_k \in \Omega$  \\
+           Prune $\Omega$ if current node is impossible solution node \\
+           Compare $L_k$ from $Q_k$ and $QBest$ \\
+           \If{$Q_{k}.L_k > QBest.L_k$}{
+                     $QBest = Q_k$
+           }
+           Split $Q$ into $Q_I$ and $Q_{II}$ \\
+           Find best condidate from $Q_I$ and $Q_{II}$ and add them to stack $\Omega$
+ }
+ \caption{How to write algorithms}
+\end{algorithm}
+
+** Flowchart
+
+\tikzstyle{decision} = [diamond, draw, fill=blue!20,
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw,
+    text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse, node distance=3cm, fill=red!20,
+    minimum height=2em]
+\tikzstyle{term} = [draw,
+    rounded rectangle,
+    minimum width=2.5cm,minimum height=1cm]
+\tikzstyle{io} = [draw,
+    trapezium,
+    trapezium left angle = 65,
+    trapezium right angle = 115,
+    trapezium stretches,
+    text width=5em, text centered]
+
+This flowchart in Fig. [[fig:flowchart]] is modified from [[https://texample.net/tikz/examples/simple-flow-chart/][this latex code]].
+
+#+NAME: fig:flowchart
+\begin{figure}[htbp]
+\begin{adjustbox}{max width=\columnwidth,center}
+
+\begin{tikzpicture}[node distance = 2cm, auto]
+
+\node [term] (start) {start};
+\node [io, below of=start] (input) {input i/o};
+\node [block, below of=input] (init) {initialize model};
+\node [cloud, left of=init] (expert) {expert};
+\node [cloud, right of=init] (system) {system};
+\node [block, below of=init] (identify) {identify candidate models};
+\node [block, below of=identify] (evaluate) {evaluate candidate models};
+\node [block, left of=evaluate, node distance=3cm] (update) {update model};
+\node [decision, below of=evaluate] (decide) {is best candidate better?};
+\node [term, below of=decide, node distance=3cm] (stop) {stop};
+
+\path [line] (start) -- (input);
+\path [line] (input) -- (init);
+\path [line] (init) -- (identify);
+\path [line] (identify) -- (evaluate);
+\path [line] (evaluate) -- (decide);
+\path [line] (decide) -| node [near start] {yes} (update);
+\path [line] (update) |- (identify);
+\path [line] (decide) -- node {no}(stop);
+\path [line,dashed] (expert) -- (init);
+\path [line,dashed] (system) -- (init);
+\path [line,dashed] (system) |- (evaluate);
+
+\end{tikzpicture}
+\end{adjustbox}
+\caption{This is my flow chart}
+\end{figure}
+
+** Citation
+
+This is how we can cite paper \cite{kao2017assembly}
+
+#+LATEX: \bibliographystyle{plain}
+#+LATEX: \bibliography{org-bib-refs}

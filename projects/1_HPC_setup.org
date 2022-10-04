@@ -1,0 +1,12 @@
+#+SETUPFILE: 0_format.cfg
+# [[https://raw.githubusercontent.com/GeneKao/orgmode-latex-templates/master/simple/simple.org]]
+* auto-install & wake-up service
+| * wakeonlan |
+| * pixiecore |
+| * kexec     |
+| * nix copy  |
+|             |
+
+* parallel computing (clustering)
+| * torque | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.sas.rochester.edu/psc/thestarlab/help/TorqueTutorial.pdf][link]] |
+| * slurm  | [[https://m31phy.tistory.com/32][link]] |
