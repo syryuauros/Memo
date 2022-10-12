@@ -1,0 +1,5 @@
+# $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
+* REFs
+| * introduction | [[https://lucidmanager.org/productivity/taking-notes-with-emacs-org-mode-and-org-roam/][link]] |
+| * org roam     | [[https://www.dangirsh.org/posts/living_in_org_roam.html][link]] |
+|                |      |

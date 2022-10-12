@@ -1,0 +1,3 @@
+# $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
+* VM & Parallel computing
+| * kubernetis | [[https://www.samsungsds.com/kr/insights/220222_kubernetes1.html][link]] |
