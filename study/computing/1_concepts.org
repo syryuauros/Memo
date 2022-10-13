@@ -1,3 +1,31 @@
 # $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
 * VM & Parallel computing
 | * kubernetis | [[https://www.samsungsds.com/kr/insights/220222_kubernetes1.html][link]] |
+
+* computing algorithm
+| * Turing vs Lambda             | [[https://mindule.tistory.com/16][link]]                     |
+| * computability theory         | [[https://yoda.wiki/wiki/Computability_theory][link]]                     |
+| * Theory of computation        | [[http://www.aistudy.co.kr/computer/computation.htm][link]]  [[https://www.geeksforgeeks.org/introduction-of-theory-of-computation/][link2]] [[https://m.blog.naver.com/bestowing/221636494349][link2_korean]] |
+| * Entscheidungsproblem         | [[http://www.aistudy.co.kr/computer/Entscheidungsproblem.htm][link]]                     |
+| * First-order predicate logic  | [[http://www.aistudy.co.kr/logic/first_order_logic.htm][link]]                     |
+| * Automata (chomsky hierarchy) | [[https://brunch.co.kr/@toughrogrammer/11][link]] [[https://m.blog.naver.com/bestowing/221745385943][link_korean]]         |
+|                                |                          |
+
+* concepts related
+ | predicate logic | --- set (category)theory | --- topology | --- algebra  |
+ |                 |                          |              | --- geometry |
+ |                 |                          |              |              |
+
+* chomsky hierarchy ([[https://m.blog.naver.com/bestowing/221774727354][link]])
+|            |                             |                                       |   |   |
+|            |                             |                                       |   |   |
+|------------+-----------------------------+---------------------------------------+---+---|
+| Language   | RL(Regular Language)        | CFL(Context Free Language)            |   |   |
+|            |                             | G = (V,T,P,S)                         |   |   |
+|            |                             |                                       |   |   |
+| Expression | RE(Regular Expression)      | CFG(Context Free Grammar)             |   |   |
+|            |                             |                                       |   |   |
+|            |                             |                                       |   |   |
+| Automata   | FA(Finite Automata)         | PA(Pushdown Automata = FA + stack)    |   |   |
+|            | DFA = NFA = e-NFA           |                                       |   |   |
+|            | FA M = (Q,sigma,q0,F,delta) | PDA M = (Q,sigma,q0,F,delta,gamma,Z0) |   |   |
