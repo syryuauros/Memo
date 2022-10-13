@@ -1,0 +1,4 @@
+# $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
+* Haskell
+| basic concepts & practice | [[https://wikidocs.net/1453][link]] |
+|                           |      |

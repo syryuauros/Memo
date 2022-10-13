@@ -14,6 +14,7 @@
 |                          |      |      |
 
 * HPC HW info
-| cpu         | [[https://en.wikichip.org/wiki/amd/epyc/7313][link]]  [[https://www.amd.com/ko/products/cpu/amd-epyc-7713][link2]]        |
-| InifiniBand | [[https://netmaid.tistory.com/24][link]]  [[https://sunhanintech.gitbooks.io/infiniband_programming_by_nminoru/content/chapter1.html][link2]]  [[https://jkpark.me/linux/infiniband/2019/06/04/InfiniBand-OFA-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95.html][link3]] |
-|             |                    |
+| cpu              | [[https://en.wikichip.org/wiki/amd/epyc/7313][link]]  [[https://www.amd.com/ko/products/cpu/amd-epyc-7713][link2]]        |
+| InifiniBand      | [[https://netmaid.tistory.com/24][link]]  [[https://sunhanintech.gitbooks.io/infiniband_programming_by_nminoru/content/chapter1.html][link2]]  [[https://jkpark.me/linux/infiniband/2019/06/04/InfiniBand-OFA-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95.html][link3]] |
+| InfiniBand intro | [[https://m.blog.naver.com/skauter/10169437853][link]]               |
+|                  |                    |
