@@ -17,3 +17,7 @@
 |                    |                                |                                         |      |
 | * new project      | spc tab n                      |                                         |      |
 | * project checkout | spc tab tab M-[project number] |                                         |      |
+
+* useful Plug-ins in web-browser
+| * IE TAB | [[https://m.blog.naver.com/comgghh/140176061963][link]] |
+|          |      |
