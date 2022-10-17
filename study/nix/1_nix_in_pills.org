@@ -84,7 +84,7 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 #+name: flake input url
 [[./img/3_nix/flake input url.png]]
 
-[[../../../img/3_nix/real repo flake indicate.png]]
+[[~/img/3_nix/real repo flake indicate.png]]
 [[./img/3_nix/real repo flake indicate_2.png]]
 [[./img/3_nix/real repo flake indicate_3.png]]
 
