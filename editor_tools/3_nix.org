@@ -31,7 +31,7 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 | $nixos-rebuild switch --rollback                                              |
 | [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake .#syryuhds --impure |
 
-* flake
+* flake  [[https://yuanwang.ca/posts/getting-started-with-flakes.html][link]]
 | [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |
 | [flake.nix가 있는 폴더]$nix run   | nix run  github:syryuauros/myflakes/master   |
 | $ nix run nixpkgs#gnuplot|

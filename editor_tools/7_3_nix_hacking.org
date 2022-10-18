@@ -14,6 +14,7 @@
 | * nix basic manual                     | [[https://nixos.org/manual/nix/stable/][link]] |
 | * nixpkgs manual                       | [[https://nixos.org/manual/nixpkgs/stable/][link]] |
 | * nixos manual                         | [[https://nixos.org/manual/nixos/stable/][link]] |
+| * nix flakes manual                    | [[https://yuanwang.ca/posts/getting-started-with-flakes.html][link]] |
 |                                        |      |
 | * tweag.io(nix flakes series)          | [[https://www.tweag.io/blog/2020-05-25-flakes/][link]] |
 | * nix repl(nixos wiki)                 | [[https://nixos.wiki/wiki/Nix_command/repl][link]] |
