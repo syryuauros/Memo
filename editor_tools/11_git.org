@@ -14,9 +14,22 @@
 | 'g C-c C-c c c <메세지> C-c C-c' |
 **  push(git push)
 | 'g C-c C-c P u' or 'spc g / P u' |
+**  stash(git stash) - 특정 commit  임시 휴지통 및 무시기능
+| 'g C-c C-c z z' or 'spc g / z z' |
+**  pop(git push) - 임시 휴지통에 있는  commit 다시 stage
+| 'g C-c C-c z p' or 'spc g / z p' |
+**  log(git log) - 전체 log 보기, remote에서는 'menu>>insight>>network'
+| 'g C-c C-c l a' or 'spc g / l a' |
+
+
+
 ** git ignore
 | make .gitignore >> git push | [[https://programming119.tistory.com/105][link1]] |
 |                             |       |
+
+* magit tip
+ + remote에서 무언가 편집하고 local에서도 편집해서 꼬였을 때
+        'stash' 로 local에 있는 내용을 임시 저장/무시하고 'Full'로 remote내용을 병합한 뒤  'pop'으로 다시 stash한 내용을 다시 'stage'한 이후 'Push'
 
 #+NAME: fig:1
 [[../img/git_structure.png]]
