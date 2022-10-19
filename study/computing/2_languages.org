@@ -1,0 +1,11 @@
+# $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
+* Haskell
+| basic concepts & practice | [[https://wikidocs.net/1453][link]] |
+| cabal                     | [[https://cabal.readthedocs.io/en/stable/][link]] |
+|                           |      |
+
+* C, C++
+| Tutorial     | [[https://smoothiecoding.kr/c-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/][link]] [[https://cppmagister.tistory.com/m/14][link]] |
+| intros       | [[https://cpro95.tistory.com/m/221][link]]      |
+| C++ in linux | [[https://modoocode.com/311][link]]      |
+|              |           |
