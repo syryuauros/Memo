@@ -1,0 +1,9 @@
+#+SETUPFILE: 0_format.cfg
+* Setting up
+| * init.el   | spc f e 'init.el' | [[https://github.com/syryuauros/doom-private/blob/master/init.el][git]] |
+| * config.el |                   | [[https://github.com/syryuauros/doom-private/blob/master/config.el][git]] |
+|             |                   |     |
+
+* org-roam
+ | * Intro & tutorial | [[https://jahyun-dev.github.io/blogs/spacemacs_org_roam_blog/][k_link]] |
+ |                    |        |

@@ -99,6 +99,9 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 | make .gitignore >> git push | [[https://programming119.tistory.com/105][link1]] |
 |                             |       |
 
+* etc
+***  Emacs browser (wowser)  [[https://www.youtube.com/watch?v=GtFz19gj-m4][link]]
+
 #+NAME: fig:1
 [[../img/git_structure.png]]
 #+NAME: fig:2

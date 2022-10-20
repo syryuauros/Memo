@@ -1,0 +1,15 @@
+#+SETUPFILE: 0_format.cfg
+* Remote_PC
+| * anydesk           |   |   |
+| * chrome-desktop    |   |   |
+| * vnc (tiger, real) |   |   |
+|                     |   |   |
+| * steam link        |   |   |
+| * moonlight         |   |   |
+|                     |   |   |
+
+* remote-programming
+ | * code-server       | [[https://eungbean.github.io/2019/11/04/remote-vscode/][link]] [[https://github.com/coder/code-server][git]]  |
+ | * vscode.dev        | [[https://code.visualstudio.com/blogs/2021/10/20/vscode-dev][link]] [[https://vscode.dev/][link]] |
+ | * github-codespaces | [[https://github.com/features/codespaces][link]]      |
+ |                     |           |
