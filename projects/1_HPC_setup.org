@@ -14,10 +14,10 @@
 |                          |      |      |
 
 * Virtual Machine
-| * systemd-nspawn | [[https://blog.stackframe.dev/6][link]] |
-| * machinectl     | [[https://www.systutorials.com/docs/linux/man/1-machinectl/][link]] |
-| * nix portable   |      |
-| * qemu           |      |
+| * systemd-nspawn | [[https://blog.stackframe.dev/6][link]] [[https://wiki.archlinux.org/title/systemd-nspawn][docs]] |
+| * machinectl     | [[https://www.systutorials.com/docs/linux/man/1-machinectl/][link]] [[https://medium.com/@huljar/setting-up-containers-with-systemd-nspawn-b719cff0fb8d][link]] |
+| * nix portable   |           |
+| * qemu           |           |
 
 * HPC HW info
 | cpu                     | [[https://en.wikichip.org/wiki/amd/epyc/7313][link]]  [[https://www.amd.com/ko/products/cpu/amd-epyc-7713][link2]]        |

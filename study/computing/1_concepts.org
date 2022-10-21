@@ -1,13 +1,14 @@
 # $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
 * VM, container, web-server
 ** VM & Parallel computing
-| * kubernetis                                 | [[https://www.samsungsds.com/kr/insights/220222_kubernetes1.html][link]] [[https://daaa0555.tistory.com/467?category=994798][klink]] |
-| * VM vs container                            | [[https://daaa0555.tistory.com/464][link]]       |
-| * chroot                                     |            |
-| * namespace                                  | [[https://bakery-it.tistory.com/29][klink]]      |
-| * cgroup                                     | [[https://imjeongwoo.tistory.com/106][klink]]      |
-| * lxc, libvirt, libcontainer, systemd-nspawn | [[https://tech.ssut.me/what-even-is-a-container/][klink]]      |
-|                                              |            |
+| * kubernetis                                 | [[https://www.samsungsds.com/kr/insights/220222_kubernetes1.html][link]] [[https://daaa0555.tistory.com/467?category=994798][klink]]        |
+| * VM vs container                            | [[https://daaa0555.tistory.com/464][link]]              |
+| * chroot                                     |                   |
+| * namespace                                  | [[https://bakery-it.tistory.com/29][klink]] [[https://losskatsu.github.io/os-kernel/linux-namespace/#1-2-%ED%95%98%EC%9D%B4%ED%8D%BC%EB%B0%94%EC%9D%B4%EC%A0%80%EC%99%80%EC%9D%98-%EC%B0%A8%EC%9D%B4][klink]] [[https://togomi.tistory.com/10][klink]] |
+| * cgroup                                     | [[https://imjeongwoo.tistory.com/106][klink]]             |
+| * lxc, libvirt, libcontainer, systemd-nspawn | [[https://tech.ssut.me/what-even-is-a-container/][klink]]             |
+| * docker in windows                          | [[https://renuevo.github.io/docker/docker-structure-windows10/][klink]]             |
+|                                              |                   |
 
 **  cloud vs edge computing
 | * edge computing | [[https://trylhc.tistory.com/entry/Edge-Computing-%EA%B3%BC-Kube-Edge?category=366214][link]] [[https://trylhc.tistory.com/entry/%EC%98%88%EB%B9%84-kubeedge-concept?category=366214][link]] |

@@ -27,14 +27,14 @@
 
 
 * VM or web-server
-**  Remote-PC
-| * anydesk        |           |
-| * chrome-desktop |           |
-| * steam link     |           |
-| * moonlight      |           |
-| * real vnc       |           |
-| * reemo          | [[https://reemo.io/][link]] [[https://doc.reemo.io/remotedesktop.html][docs]] |
-|                  |           |
+**  Remote-PC [[../study/tools/2_remote_computing.org][ilink]]
+| * anydesk            |           |
+| * chrome-desktop     |           |
+| * steam link         |           |
+| * moonlight          |           |
+| * real vnc           |           |
+| * reemo (gmail, r..) | [[https://reemo.io/][link]] [[https://doc.reemo.io/remotedesktop.html][docs]] |
+|                      |           |
 
 **  remote workspace
 | * kasm                   | [[https://www.youtube.com/watch?v=go7n0FmNqh4][ylink]] [[https://svrforum.com/svr/249747][klink]]  [[https://www.kasmweb.com/docs/latest/index.html][docs]] |
