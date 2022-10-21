@@ -8,8 +8,11 @@
 |                      | v i i                              |                                            |
 
 * useful apps(small)
-  | * wormhole | $magic-wormhole | sending & getting files between anonymous computers |
-  | * ffmpeg   | video editing   | [[https://walkaroundthedevelop.tistory.com/16][link]]                                                |
+  | * wormhole     | $magic-wormhole | sending & getting files between anonymous computers |
+  | * ffmpeg       | video editing   | [[https://walkaroundthedevelop.tistory.com/16][link]]                                                |
+  | * tmux         |                 | [[https://gist.github.com/MohamedAlaa/2961058][link]] [[https://tmuxcheatsheet.com/][link]]                                           |
+  | * vanila emacs |                 | [[https://mwultong.blogspot.com/2006/06/emacs-exit-qna.html][link]]                                                |
+  |                |                 |                                                     |
 
 *  useful keys in emacs(windows, buffers)
 | * repeat command   | C-u 5 spc w >                  | spc w > (increase window width) 5times  |      |
@@ -21,3 +24,22 @@
 * useful Plug-ins in web-browser
 | * IE TAB | [[https://m.blog.naver.com/comgghh/140176061963][link]] |
 |          |      |
+
+
+* VM or web-server
+**  Remote-PC
+| * anydesk        |           |
+| * chrome-desktop |           |
+| * steam link     |           |
+| * moonlight      |           |
+| * real vnc       |           |
+| * reemo          | [[https://reemo.io/][link]] [[https://doc.reemo.io/remotedesktop.html][docs]] |
+|                  |           |
+
+**  remote workspace
+| * kasm                   | [[https://www.youtube.com/watch?v=go7n0FmNqh4][ylink]] [[https://svrforum.com/svr/249747][klink]]  [[https://www.kasmweb.com/docs/latest/index.html][docs]] |
+| * AWS(Amazone WorkSpace) | [[https://blog.nuricloud.com/aws-amazon-workspaces-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95-2/][klink]]             |
+| * Hadoop                 | [[https://namu.wiki/w/Hadoop][link]]              |
+| * openstack              |                   |
+| * reemo                  | [[https://reemo.io/][link]] [[https://doc.reemo.io/remotedesktop.html][link]]         |
+|                          |                   |

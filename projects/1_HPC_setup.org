@@ -14,9 +14,10 @@
 |                          |      |      |
 
 * Virtual Machine
-| *systemctl-nspawn | asd |
-| * nix portable    |     |
-| * qemu            |     |
+| * systemd-nspawn | [[https://blog.stackframe.dev/6][link]] |
+| * machinectl     | [[https://www.systutorials.com/docs/linux/man/1-machinectl/][link]] |
+| * nix portable   |      |
+| * qemu           |      |
 
 * HPC HW info
 | cpu                     | [[https://en.wikichip.org/wiki/amd/epyc/7313][link]]  [[https://www.amd.com/ko/products/cpu/amd-epyc-7713][link2]]        |
@@ -28,6 +29,14 @@
 | ifconfig setup          | [[https://m.blog.naver.com/hymne/220945547214][link]] [[https://arer.tistory.com/m/96][link]] [[https://www.whatap.io/ko/blog/11/][link]]     |
 | bond, ens, lo (NIC add) | [[https://nyyang.tistory.com/1][link]]  /proc/net    |
 |                         |                    |
+
+** systemd-nspawn
+| *intro & tutorials | [[https://blog.stackframe.dev/6][link]] [[https://wiki.debian.org/Debootstrap][link]] |
+| *symbolic link     | [[https://fruitdev.tistory.com/85][link]] [[https://dupont3031.tistory.com/entry/%EA%B8%B0%ED%98%B8-%EC%97%B0%EA%B2%B0%EC%9D%98-%EB%8B%A8%EA%B3%84%EA%B0%80-%EB%84%88%EB%AC%B4-%EB%A7%8E%EC%9D%8C-too-many-levels-of-symbolic-links][link]] |
+| * nixos-container  | [[https://timklampe.cool/docs/example/systemd/systemd_nspawn/][link]] [[https://nixos.wiki/wiki/NixOS_Containers][link]] |
+| * NixOPS           | [[https://www.johbo.com/2017/nixops-container.html][link]] [[https://hydra.nixos.org/build/115931128/download/1/manual/manual.html#chap-installation][link]] |
+|                    |           |
+|                    |           |
 
 * HPC connect in 'Auros'
 declarative-hpc/README.org
