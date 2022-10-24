@@ -1,4 +1,9 @@
 # $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
+* python
+| basic commands & confirm | [[https://wikidocs.net/16030][link]]  [[https://zetawiki.com/wiki/Python_%EB%AA%A8%EB%93%88_%EC%84%A4%EC%B9%98_%ED%99%95%EC%9D%B8][link]] |
+|                          |            |
+
+
 * Haskell
 | basic concepts & practice | [[https://wikidocs.net/1453][link]] |
 | cabal                     | [[https://cabal.readthedocs.io/en/stable/][link]] |
@@ -9,4 +14,5 @@
 | intros                               | [[https://cpro95.tistory.com/m/221][link]]       |
 | C++ in linux                         | [[https://modoocode.com/311][link]]       |
 | build tool in linux (make, makefile) | [[https://wonit.tistory.com/547][link]] [[https://www.tuwlab.com/ece/27193][klink]] |
+| ./confiugre, make, make install      | [[https://itdexter.tistory.com/325][link]]       |
 |                                      |            |

@@ -1,0 +1,54 @@
+#+SETUPFILE: 1Emacs.cfg
+
+* NixOS-QChem
+ | * online REFs | [[https://github.com/syryuauros/NixOS-QChem][git]] |
+ |               |     |
+
+**  meep
+  | * install | $nix flake show --allow-import-from-derivation               |
+  |           | $nix build .#python3 .#meep --allow-import-from-derivation   |
+  |           |                                                              |
+  | *confirm  | $./result/bin/python3 -c 'import meep'                       |
+  |           | or                                                           |
+  |           | $ ./result/bin/python3                                       |
+  |           | >>> import meep as mp                                        |
+  |           | if there is no comment and new command line appears it works |
+  |           |                                                              |
+
+
+  + NixOS-QChem/pkgs/apps/meep/default.nix
+                  import meep as mp
+                  cell = mp.Vector3(16,8,0)
+                  geometry = [mp.Block(mp.Vector3(mp.inf,1,mp.inf),
+                                  center=mp.Vector3(),
+                                  material=mp.Medium(epsilon=12))]
+                  sources = [mp.Source(mp.ContinuousSource(frequency=0.15),
+                                  component=mp.Ez,
+                                  center=mp.Vector3(-7,0))]
+                  pml_layers = [mp.PML(1.0)]
+                  resolution = 10
+                  sim = mp.Simulation(cell_size=cell,
+                                  boundary_layers=pml_layers,
+                                  geometry=geometry,
+                                  sources=sources,
+                                  resolution=resolution)
+                  sim.run(until=200)
+
+  + NixOS-QChem/examples/self-contained/plot.py /
+                import numpy as np
+                import matplotlib.pyplot as plt
+
+                xs = np.linspace (-2, 2, num =100)
+                plt.plot(xs , np.exp(-xs **2))
+                plt.show()
+
+  + NixOS-QChem/examples/jupyter/shell.nix
+                pythonWithPackages = pkgs.qchem.python3.withPackages (p: with p; [
+                      jupyterlab
+                      numpy
+                      ipympl
+                      pandas
+                      psi4
+                      gpaw
+                      ase
+                  ]);

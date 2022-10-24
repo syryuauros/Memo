@@ -51,6 +51,11 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 
 | $nix build   (default package만 설치) | $nix build .#s4 .#gnuplot (default외에 다른 package설치를 위해서는 직접 package명을 입력해야 한다.) |
 
+**  flake flags
+| $nix flake show --allow-import-from-derivation | [[https://nixos.org/manual/nix/stable/command-ref/new-cli/nix.html][link]] |
+|                                                |      |
+
+
 **  flake override
 | ex) (openblas.override { singleThreaded = true;})      |
 
