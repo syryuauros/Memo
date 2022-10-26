@@ -1,5 +1,11 @@
 #+SETUPFILE: 0_format.cfg
 
+* mouse control with keyboards
+| * gnome                                       | Accessiblity (ctrl+Alt+Tab) >> mousekey | [[https://help.ubuntu.com/stable/ubuntu-help/mouse-mousekeys.html.en][link]] [[https://askubuntu.com/questions/1201548/keypad-mouse-movement-too-slow-on-ubuntu-18-04][link]] [[https://discourse.nixos.org/t/setting-keyboard-layout-on-startup/9954/5][link]] |
+| * windows                                     | neatmouse                               | [[https://neatdecisions.com/products/neatmouse/][link]]           |
+| https://neatdecisions.com/products/neatmouse/ |                                         |                |
+|                                               |                                         |                |
+
 * useful keys in emacs (editing)
 | command name         | key binding                        | action                                     |
 | describe key         | spc h k [key binding want to find] | explaration                                |

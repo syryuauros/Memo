@@ -35,8 +35,41 @@
 | *symbolic link     | [[https://fruitdev.tistory.com/85][link]] [[https://dupont3031.tistory.com/entry/%EA%B8%B0%ED%98%B8-%EC%97%B0%EA%B2%B0%EC%9D%98-%EB%8B%A8%EA%B3%84%EA%B0%80-%EB%84%88%EB%AC%B4-%EB%A7%8E%EC%9D%8C-too-many-levels-of-symbolic-links][link]] |
 | * nixos-container  | [[https://timklampe.cool/docs/example/systemd/systemd_nspawn/][link]] [[https://nixos.wiki/wiki/NixOS_Containers][link]] |
 | * NixOPS           | [[https://www.johbo.com/2017/nixops-container.html][link]] [[https://hydra.nixos.org/build/115931128/download/1/manual/manual.html#chap-installation][link]] |
+| * D-Bus            |           |
 |                    |           |
-|                    |           |
+
+**  docker
+| docker tut, intro        | [[https://devlos.tistory.com/28][link]]  [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]]  [[https://www.44bits.io/ko/post/how-docker-image-work][link]]                                                                                                   |               |
+| dockerd                  | [[https://junstar92.tistory.com/169][link]]                                                                                                               |               |
+| background execution     | # dockerd&                                                                                                         |               |
+| docker to systemd-nspawn | [[https://seanmcgary.com/posts/run-docker-containers-with-systemd-nspawn][link]]                                                                                                               |               |
+|                          | * Dockerfile contents below                                                                                        |               |
+|                          | FROM alpine:latest                                                                                                 |               |
+|                          | ADD run.sh /                                                                                                       |               |
+|                          | RUN chmod +x /run.sh                                                                                               |               |
+|                          |                                                                                                                    |               |
+|                          | * run.sh                                                                                                           |               |
+|                          | #! /bin/sh                                                                                                         |               |
+|                          | while true: do                                                                                                     |               |
+|                          | /bin/date                                                                                                          |               |
+|                          | /bin/sleep 5                                                                                                       |               |
+|                          | done                                                                                                               |               |
+|                          |                                                                                                                    |               |
+|                          | # docker build -t [tag-name:version] .                                                                             |               |
+|                          | # docker image ls                                                                                                  |               |
+|                          | # docker run [tag-name:version] /run.sh                                                                            |               |
+|                          | # docker export "$(docker create --name [container-name] [tag-name:version] true)" [pl] tar -x -C [path to folder] |               |
+|                          | # docker rm [container-name]                                                                                       |               |
+|                          | # systemd-nspawn --machine [machine-name] --directory [path to folder]                                             |               |
+|                          | # systemd-nspawn -M [machine-name] -D [path to folder] /run.sh                                                     |               |
+|                          |                                                                                                                    |               |
+|                          |                                                                                                                    |               |
+| docker centos image      | # docker search centos                                                                                             | [[https://velog.io/@dailylifecoding/docker-install-centos-and-run-basic][link]] [[https://jaynamm.tistory.com/entry/%EB%8F%84%EC%BB%A4Docker-centOS-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%8B%A4%ED%96%89][commands]] |
+|                          | # docker pull [image-name]                                                                                         |               |
+|                          | # docker image ls  or  docker image -a                                                                             |               |
+|                          | # docker run --name [container-name] --hostname [host-name] -it -d [image-name]                                    |               |
+|                          |                                                                                                                    |               |
+|                          |                                                                                                                    |               |
 
 * HPC connect in 'Auros'
 declarative-hpc/README.org
