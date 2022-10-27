@@ -75,6 +75,18 @@
 |                          | # source /etc/bashrc                                                                                                 |                 |
 |                          |                                                                                                                      |                 |
 | docker commit, push      |                                                                                                                      | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://hub.docker.com/][docker-hub]] |
+| docker pull              | /var/lib/docker/image/overlay2/imagedb/content/sha256/,   $ docker pull [image-name:tag]                             | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://dveamer.github.io/backend/DockerImageDirectory.html][link]]       |
+| docker firewall in nixos |                                                                                                                      | [[https://skaug.dev/firewall-and-docker-containers-in-nixos/][link]]            |
+|                          |                                                                                                                      |                 |
+|                          |                                                                                                                      |                 |
+| kasm in ubuntu container | # docker run -it -v /var/run/docker.sock:/var/run/docker.sock --memory=2g --memory-swap=2g [image-name:tag]          | [[https://m.blog.naver.com/isc0304/222274955992][link]] [[https://www.kasmweb.com/docs/latest/install/single_server_install.html][link]] [[https://velog.io/@weekbelt/%EB%8F%84%EC%BB%A4%EB%8D%B0%EB%AA%ACDocker-Daemon][link]]  |
+|                          |                                                                                                                      |                 |
+|                          |                                                                                                                      |                 |
+|                          |                                                                                                                      |                 |
+|                          |                                                                                                                      |                 |
+|                          |                                                                                                                      |                 |
+|                          |                                                                                                                      |                 |
+|                          |                                                                                                                      |                 |
 |                          |                                                                                                                      |                 |
 |                          |                                                                                                                      |                 |
 | yum initial setting      | container setting first                                                                                              |                 |
