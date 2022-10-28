@@ -130,7 +130,7 @@
 |                                    | # echo '/mnt/1GiB.swap swap swap defaults 0 0' [pl] sudo tee -a /etc/fstab                                  |                 |
 |                                    | # free -h                                                                                                   |                 |
 |                                    |                                                                                                             |                 |
-| 6. run image                       | # docker run -it -v /mnt/1GiB.swap:/mnt/1GiB.swap --privileged ubuntu:latest                                | [[https://m.blog.naver.com/isc0304/222274955992][REF]]             |
+| 6. run image                       | # docker run -it -v /mnt/1GiB.swap:/mnt/1GiB.swap --privileged ubuntu:latest                                | [[https://m.blog.naver.com/isc0304/222274955992][REF]] [[https://www.daleseo.com/docker-volumes-bind-mounts/][-v option]]   |
 |                                    |                                                                                                             |                 |
 | 7. docker install in ubuntu        | /# apt-get remove docker docker-engine docker.io                                                            | [[https://hiseon.me/linux/ubuntu/install-docker/][REF]]             |
 |                                    | /# apt-get update && apt-get install apt-transport-https ca-certificates curl software-properties-common    |                 |
