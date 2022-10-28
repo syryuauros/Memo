@@ -31,17 +31,18 @@
 |                         |                    |
 
 ** systemd-nspawn
-| *intro & tutorials | [[https://blog.stackframe.dev/6][link]] [[https://wiki.debian.org/Debootstrap][link]] |
-| *symbolic link     | [[https://fruitdev.tistory.com/85][link]] [[https://dupont3031.tistory.com/entry/%EA%B8%B0%ED%98%B8-%EC%97%B0%EA%B2%B0%EC%9D%98-%EB%8B%A8%EA%B3%84%EA%B0%80-%EB%84%88%EB%AC%B4-%EB%A7%8E%EC%9D%8C-too-many-levels-of-symbolic-links][link]] |
-| * nixos-container  | [[https://timklampe.cool/docs/example/systemd/systemd_nspawn/][link]] [[https://nixos.wiki/wiki/NixOS_Containers][link]] |
-| * NixOPS           | [[https://www.johbo.com/2017/nixops-container.html][link]] [[https://hydra.nixos.org/build/115931128/download/1/manual/manual.html#chap-installation][link]] |
-| * D-Bus            |           |
-|                    |           |
+| *intro & tutorials       | [[https://blog.stackframe.dev/6][link]] [[https://wiki.debian.org/Debootstrap][link]] |
+| *symbolic link           | [[https://fruitdev.tistory.com/85][link]] [[https://dupont3031.tistory.com/entry/%EA%B8%B0%ED%98%B8-%EC%97%B0%EA%B2%B0%EC%9D%98-%EB%8B%A8%EA%B3%84%EA%B0%80-%EB%84%88%EB%AC%B4-%EB%A7%8E%EC%9D%8C-too-many-levels-of-symbolic-links][link]] |
+| * nixos-container        | [[https://timklampe.cool/docs/example/systemd/systemd_nspawn/][link]] [[https://nixos.wiki/wiki/NixOS_Containers][link]] |
+| * NixOPS                 | [[https://www.johbo.com/2017/nixops-container.html][link]] [[https://hydra.nixos.org/build/115931128/download/1/manual/manual.html#chap-installation][link]] |
+| * D-Bus                  |           |
+| * nixos-container config | [[https://nixos.wiki/wiki/NixOS_Containers][link]]      |
+|                          |           |
 
 **  docker
 | docker tut, intro        | [[https://devlos.tistory.com/28][link]]  [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]]  [[https://www.44bits.io/ko/post/how-docker-image-work][link]]                                                                                                     |                                  |
 |                          | commit push pull                                                                                                     |                                  |
-|                          | ls command : ps container image node service config network                                                          |                                  |
+|                          | ls command : ps container image node service config network                                                          | /var/lib/docker/                 |
 |                          | volume(-v option)  bind-mount                                                                                        | [[https://www.daleseo.com/docker-volumes-bind-mounts/][link]]                             |
 |                          |                                                                                                                      |                                  |
 |                          |                                                                                                                      |                                  |
@@ -108,9 +109,73 @@
 |                          | alias setting:   $ alias bat='/usr/local/bat/bat'                                                                    | [[https://coding-factory.tistory.com/800][link]]                             |
 |                          |                                                                                                                      |                                  |
 
-** kasm
-| kasm in ubuntu container | # docker run -it -v /var/run/docker.sock:/var/run/docker.sock --memory=2g --memory-swap=2g [image-name:tag]          | [[https://m.blog.naver.com/isc0304/222274955992][link]] [[https://www.kasmweb.com/docs/latest/install/single_server_install.html][link]] [[https://velog.io/@weekbelt/%EB%8F%84%EC%BB%A4%EB%8D%B0%EB%AA%ACDocker-Daemon][link]] [[https://unix.stackexchange.com/questions/2893/swapon-operation-not-permitted][swapon permission]] |
-|                          |                                                                                                                      | [[https://hub.docker.com/r/kasmweb/desktop/tags][docker-hub]]                       |
+** kasm (ubuntu 22.04  amd64=x86_64)
+***  Part 1.
+| 1. docker setup in nixos config    | setting in configuration.nix & flake.nix in my_nixos                                                        | [[https://nixos.wiki/wiki/Docker][link]]            |
+|                                    | # systemctl status [pl] grep docker                                                                         |                 |
+|                                    |                                                                                                             |                 |
+| 2. docker login                    | # docker login [ret] syryuauros                                                                             | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][REF1]] [[https://hub.docker.com/][docker hub]] |
+|                                    |                                                                                                             |                 |
+| 3. docker overlay storage setup    | # umount /dev/sdb1 (spare disk)                                                                             |                 |
+|                                    | # mount /dev/sdb1 /var/lib/docker/overlay2                                                                  |                 |
+|                                    | # lsblk or $ df -h                                                                                          |                 |
+|                                    |                                                                                                             |                 |
+| 4. pull image (ubuntu 22.04 amd64) | # docker pull ubuntu:latest                                                                                 | [[https://hub.docker.com/_/ubuntu/tags][repo]]            |
+|                                    | # docker image ls                                                                                           |                 |
+|                                    |                                                                                                             |                 |
+| 5. make swap                       | # sudo dd if=/dev/zero bs=1M count=1024 of=/mnt/1GiB.swap                                                   | [[https://www.kasmweb.com/docs/latest/install/single_server_install.html#installation-guide][kasm-guide]]      |
+|                                    | # sudo chmod 600 /mnt/1GiB.swap                                                                             |                 |
+|                                    | # sudo mkswap /mnt/1GiB.swap                                                                                |                 |
+|                                    | # sudo swapon /mnt/1GiB.swap                                                                                |                 |
+|                                    | # echo '/mnt/1GiB.swap swap swap defaults 0 0' [pl] sudo tee -a /etc/fstab                                  |                 |
+|                                    | # free -h                                                                                                   |                 |
+|                                    |                                                                                                             |                 |
+| 6. run image                       | # docker run -it -v /mnt/1GiB.swap:/mnt/1GiB.swap --privileged ubuntu:latest                                | [[https://m.blog.naver.com/isc0304/222274955992][REF]]             |
+|                                    |                                                                                                             |                 |
+| 7. docker install in ubuntu        | /# apt-get remove docker docker-engine docker.io                                                            | [[https://hiseon.me/linux/ubuntu/install-docker/][REF]]             |
+|                                    | /# apt-get update && apt-get install apt-transport-https ca-certificates curl software-properties-common    |                 |
+|                                    | /# curl -fsSL https://download.docker.com/linux/ubuntu/gpg [pl] apt-key add -                               |                 |
+|                                    | /# add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" |                 |
+|                                    | /# apt-cache search docker-ce                                                                               |                 |
+|                                    | /# apt-get install docker-ce                                                                                |                 |
+|                                    |                                                                                                             |                 |
+| 8. docker commit (1st part finish) | # docker ps                                                                                                 |                 |
+|                                    | # docker commit [container name or ID] [image-name:tag]                                                     |                 |
+|                                    | # docker image ls                                                                                           |                 |
+|                                    | /# exit                                                                                                     |                 |
+|                                    |                                                                                                             |                 |
+
++ confirm dockerd(engine) in background
++ confirm
++ overlay2 is where to all the dependency of image saved, so it needs very large storage!  If you have spare storage then mount it as overlay2 for protecting host system from lacking of storage.  'nix-store --gc', 'nix-collect-garbage -d' helps, du  '--Max-depth=1 -h'
++ you can use '$ docker search ubuntu' if you are not sure about which image exist or if you want exact tag name
++ docker  out of docker (dood) : $ docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /mnt/1GiB.swap:/mnt/1GiB.swap ubuntu:latest,     'docker socket', 'swapon' trouble was solved, but still has problem related with 'dockerd' as background
++ --privileged option is necessary for execution of 'dockerd' inside container, 'docker in docker'
++ /# means inside the container as root
++ confirm container name
+
+*** Part 2
+| 1. run modified image      | # docker run -it -v /mnt/1GiB.swap:/mnt/1GiB.swap --privileged ubt:docker                 |      |
+|                            |                                                                                           |      |
+| 2. pre-work                | /# apt-get update && apt-get install sudo                                                 |      |
+|                            |                                                                                           |      |
+| 3. kasm down               | /# cd /tmp                                                                                | [[https://www.kasmweb.com/docs/latest/install/single_server_install.html#installation-guide][kasm]] |
+|                            | /# curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.11.0.18142e.tar.gz |      |
+|                            | /#  tar -xf kasm_release*.tar.gz                                                          |      |
+|                            |                                                                                           |      |
+| 4. docker commit (2nd end) | # docker commit [container ID] [image-name:gat]                                           |      |
+|                            | /# exit                                                                                   |      |
+
+*** part3
+| 1. run 2nd modified image | # docker run -it -v /mnt/1GiB.swap:/mnt/1GiB.swap --privileged ubt:kasm_down |   |
+|                           |                                                                              |   |
+| 2. pre-work               | /# apt-get update                                                            |   |
+|                           | /# dockerd&                                                                  |   |
+|                           |                                                                              |   |
+| 3. kasm install           | /# cd /tmp                                                                   |   |
+|                           | /# bash kasm_release/install.sh                                              |   |
+
++ 'dockerd&' acitvate docker engine in the ubuntu background that has super authority by the flag '--priviiged', and so it has to be executed before installation!!
 
 * HPC connect in 'Auros'
 declarative-hpc/README.org
