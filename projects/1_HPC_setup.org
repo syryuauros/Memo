@@ -39,66 +39,66 @@
 |                    |           |
 
 **  docker
-| docker tut, intro        | [[https://devlos.tistory.com/28][link]]  [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]]  [[https://www.44bits.io/ko/post/how-docker-image-work][link]]                                                                                                     |                 |
-| dockerd                  | [[https://junstar92.tistory.com/169][link]]                                                                                                                 |                 |
-| background execution     | # dockerd&                                                                                                           |                 |
-| docker to systemd-nspawn | [[https://seanmcgary.com/posts/run-docker-containers-with-systemd-nspawn][link]]                                                                                                                 |                 |
-|                          | * Dockerfile contents below                                                                                          |                 |
-|                          | FROM alpine:latest                                                                                                   |                 |
-|                          | ADD run.sh /                                                                                                         |                 |
-|                          | RUN chmod +x /run.sh                                                                                                 |                 |
-|                          |                                                                                                                      |                 |
-|                          | * run.sh                                                                                                             |                 |
-|                          | #! /bin/sh                                                                                                           |                 |
-|                          | while true: do                                                                                                       |                 |
-|                          | /bin/date                                                                                                            |                 |
-|                          | /bin/sleep 5                                                                                                         |                 |
-|                          | done                                                                                                                 |                 |
-|                          |                                                                                                                      |                 |
-|                          | # docker build -t [tag-name:version] .                                                                               |                 |
-|                          | # docker image ls                                                                                                    |                 |
-|                          | # docker run [tag-name:version] /run.sh                                                                              |                 |
-|                          | # docker export "$(docker create --name [container-name] [tag-name:version] true)" [pl] tar -x -C [path to folder]   |                 |
-|                          | # docker rm [container-name]                                                                                         |                 |
-|                          | # systemd-nspawn --machine [machine-name] --directory [path to folder]                                               |                 |
-|                          | # systemd-nspawn -M [machine-name] -D [path to folder] /run.sh                                                       |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-| docker centos image      | # docker search centos                                                                                               | [[https://velog.io/@dailylifecoding/docker-install-centos-and-run-basic][link]] [[https://jaynamm.tistory.com/entry/%EB%8F%84%EC%BB%A4Docker-centOS-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%8B%A4%ED%96%89][commands]]   |
-|                          | # docker pull [image-name]                                                                                           |                 |
-|                          | # docker image ls  or  docker image -a                                                                               |                 |
-|                          | # docker run --name [container-name] --hostname [host-name] -it -d [image-name]                                      |                 |
-|                          |                                                                                                                      |                 |
-| centOS container setting | # locale -a                                                                                                          | [[https://sky-h-kim.tistory.com/44][link]]            |
-|                          | # vi /etc/bashrc                                                                                                     |                 |
-|                          | add to end of the '/etc/bashrc':  export LANG=C.utf8                                                                 |                 |
-|                          | # source /etc/bashrc                                                                                                 |                 |
-|                          |                                                                                                                      |                 |
-| docker commit, push      |                                                                                                                      | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://hub.docker.com/][docker-hub]] |
-| docker pull              | /var/lib/docker/image/overlay2/imagedb/content/sha256/,   $ docker pull [image-name:tag]                             | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://dveamer.github.io/backend/DockerImageDirectory.html][link]]       |
-| docker firewall in nixos |                                                                                                                      | [[https://skaug.dev/firewall-and-docker-containers-in-nixos/][link]]            |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-| kasm in ubuntu container | # docker run -it -v /var/run/docker.sock:/var/run/docker.sock --memory=2g --memory-swap=2g [image-name:tag]          | [[https://m.blog.naver.com/isc0304/222274955992][link]] [[https://www.kasmweb.com/docs/latest/install/single_server_install.html][link]] [[https://velog.io/@weekbelt/%EB%8F%84%EC%BB%A4%EB%8D%B0%EB%AA%ACDocker-Daemon][link]]  |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-| yum initial setting      | container setting first                                                                                              |                 |
-|                          | # yum clean all                                                                                                      | [[https://hello-bryan.tistory.com/152][link]]            |
-|                          | # yum repolist                                                                                                       |                 |
-|                          | # yum -y update                                                                                                      |                 |
-|                          |                                                                                                                      |                 |
-|                          | No URLs in mirrorlist >> centos no more supported, so install centos-stream version                                  | [[https://jootc.com/p/202202273852][link]]            |
-|                          | how to install bat (address changed as below, at release web page, mouse right click & copy link address to confirm) | [[https://www.linode.com/docs/guides/how-to-install-and-use-the-bat-command-on-linux/][link]]            |
-|                          | https://github.com/sharkdp/bat/releases/download/v0.22.1/bat-v0.22.1-x86_64-unknown-linux-musl.tar.gz                |                 |
-|                          | alias setting:   $ alias bat='/usr/local/bat/bat'                                                                    | [[https://coding-factory.tistory.com/800][link]]            |
-|                          |                                                                                                                      |                 |
+| docker tut, intro        | [[https://devlos.tistory.com/28][link]]  [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]]  [[https://www.44bits.io/ko/post/how-docker-image-work][link]]                                                                                                     |                                  |
+| dockerd                  | [[https://junstar92.tistory.com/169][link]]                                                                                                                 |                                  |
+| background execution     | # dockerd&                                                                                                           |                                  |
+| docker to systemd-nspawn | [[https://seanmcgary.com/posts/run-docker-containers-with-systemd-nspawn][link]]                                                                                                                 |                                  |
+|                          | * Dockerfile contents below                                                                                          |                                  |
+|                          | FROM alpine:latest                                                                                                   |                                  |
+|                          | ADD run.sh /                                                                                                         |                                  |
+|                          | RUN chmod +x /run.sh                                                                                                 |                                  |
+|                          |                                                                                                                      |                                  |
+|                          | * run.sh                                                                                                             |                                  |
+|                          | #! /bin/sh                                                                                                           |                                  |
+|                          | while true: do                                                                                                       |                                  |
+|                          | /bin/date                                                                                                            |                                  |
+|                          | /bin/sleep 5                                                                                                         |                                  |
+|                          | done                                                                                                                 |                                  |
+|                          |                                                                                                                      |                                  |
+|                          | # docker build -t [tag-name:version] .                                                                               |                                  |
+|                          | # docker image ls                                                                                                    |                                  |
+|                          | # docker run [tag-name:version] /run.sh                                                                              |                                  |
+|                          | # docker export "$(docker create --name [container-name] [tag-name:version] true)" [pl] tar -x -C [path to folder]   |                                  |
+|                          | # docker rm [container-name]                                                                                         |                                  |
+|                          | # systemd-nspawn --machine [machine-name] --directory [path to folder]                                               |                                  |
+|                          | # systemd-nspawn -M [machine-name] -D [path to folder] /run.sh                                                       |                                  |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+| docker centos image      | # docker search centos                                                                                               | [[https://velog.io/@dailylifecoding/docker-install-centos-and-run-basic][link]] [[https://jaynamm.tistory.com/entry/%EB%8F%84%EC%BB%A4Docker-centOS-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%8B%A4%ED%96%89][commands]]                    |
+|                          | # docker pull [image-name]                                                                                           |                                  |
+|                          | # docker image ls  or  docker image -a                                                                               |                                  |
+|                          | # docker run --name [container-name] --hostname [host-name] -it -d [image-name]                                      |                                  |
+|                          |                                                                                                                      |                                  |
+| centOS container setting | # locale -a                                                                                                          | [[https://sky-h-kim.tistory.com/44][link]]                             |
+|                          | # vi /etc/bashrc                                                                                                     |                                  |
+|                          | add to end of the '/etc/bashrc':  export LANG=C.utf8                                                                 |                                  |
+|                          | # source /etc/bashrc                                                                                                 |                                  |
+|                          |                                                                                                                      |                                  |
+| docker commit, push      |                                                                                                                      | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://hub.docker.com/][docker-hub]]                  |
+| docker pull              | /var/lib/docker/image/overlay2/imagedb/content/sha256/,   $ docker pull [image-name:tag]                             | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://dveamer.github.io/backend/DockerImageDirectory.html][link]]                        |
+| docker firewall in nixos |                                                                                                                      | [[https://skaug.dev/firewall-and-docker-containers-in-nixos/][link]]                             |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+| kasm in ubuntu container | # docker run -it -v /var/run/docker.sock:/var/run/docker.sock --memory=2g --memory-swap=2g [image-name:tag]          | [[https://m.blog.naver.com/isc0304/222274955992][link]] [[https://www.kasmweb.com/docs/latest/install/single_server_install.html][link]] [[https://velog.io/@weekbelt/%EB%8F%84%EC%BB%A4%EB%8D%B0%EB%AA%ACDocker-Daemon][link]] [[sudo bash kasm_release/install.sh][swapon permission]] |
+|                          |                                                                                                                      | [[https://hub.docker.com/r/kasmweb/desktop/tags][docker-hub]]                       |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+| yum initial setting      | container setting first                                                                                              |                                  |
+|                          | # yum clean all                                                                                                      | [[https://hello-bryan.tistory.com/152][link]]                             |
+|                          | # yum repolist                                                                                                       |                                  |
+|                          | # yum -y update                                                                                                      |                                  |
+|                          |                                                                                                                      |                                  |
+|                          | No URLs in mirrorlist >> centos no more supported, so install centos-stream version                                  | [[https://jootc.com/p/202202273852][link]]                             |
+|                          | how to install bat (address changed as below, at release web page, mouse right click & copy link address to confirm) | [[https://www.linode.com/docs/guides/how-to-install-and-use-the-bat-command-on-linux/][link]]                             |
+|                          | https://github.com/sharkdp/bat/releases/download/v0.22.1/bat-v0.22.1-x86_64-unknown-linux-musl.tar.gz                |                                  |
+|                          | alias setting:   $ alias bat='/usr/local/bat/bat'                                                                    | [[https://coding-factory.tistory.com/800][link]]                             |
+|                          |                                                                                                                      |                                  |
 
 * HPC connect in 'Auros'
 declarative-hpc/README.org
