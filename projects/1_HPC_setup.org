@@ -108,6 +108,10 @@
 |                          | alias setting:   $ alias bat='/usr/local/bat/bat'                                                                    | [[https://coding-factory.tistory.com/800][link]]                             |
 |                          |                                                                                                                      |                                  |
 
+** kasm
+| kasm in ubuntu container | # docker run -it -v /var/run/docker.sock:/var/run/docker.sock --memory=2g --memory-swap=2g [image-name:tag]          | [[https://m.blog.naver.com/isc0304/222274955992][link]] [[https://www.kasmweb.com/docs/latest/install/single_server_install.html][link]] [[https://velog.io/@weekbelt/%EB%8F%84%EC%BB%A4%EB%8D%B0%EB%AA%ACDocker-Daemon][link]] [[https://unix.stackexchange.com/questions/2893/swapon-operation-not-permitted][swapon permission]] |
+|                          |                                                                                                                      | [[https://hub.docker.com/r/kasmweb/desktop/tags][docker-hub]]                       |
+
 * HPC connect in 'Auros'
 declarative-hpc/README.org
  login >> make profile >> file moving >>pbs job test

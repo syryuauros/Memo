@@ -2,11 +2,12 @@
 #+SETUPFILE: 1Emacs.cfg
 
 * on-line refs
-| * nixpkgs                                              | [[https://github.com/NixOS/nixpkgs/find/master][link]] |
-| * nix search (options, packages)                       | [[https://search.nixos.org/options?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=nixos+system][link]] |
-| * nix search (builtin, pkgs functions = lib functions) | [[https://teu5us.github.io/nix-lib.html][link]] |
-| * nix flake commands & flags                           | [[https://nixos.org/manual/nix/stable/command-ref/new-cli/nix.html][link]] |
-|                                                        |      |
+| * nixpkgs                                              | [[https://github.com/NixOS/nixpkgs/find/master][link]] |       |   |
+| * nix search (options, packages)                       | [[https://search.nixos.org/options?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=nixos+system][link]] |       |   |
+| * nix search (builtin, pkgs functions = lib functions) | [[https://teu5us.github.io/nix-lib.html][link]] |       |   |
+| * nix flake commands & flags                           | [[https://nixos.org/manual/nix/stable/command-ref/new-cli/nix.html][link]] |       |   |
+| * korean tut                                           |      | [[https://blog.sapzil.org/2021/05/09/nix/][klink]] |   |
+|                                                        |      |       |   |
 + builtin or pkgs functions는 lib.function_name 만으로 사용할 수 있다.
 + ex) mapAttrs: lib.attrsets.mapAttrs (lib/attrsets.nix 파일안에 정의됨)은 단순히 lib.mapAttrs로 사용 가능하다.
 |                                                    |      |
