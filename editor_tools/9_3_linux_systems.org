@@ -1,0 +1,8 @@
+
+#+SETUPFILE: 1Emacs.cfg
+
+[pl] = pipeline = | (shift + \)
+[... name] = name까지의 경로
+
+* Concepts
+** tmpfs [[https://mapoo.net/os/oslinux/linux-ramdisk-tmpfs/][link]]

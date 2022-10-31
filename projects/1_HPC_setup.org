@@ -8,10 +8,11 @@
 |             |
 
 * parallel computing (clustering)
-| * torque                 | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.sas.rochester.edu/psc/thestarlab/help/TorqueTutorial.pdf][link]] |      |
-| * slurm                  | [[https://m31phy.tistory.com/32][link]] |      |
-| * iptime port forwarding |      | [[https://badayak.com/entry/%EC%99%B8%EB%B6%80%EC%A0%91%EC%86%8D%EC%9D%84-%EC%9C%84%ED%95%9C-iptime-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95][link]] |
-|                          |      |      |
+| * torque                 | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.sas.rochester.edu/psc/thestarlab/help/TorqueTutorial.pdf][link]] |                       |
+| * slurm                  | [[https://m31phy.tistory.com/32][link]] | [[https://doheejin.github.io/linux/2021/02/18/linux-slurm.html][kmanual]] [[http://shumin.co.kr/linux-slurm-%EC%82%AC%EC%9A%A9%EB%B2%95/][kmanual2]]      |
+| * iptime port forwarding |      | [[https://badayak.com/entry/%EC%99%B8%EB%B6%80%EC%A0%91%EC%86%8D%EC%9D%84-%EC%9C%84%ED%95%9C-iptime-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95][link]]                  |
+| * examples               | [[https://www.particleincell.com/2020/ubuntu-linux-cluster/][link]] | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://repository.kisti.re.kr/bitstream/10580/6542/1/2014-147%20Slurm%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%EC%9D%B4%EC%9A%A9%EC%9E%90%20%EA%B0%80%EC%9D%B4%EB%93%9C.pdf][manual_kisti]] [[https://novelism.co.kr/94][ref]] [[https://novelism.co.kr/195?category=980096][link]] |
+|                          |      |                       |
 
 * Virtual Machine
 | * systemd-nspawn | [[https://blog.stackframe.dev/6][link]] [[https://wiki.archlinux.org/title/systemd-nspawn][docs]] |
@@ -30,6 +31,21 @@
 | bond, ens, lo (NIC add) | [[https://nyyang.tistory.com/1][link]]  /proc/net    |
 |                         |                    |
 
+* system back up / restore
+** system backup (dump level 0)
+| dump          |      | [[https://wnw1005.tistory.com/425][best]]                                                                                                |
+| dump          |      | [[https://se.uzoogom.com/110][link]]                                                                                                |
+| dump detailed |      | [[https://mamya.tistory.com/224][link]]                                                                                                |
+|               |      |                                                                                                     |
+| * system dump | [[https://wnw1005.tistory.com/425][link]] | # tar cvpzf hcentos.tar.gz --exclude=/proc/* --exclude=/media/* --exclude=/mnt/* --exclude=/sys/* / |
+|               |      |                                                                                                     |
+
+**  system copy
+|                 | [[https://forum.ubuntu-kr.org/viewtopic.php?t=12601][ref1]]      |
+| booting process | [[https://velog.io/@markyang92/boot][ref1]] [[https://velog.io/@codemcd/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9COS-1.-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80][ref2]] |
+|                 |           |
+
+* container 관련
 ** systemd-nspawn
 | *intro & tutorials       | [[https://blog.stackframe.dev/6][link]] [[https://wiki.debian.org/Debootstrap][link]] |
 | *symbolic link           | [[https://fruitdev.tistory.com/85][link]] [[https://dupont3031.tistory.com/entry/%EA%B8%B0%ED%98%B8-%EC%97%B0%EA%B2%B0%EC%9D%98-%EB%8B%A8%EA%B3%84%EA%B0%80-%EB%84%88%EB%AC%B4-%EB%A7%8E%EC%9D%8C-too-many-levels-of-symbolic-links][link]] |
