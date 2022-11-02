@@ -8,11 +8,15 @@
 |             |
 
 * parallel computing (clustering)
-| * torque                 | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.sas.rochester.edu/psc/thestarlab/help/TorqueTutorial.pdf][link]] |                       |
-| * slurm                  | [[https://m31phy.tistory.com/32][link]] | [[https://doheejin.github.io/linux/2021/02/18/linux-slurm.html][kmanual]] [[http://shumin.co.kr/linux-slurm-%EC%82%AC%EC%9A%A9%EB%B2%95/][kmanual2]]      |
-| * iptime port forwarding |      | [[https://badayak.com/entry/%EC%99%B8%EB%B6%80%EC%A0%91%EC%86%8D%EC%9D%84-%EC%9C%84%ED%95%9C-iptime-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95][link]]                  |
-| * examples               | [[https://www.particleincell.com/2020/ubuntu-linux-cluster/][link]] | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://repository.kisti.re.kr/bitstream/10580/6542/1/2014-147%20Slurm%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%EC%9D%B4%EC%9A%A9%EC%9E%90%20%EA%B0%80%EC%9D%B4%EB%93%9C.pdf][manual_kisti]] [[https://novelism.co.kr/94][ref]] [[https://novelism.co.kr/195?category=980096][link]] |
-|                          |      |                       |
+| * torque                 | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.sas.rochester.edu/psc/thestarlab/help/TorqueTutorial.pdf][link]] |                            |
+| * slurm                  | [[https://m31phy.tistory.com/32][link]] | [[https://doheejin.github.io/linux/2021/02/18/linux-slurm.html][kmanual]] [[http://shumin.co.kr/linux-slurm-%EC%82%AC%EC%9A%A9%EB%B2%95/][kmanual2]]           |
+| * iptime port forwarding |      | [[https://badayak.com/entry/%EC%99%B8%EB%B6%80%EC%A0%91%EC%86%8D%EC%9D%84-%EC%9C%84%ED%95%9C-iptime-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95][link]]                       |
+| * examples               | [[https://www.particleincell.com/2020/ubuntu-linux-cluster/][link]] | [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://repository.kisti.re.kr/bitstream/10580/6542/1/2014-147%20Slurm%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%EC%9D%B4%EC%9A%A9%EC%9E%90%20%EA%B0%80%EC%9D%B4%EB%93%9C.pdf][manual_kisti]] [[https://novelism.co.kr/94][ref]] [[https://novelism.co.kr/195?category=980096][link]] [[https://wonwooddo.tistory.com/35][link]] |
+| * manual clustering      |      | [[https://www.blasbenito.com/post/01_home_cluster/][link]]                       |
+|                          |      |                            |
+| * Host concept           |      | [[https://velog.io/@dev-hoon/Linux-Host][link]] [[https://ko.linux-console.net/?p=2175#gsc.tab=0][ref2]] [[https://mytory.net/2020/12/06/etc-hosts.html][ref3]] [[https://mrrootable.tistory.com/33][ref4]]        |
+| * NFS in nixos           |      | [[https://nixos.wiki/wiki/NFS][Nixw]] [[https://search.nixos.org/options?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=nfs][Nixs]] [[https://meongj-devlog.tistory.com/96][ref about NFS]]    |
+|                          |      |                            |
 
 * Virtual Machine
 | * systemd-nspawn | [[https://blog.stackframe.dev/6][link]] [[https://wiki.archlinux.org/title/systemd-nspawn][docs]] |
@@ -102,6 +106,9 @@
 | docker commit, push      |                                                                                                                      | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://hub.docker.com/][docker-hub]]                  |
 | docker pull              | /var/lib/docker/image/overlay2/imagedb/content/sha256/,   $ docker pull [image-name:tag]                             | [[https://www.44bits.io/ko/post/easy-deploy-with-docker][link]] [[https://dveamer.github.io/backend/DockerImageDirectory.html][link]]                        |
 | docker firewall in nixos |                                                                                                                      | [[https://skaug.dev/firewall-and-docker-containers-in-nixos/][link]]                             |
+| docker reset             | # systemctl stop docker.service                                                                                      | [[https://community.nethserver.org/t/how-to-completely-reset-docker/16241/4][ref]]                              |
+|                          | # rm -rf /var/lib/docker                                                                                             |                                  |
+|                          | # systemctl start docker.service                                                                                     |                                  |
 |                          |                                                                                                                      |                                  |
 |                          |                                                                                                                      |                                  |
 | kasm in ubuntu container | # docker run -it -v /var/run/docker.sock:/var/run/docker.sock --memory=2g --memory-swap=2g [image-name:tag]          | [[https://m.blog.naver.com/isc0304/222274955992][link]] [[https://www.kasmweb.com/docs/latest/install/single_server_install.html][link]] [[https://velog.io/@weekbelt/%EB%8F%84%EC%BB%A4%EB%8D%B0%EB%AA%ACDocker-Daemon][link]] [[https://unix.stackexchange.com/questions/2893/swapon-operation-not-permitted][swapon permission]] |

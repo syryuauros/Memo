@@ -1,0 +1,20 @@
+#+SETUPFILE: 0_format.cfg
+# [[https://raw.githubusercontent.com/GeneKao/orgmode-latex-templates/master/simple/simple.org]]
+* REFs & instructions
+| [[https://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][doc]]  [[https://www.youtube.com/watch?v=EgOBBiomfGo][yt]] |
+short-cuts
+| C-c C-s | chalender for schedule         |   |
+| C-c C-c | Tick checkboxes                |   |
+| C-c C-c | number of ticks/total checkbox |   |
+| C-c C-t | Toggle state                   |   |
+
+
+---------------------------------------------------------------------------------------------------------------
+* Scheduler
+** TODO Sample Task [3/3]
+SCHEDULED: <2022-11-03 Thu>
++ [X] checkbox 1
+  + [X] checkbox 1.1
+  + [X] checkbox 1.2
++ [X] checkbox 2
++ [X] checkbox 3
