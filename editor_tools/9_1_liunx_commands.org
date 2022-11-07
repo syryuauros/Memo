@@ -49,6 +49,7 @@
  | *set      | [[https://frankler.tistory.com/59][link]] |
  | $?        | [[https://frankler.tistory.com/59][link]] |
  | short cut | [[https://zetawiki.com/wiki/Bash_%EB%8B%A8%EC%B6%95%ED%82%A4][link]] |
+ | tutorials | [[https://probe29.tistory.com/47][ref1]] |
  |           |      |
 
 * 편집관련
