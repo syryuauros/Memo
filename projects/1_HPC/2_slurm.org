@@ -1,0 +1,39 @@
+#
+
+* Intro
+**  official docs  [[https://slurm.schedmd.com/overview.html][link]]  [[https://wycho.tistory.com/63][kdoc]]
+**  poster  [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://juser.fz-juelich.de/record/851266/files/Parallel%20Programming%20(MPI)%20and%20Batch%20Usage%20(SLURM).pdf][link]]  [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://cpb-us-e1.wpmucdn.com/sites.ucsc.edu/dist/2/1143/files/2021/04/HB-Slurm-101-presentation-Joshs-part.pdf][link]]
+
+* slurm install & setup in nixos
+**  nixpkgs  [[https://github.com/NixOS/nixpkgs/blob/master/nixos/tests/slurm.nix][tests/slurm.nix]]   [[https://github.com/NixOS/nixpkgs/blob/nixos-22.05/nixos/modules/services/computing/slurm/slurm.nix][module/slurm.nix]]
+***  how to use tests libraries in nixos (VM testing framework)  [[https://nixos.wiki/wiki/NixOS_Testing_library][doc]]   [[https://nixos.org/manual/nixos/stable/index.html#sec-running-nixos-tests-interactively][doc]]
+**  options (nix search)  [[https://search.nixos.org/options?channel=22.05&show=services.slurm.extraConfigPaths&from=0&size=50&sort=relevance&type=packages&query=services.slur][link]]
+**  etc (Q&A)   [[https://discourse.nixos.org/t/advice-for-simple-nixos-setup-of-local-slurm-cluster-for-home/1995][link]]
+**  Slurm install in centos7   [[https://wonwooddo.tistory.com/35][kdoc]]
+
+* slurm mode/config
+**  config tool  [[https://slurm.schedmd.com/configurator.easy.html][doc]]
+
+* slurm usage
+**  command map  [[https://slurm.schedmd.com/man_index.html][map]]
+**  personal notes  [[https://doheejin.github.io/linux/2021/02/18/linux-slurm.html][kdoc]]  [[https://hpcadmin.tistory.com/29][kdoc]]
+**  work submit, delete, order control, per partition command,  wake-up nodes, slurm.conf PATH, etc [[https://dandyrilla.github.io/2017-04-11/jobsched-slurm/][kdoc]]
+
+* examples
+** HPC2N [[https://www.hpc2n.umu.se/documentation/batchsystem/basic-submit-example-scripts][link]]
+** Ookami (Stony Brook Univ)  [[https://www.stonybrook.edu/commcms/ookami/support/faq/core-thread-control-ookami][link]]
+**  Discovery (New Mexico State Univ)  [[https://hpc.nmsu.edu/discovery/home/nodes/][link]]
+**  Kisti super computing center  [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://repository.kisti.re.kr/bitstream/10580/6542/1/2014-147%20Slurm%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%EC%9D%B4%EC%9A%A9%EC%9E%90%20%EA%B0%80%EC%9D%B4%EB%93%9C.pdf][brocher]]
+**  Neuron (Kisti GPU cluster system)  [[https://blog.ksc.re.kr/124][blog]]
+** FAS,RC (Harvard Univ)  [[https://docs.rc.fas.harvard.edu/kb/convenient-slurm-commands/][guide]]
+**  UPF(Univ Pompeu Fabra in Barcelona)  [[https://guiesbibtic.upf.edu/recerca/hpc/multi-node-multi-gpu][guide]]
+**  Stnford-rc  [[https://stanford-rc.github.io/docs-earth/docs/slurm-basics][guide]]
+
+* concepts
+**  cpu = socket * core * thread   [[https://medium.com/@talonvonfang/hpc-cluster-computer-node-socket-core-thread-cpu-fa2f7fe2a6fa][doc]]    [[https://www.temok.com/blog/cores-vs-threads/][doc]]
+**  node
+**  ntask
+**  queue (jobs)
+**  consumable resources (cons_res, cons_tres)   [[https://slurm.schedmd.com/cons_res.html][doc]]   [[https://slurm.schedmd.com/cons_res_share.html][doc]]
+**  shared-memory-parallelism (threading), Distributed-memory-parallelism (MPI)  [[https://in.nau.edu/arc/overview/using-the-cluster-advanced/parallelism/][doc]]
+**  multi-threading, hyper-threading  [[https://docs.massive.org.au/M3/slurm/multi-threaded-jobs.html#an-example-slurm-multi-threading-job-script][doc]]  [[][]

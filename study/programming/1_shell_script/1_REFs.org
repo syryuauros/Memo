@@ -1,0 +1,45 @@
+#
+
+* REFs
+**  internal [[../../../editor_tools/9_1_liunx_commands.org][link]]
+
+**  single command
+***  echo
+****  -e  : add, overwrite   [[https://forcloud.tistory.com/96][kdoc]]
+
+***  set
+****  -e, -x    [[https://frankler.tistory.com/59][kdoc]]
+***  shortcuts    [[https://zetawiki.com/wiki/Bash_%EB%8B%A8%EC%B6%95%ED%82%A4][ktb]]
+***  cat [[https://recipes4dev.tistory.com/177][ktb]]
+***  date  [[https://extendit.tistory.com/14][kdoc]]
+***  time [[https://hbase.tistory.com/140][kdoc  ]]
+*** scp  [[https://m.blog.naver.com/73053936/220291638501][kdoc]]
+
+**  grammar
+***  basic grammar [[https://bangu4.tistory.com/242][kdoc]]
+***  arithmetic operation [[https://codechacha.com/ko/shell-script-add-minus-multi-division/][kdoc]]
+***  \  (line change)  [[https://biology-statistics-programming.tistory.com/117][kdoc]]
+***  | (pipeline)    [[https://arer.tistory.com/198?category=721052][kdoc]]
+***  input from file or user (read)  [[https://codechacha.com/ko/shell-script-read-file/][kdoc]]   [[https://codechacha.com/ko/shell-script-user-input/][kdoc]]
+***  iteration (for, while) [[https://hbase.tistory.com/15][kdoc]]   [[https://codechacha.com/ko/shell-script-loop/][kdoc]]
+***  variables
+****  execution result as variables   [[https://codechacha.com/ko/shell-script-get-result-of-command/][kdoc]]
+
+
+***  conditional (if, case)  [[https://codechacha.com/ko/shell-script-if-else/][kdoc]]
+****  condition grammar  [[https://www.lesstif.com/lpt/bash-shell-script-programming-26083916.html][link]]
+
+
+
+
+***  Data 추출 [[https://sevendollars.tistory.com/90][kdoc]]
+***  Host info
+****  name [[https://dobby-the-house-elf.tistory.com/428][kdoc]]
+
+***  network 관련
+**** port 확인   [[https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%A1%9C%EC%BB%AC%EC%84%9C%EB%B2%84_%EC%97%B4%EB%A6%B0_%ED%8F%AC%ED%8A%B8_%ED%99%95%EC%9D%B8][kdoc]]
+
+
+**  examples
+*** 1..10 sum  [[https://stackoverflow.com/questions/6067609/bash-script-to-add-first-10-numbers-i-e-1-to-10-using-control-statement][SO]]  [[https://kldp.org/node/95965][kdoc]]
+***  elapsed time   [[https://www.xmodulo.com/measure-elapsed-time-bash.html][doc]]
