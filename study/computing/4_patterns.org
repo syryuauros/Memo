@@ -5,5 +5,5 @@
   |         |   |
 
 * string 에서 command 생성
-| string derivation from string  | [[https://m.blog.naver.com/coldlion1/100156549623][link]] |
-| evaluation command from string |      |
+| string derivation from string  | [[https://m.blog.naver.com/coldlion1/100156549623][link]] [[https://recipes4dev.tistory.com/171][awk]] |
+| evaluation command from string |          |
