@@ -41,5 +41,6 @@
 
 
 **  examples
+***  basic codes  [[https://m.blog.naver.com/cjh226/220923055022][kdoc]]
 *** 1..10 sum  [[https://stackoverflow.com/questions/6067609/bash-script-to-add-first-10-numbers-i-e-1-to-10-using-control-statement][SO]]  [[https://kldp.org/node/95965][kdoc]]
-***  elapsed time   [[https://www.xmodulo.com/measure-elapsed-time-bash.html][doc]]
+***  elapsed time   [[https://www.xmodulo.com/measure-elapsed-time-bash.html][doc  ]]

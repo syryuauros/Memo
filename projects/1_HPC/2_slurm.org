@@ -21,8 +21,10 @@
 
 * examples
 **  my code  [[https://github.com/haedosa/declarative-hpc/tree/apps_for_switching/pixiecore-mini-hpc/shell-scripts][link]]
-** HPC2N [[https://www.hpc2n.umu.se/documentation/batchsystem/basic-submit-example-scripts][link]]
-** Ookami (Stony Brook Univ)  [[https://www.stonybrook.edu/commcms/ookami/support/faq/core-thread-control-ookami][link]]
+**  run 'C' code in job-scheduler  [[https://m.blog.naver.com/cjh226/220923055022][link]]
+
+**  HPC2N [[https://www.hpc2n.umu.se/documentation/batchsystem/basic-submit-example-scripts][link]]
+**  Ookami (Stony Brook Univ)  [[https://www.stonybrook.edu/commcms/ookami/support/faq/core-thread-control-ookami][link]]
 **  Discovery (New Mexico State Univ)  [[https://hpc.nmsu.edu/discovery/home/nodes/][link]]
 **  Kisti super computing center  [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://repository.kisti.re.kr/bitstream/10580/6542/1/2014-147%20Slurm%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%EC%9D%B4%EC%9A%A9%EC%9E%90%20%EA%B0%80%EC%9D%B4%EB%93%9C.pdf][brocher]]
 **  Neuron (Kisti GPU cluster system)  [[https://blog.ksc.re.kr/124][blog]]
