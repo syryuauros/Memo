@@ -20,6 +20,7 @@
 **  work submit, delete, order control, per partition command,  wake-up nodes, slurm.conf PATH, etc [[https://dandyrilla.github.io/2017-04-11/jobsched-slurm/][kdoc]]
 
 * examples
+**  my code  [[https://github.com/haedosa/declarative-hpc/tree/apps_for_switching/pixiecore-mini-hpc/shell-scripts][link]]
 ** HPC2N [[https://www.hpc2n.umu.se/documentation/batchsystem/basic-submit-example-scripts][link]]
 ** Ookami (Stony Brook Univ)  [[https://www.stonybrook.edu/commcms/ookami/support/faq/core-thread-control-ookami][link]]
 **  Discovery (New Mexico State Univ)  [[https://hpc.nmsu.edu/discovery/home/nodes/][link]]
