@@ -56,5 +56,5 @@
 
 
 * scientific tools
-**  gnuplot [[https://swstar.tistory.com/193][exm]]   [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.gnuplot.info/docs_5.5/Gnuplot_5_5.pdf][odc]]  [[/home/auros/gits/programming/gnuplot][int]]  [[https://blog.naver.com/nai0315/10113430741][kdoc]]  [[http://www.gnuplot.info/docs_4.2/node145.html][with options]]
+**  gnuplot [[https://swstar.tistory.com/193][exm]]   [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.gnuplot.info/docs_5.5/Gnuplot_5_5.pdf][odc]]   [[/home/auros/gits/programming/gnuplot][int]]  [[https://blog.naver.com/nai0315/10113430741][kdoc]]  [[http://www.gnuplot.info/docs_4.2/node145.html][with options]]   [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.gnuplot.info/docs_5.5/Gnuplot_5_5.pdf][odc]]
 *** color code, palette  [[https://htmlcolorcodes.com/][code]]  [[https://coolors.co/palettes/trending][palette]]
