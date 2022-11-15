@@ -25,7 +25,7 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 * Vi mode (default control)
 [[https://www.youtube.com/watch?v=cY0JxzENBJg][link-video]]
 
-| esc                          | i             | v           | :                                                             | REFs |
+| esc                          | i             | v [[https://m.blog.naver.com/wonmylover/220747912629][map]]       | :                                                             | REFs |
 |------------------------------+---------------+-------------+---------------------------------------------------------------+------|
 | default 상태                 | 입력모드      | 선택모드    | 명령어모드                                                    |      |
 | l(or right) 한 칸 이동       | 키보드 입력   | esc와 동일  | :w 저장                                                       |      |

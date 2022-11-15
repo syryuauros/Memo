@@ -1,19 +1,20 @@
 #+SETUPFILE: 0_format.cfg
 
-* mouse control with keyboards
+* Editing tools
+** mouse control with keyboards
 | * gnome                                       | Accessiblity (ctrl+Alt+Tab) >> mousekey | [[https://help.ubuntu.com/stable/ubuntu-help/mouse-mousekeys.html.en][link]] [[https://askubuntu.com/questions/1201548/keypad-mouse-movement-too-slow-on-ubuntu-18-04][link]] [[https://discourse.nixos.org/t/setting-keyboard-layout-on-startup/9954/5][link]] |
 | * windows                                     | neatmouse                               | [[https://neatdecisions.com/products/neatmouse/][link]]           |
 | https://neatdecisions.com/products/neatmouse/ |                                         |                |
 |                                               |                                         |                |
 
-* useful keys in emacs (editing)
+** useful keys in emacs (editing)
 | command name         | key binding                        | action                                     |
 | describe key         | spc h k [key binding want to find] | explaration                                |
 | evil-visual-restore  | g v                                | select the seleted phrases one step before |
 | +evil/reselect-paste | g p                                | reselect paste                             |
 |                      | v i i                              |                                            |
 
-* useful apps(small)
+** useful apps(small)
   | * wormhole     | $magic-wormhole | sending & getting files between anonymous computers |
   | * ffmpeg       | video editing   | [[https://walkaroundthedevelop.tistory.com/16][link]]                                                |
   | * tmux         | C-b %, C-b "    | [[https://gist.github.com/MohamedAlaa/2961058][link]] [[https://tmuxcheatsheet.com/][link]] [[https://man.openbsd.org/OpenBSD-current/man1/tmux.1][odoc]] [[https://www.arp242.net/tmux.html][tut1]] [[https://medium.com/@jakemanger/bash-scripts-for-tmux-d77a0764833c][tut2]] [[https://stackoverflow.com/questions/5447278/bash-scripts-with-tmux-to-launch-a-4-paned-window][tut3]]                       |
@@ -21,14 +22,16 @@
   | * vanila emacs |                 | [[https://mwultong.blogspot.com/2006/06/emacs-exit-qna.html][link]]                                                |
   |                |                 |                                                     |
 
-*  useful keys in emacs(windows, buffers)
+**  useful keys in emacs(windows, buffers)
 | * repeat command   | C-u 5 spc w >                  | spc w > (increase window width) 5times  |      |
 |                    | C-u 10 spc w <                 | spc w < (decrease window width) 10times | [[https://emacs.stackexchange.com/questions/582/how-to-change-size-of-split-screen-emacs-windows][link]] |
 |                    |                                |                                         |      |
 | * new project      | spc tab n                      |                                         |      |
 | * project checkout | spc tab tab M-[project number] |                                         |      |
 
-* useful Plug-ins in web-browser
+
+* Plug-in
+** useful Plug-ins in web-browser
 | * IE TAB | [[https://m.blog.naver.com/comgghh/140176061963][link]] |
 |          |      |
 
@@ -50,3 +53,7 @@
 | * openstack              |                   |
 | * reemo                  | [[https://reemo.io/][link]] [[https://doc.reemo.io/remotedesktop.html][link]]         |
 |                          |                   |
+
+
+* scientific tools
+**  gnuplot [[https://swstar.tistory.com/193][exm]]   [[chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.gnuplot.info/docs_5.5/Gnuplot_5_5.pdf][odc]]  [[/home/auros/gits/programming/gnuplot][int]]  [[https://blog.naver.com/nai0315/10113430741][kdoc]]  [[http://www.gnuplot.info/docs_4.2/node145.html][with options]]
