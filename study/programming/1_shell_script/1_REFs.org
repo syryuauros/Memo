@@ -14,10 +14,16 @@
 ***  date  [[https://extendit.tistory.com/14][kdoc]]
 ***  time [[https://hbase.tistory.com/140][kdoc  ]]
 *** scp  [[https://m.blog.naver.com/73053936/220291638501][kdoc]]
+***  grep
+****  특정문자만 카운트 [[https://kldp.org/node/89841][kdoc]]
+*** sort
+****  number ordering, general ordering [[https://zetawiki.com/wiki/Bash_%EC%9E%90%EC%97%B0%EC%A0%95%EB%A0%AC][kdoc]]
+
 
 **  grammar
 ***  basic grammar [[https://bangu4.tistory.com/242][kdoc]]
 ***  arithmetic operation [[https://codechacha.com/ko/shell-script-add-minus-multi-division/][kdoc]]
+****  modulus  [[https://linuxhint.com/modulus-bash/][doc]]
 ***  \  (line change)  [[https://biology-statistics-programming.tistory.com/117][kdoc]]
 ***  | (pipeline)    [[https://arer.tistory.com/198?category=721052][kdoc]]
 ***  input from file or user (read)  [[https://codechacha.com/ko/shell-script-read-file/][kdoc]]   [[https://codechacha.com/ko/shell-script-user-input/][kdoc]]
@@ -33,6 +39,7 @@
 
 
 ***  Data 추출 [[https://sevendollars.tistory.com/90][kdoc]]
+
 ***  Host info
 ****  name [[https://dobby-the-house-elf.tistory.com/428][kdoc]]
 

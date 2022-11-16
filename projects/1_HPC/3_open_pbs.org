@@ -1,4 +1,12 @@
 #
 
 * usage
-**  example  [[https://m.blog.naver.com/cjh226/220923055022][kdoc]]  [[https://blog.seabow.pe.kr/?p=217][kdoc]]
+| *  example                   |                               | [[https://m.blog.naver.com/cjh226/220923055022][kdoc]]  [[https://blog.seabow.pe.kr/?p=217][kdoc]] [[https://dandyrilla.github.io/2017-04-10/jobsched-sge/][kdoc]] |
+| node assign                  | qsub -l nodes=[ name ]        | [[https://stackoverflow.com/questions/18392786/how-to-submit-a-job-to-a-specific-node-in-pbs][so]] [[https://dolhani.tistory.com/251][kdoc]]         |
+| node info                    | $ pbsnodes -aSj               | [[http://docs.adaptivecomputing.com/suite/8-0/basic/help.htm#topics/torque/commands/pbsnodes.htm][man]] [[https://mymjut.tistory.com/346][kdoc]]        |
+|                              | $ qstat -Q                    |                 |
+| kill specific jobs           |                               | [[https://gist.github.com/icaoberg/5374558][doc]]             |
+| pass parameter(args) in qsub | qsub -v arg1=[arg],arg2=[arg] | [[https://stackoverflow.com/questions/18925068/how-to-pass-parameters-from-qsub-to-bash-script][so]] [[https://stackoverflow.com/questions/3504081/parameter-for-shell-scripts-that-is-started-with-qsub][so]]           |
+| qsub iteration               | [[https://m.blog.naver.com/cjh226/220923055022][kdoc]]                          |                 |
+| commands list                | [[https://www.cqu.edu.au/eresearch/high-performance-computing/hpc-user-guides-and-faqs/pbs-commands][doc]]  [[http://docs.adaptivecomputing.com/suite/8-0/basic/help.htm#topics/torque/commands/pbsnodes.htm][doc]] [[https://mymjut.tistory.com/352][kdoc]] [[https://blog.seabow.pe.kr/?p=217][kdoc]]            |                 |
+| install in centOS            | [[http://kaget.cep.kr/blog/150][kdoc]]                          |                 |
