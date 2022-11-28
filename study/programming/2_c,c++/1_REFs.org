@@ -16,7 +16,12 @@
 **  tutorial
 ***  ktut  [[https://wikidocs.net/14010][kdoc]]  [[https://modoocode.com/217][kdoc]]  [[https://www.joinc.co.kr/w/taglist?name=Linux%20%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98%20C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D][kdoc]]
 *** code-structure  [[https://www.joinc.co.kr/w/Site/C/Documents/CprogramingForLinuxEnv/Ch12_module][kdoc]]
+*** linking (difference between compile - gcc & build - make)  [[https://m.blog.naver.com/kiseop91/221516702986][kdoc]]
+ + make vs Cmake  [[https://www.tuwlab.com/ece/27234][kdoc]]
 
 ** libraries
 *** gtkmm  [[https://developer-old.gnome.org/gtkmm-tutorial/unstable/gtkmm-tutorial.html][odoc]]
 *** include path  [[https://jinyongjeong.github.io/2016/06/06/gcc_default_include_path_confirm/][kdoc]]  [[https://halfmoon.tistory.com/108][kdoc]]   [[https://yurmu.tistory.com/27][kdoc]]
+
+**  cpp in nixos
+*** nix flake based c++ starter kit [[https://github.com/nixvital/nix-based-cpp-starterkit][git]] [[https://www.breakds.org/post/nix-based-c++-workflow/][link]]
