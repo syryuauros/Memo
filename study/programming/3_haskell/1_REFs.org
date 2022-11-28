@@ -1,0 +1,19 @@
+#
+
+* REFs
+**  internal [[/home/auros/gits/programming/Haskell/][int]]
+
+**  single command
+
+**  grammar
+***  basic grammar
+
+**  examples
+
+**  tutorial
+*** compiler-ghc, builder-cabal (+package manager)  [[https://wikidocs.net/10915][kdoc]]
+
+** libraries
+
+
+**  haskell in nixos
