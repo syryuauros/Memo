@@ -32,6 +32,18 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 | [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake .#syryuhds --impure |
 
 * flake  [[https://yuanwang.ca/posts/getting-started-with-flakes.html][link]]
+**  basic usage guide [[https://nixos.wiki/wiki/Flakes][link]]
+| nix flake check                    | checks."<system>."<name>"         |
+| nix build .#<name>                 | packages."<system>."<name>"       |
+| nix build .#<name>                 | legacyPackages."<system>."<name>" |
+| nix run .#<name>                   | apps."<system>."<name>"           |
+| nixos-rebuild --flake .#<hostname> | nixosConfigurations."<hostname>"  |
+| nix develop .#<name>               | devShells."<system>."<name>"      |
+| nix flake init -t <flake>#<name>   | templatess."<name>"               |
+|                                    | overlays."<name>"                 |
+|                                    | nixosModules."<name>"             |
+|                                    |                                   |
+**  useful and used many times
 | [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |
 | [flake.nix가 있는 폴더]$nix run   | nix run  github:syryuauros/myflakes/master   |
 | $ nix run nixpkgs#gnuplot|

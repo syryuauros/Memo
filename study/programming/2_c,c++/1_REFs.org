@@ -1,0 +1,22 @@
+#
+
+* REFs
+**  internal [[/home/auros/gits/programming/cpp/][int]]
+
+**  single command
+
+**  grammar
+***  basic grammar [[https://min-zero.tistory.com/entry/C-%EA%B8%B0%EB%B3%B8-%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC-3-1-%EC%97%B0%EC%82%B0%EC%9E%90operator][kdoc]]   [[https://melonicedlatte.com/algorithm/2018/03/04/022437.html][ktbl]]
+***  optimization  [[https://modoocode.com/129][kdoc]]
+
+
+**  examples
+*** kexm [[https://oceancoding.blogspot.com/2020/06/c.html][kdoc]]  [[https://oceancoding.blogspot.com/2019/07/c.html][kdoc]]
+
+**  tutorial
+***  ktut  [[https://wikidocs.net/14010][kdoc]]  [[https://modoocode.com/217][kdoc]]  [[https://www.joinc.co.kr/w/taglist?name=Linux%20%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98%20C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D][kdoc]]
+*** code-structure  [[https://www.joinc.co.kr/w/Site/C/Documents/CprogramingForLinuxEnv/Ch12_module][kdoc]]
+
+** libraries
+*** gtkmm  [[https://developer-old.gnome.org/gtkmm-tutorial/unstable/gtkmm-tutorial.html][odoc]]
+*** include path  [[https://jinyongjeong.github.io/2016/06/06/gcc_default_include_path_confirm/][kdoc]]  [[https://halfmoon.tistory.com/108][kdoc]]   [[https://yurmu.tistory.com/27][kdoc]]

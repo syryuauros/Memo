@@ -1,0 +1,12 @@
+#
+
+* infiniband, RDMA basic
+| * concepts |   | [[https://www.devstack.co.kr/gpu-direct-rdma-%EC%86%8C%EA%B0%9C/][kdoc]] [[http://sunexpert.egloos.com/879446][kdoc]] |
+
+
+* install and configuration
+| * in cent os                 |   | [[https://docs.netapp.com/ko-kr/e-series/config-linux/nvme-ib-setup-host-side-task.html][kdoc]]       |
+| * networking Guide in RedHAT |   | [[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/overview_of_networking_topics][odoc]] |
+
+* infiniband, RDMA in nixos
+| * rdma-core | replace infiniband-diags, libibverbs, librdmacm | [[https://github.com/NixOS/nixpkgs/issues/34314][issue]] [[https://pkgs.on-nix.com/nixpkgs/infiniband-diags/][doc]] |
