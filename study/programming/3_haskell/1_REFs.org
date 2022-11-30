@@ -8,12 +8,16 @@
 **  grammar
 ***  basic grammar
 
+** concepts
+*** resursion & mathemetical induction  [[https://imjeongwoo.tistory.com/17][kdoc]]
+
 **  examples
 
 **  tutorial
-*** compiler-ghc, builder-cabal (+package manager)  [[https://wikidocs.net/10915][kdoc]]
+*** compiler-ghc, builder-cabal (+package manager, build command=runhaskell)  [[https://wikidocs.net/10915][kdoc]]
 
 ** libraries
 
 
 **  haskell in nixos
+***  flake.nix  [[https://serokell.io/blog/practical-nix-flakes][serokell]]  [[https://github.com/serokell/templates/blob/master/haskell-cabal2nix/flake.nix][git]]
