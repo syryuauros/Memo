@@ -46,11 +46,12 @@
 
 -
 *  bash script
- | *set      | [[https://frankler.tistory.com/59][link]] |
- | $?        | [[https://frankler.tistory.com/59][link]] |
- | short cut | [[https://zetawiki.com/wiki/Bash_%EB%8B%A8%EC%B6%95%ED%82%A4][link]] |
- | tutorials | [[https://probe29.tistory.com/47][ref1]] |
- |           |      |
+ | *set                                 | [[https://frankler.tistory.com/59][link]] |
+ | $?                                   | [[https://frankler.tistory.com/59][link]] |
+ | short cut                            | [[https://zetawiki.com/wiki/Bash_%EB%8B%A8%EC%B6%95%ED%82%A4][link]] |
+ | tutorials                            | [[https://probe29.tistory.com/47][ref1]] |
+ | varialbe string include spcae "$var" | [[https://chanchan-father.tistory.com/838][kdoc]] |
+ |                                      |      |
 
 * 편집관련
 | * find path & edit | $ bat $(echo $(systemctl show [name of service] [pl] grep FragmentPath) [pl] cut -c 14-) | [[https://codechacha.com/ko/shell-script-substring/][link]]  [[https://askubuntu.com/questions/1077778/how-do-i-pass-flags-when-starting-a-systemd-service][link2]] |

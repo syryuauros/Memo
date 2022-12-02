@@ -15,7 +15,7 @@
 
 **  tutorial
 *** compiler-ghc, builder-cabal (+package manager, build command=runhaskell)  [[https://wikidocs.net/10915][kdoc]]
-
+*** ktut [[https://1ambda.github.io/haskell/intro-to-haskell-1/][kdoc]]
 ** libraries
 
 
