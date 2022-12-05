@@ -1,9 +1,9 @@
 
 #+SETUPFILE: 1Emacs.cfg
 * searching (spc *)
-| * nix pkgs | packages              | /nix/var/nix/profiles/per-user/root/channels/nixos/pkgs/ |
-| * nixos    | built-in or libraries | /nix/var/nix/profiles/per-user/root/channels/nixos/      |
-|            |                       |                                                          |
+| * nix pkgs | packages              | /nix/var/nix/profiles/per-user/root/channels/nixos/pkgs/ |   |
+| * nixos    | built-in or libraries | /nix/var/nix/profiles/per-user/root/channels/nixos/      |   |
+|            |                       |                                                          |   |
 
 
 * nix file/dir position (as increased priority)
@@ -45,6 +45,7 @@
 | * overrides     | [...doc]/using/overrides.chapter.md     |             | [[https://github.com/NixOS/nixpkgs/blob/master/doc/using/overrides.chapter.md][github]] |
 | * modules       |                                         | [[https://nixos.org/manual/nixos/stable/index.html#sec-writing-modules][link]]  [[https://discourse.nixos.org/t/best-resources-for-learning-about-the-nixos-module-system/1177][link2]] |        |
 | * search        |                                         | [[https://search.nixos.org/options?channel=22.05&show=programs.starship.settings&from=0&size=50&sort=relevance&type=packages&query=programs.starship][link]]        |        |
+|                 |                                         |             |        |
 
 
 * system command

@@ -26,8 +26,11 @@ nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 
 | $nix-store -q --referrers-closure `realpath ./result/bin/S4 |
 
 * nixos
-| $nixos-rebuild switch --rollback                                              |
-| [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake .#syryuhds --impure |
+| $nixos-rebuild switch --rollback                                                                 |                                                                                               |
+| [flake.nix가 있는 폴더]$sudo nixos-rebuild switch --flake .#syryuhds --impure                  |                                                                                               |
+| nixos-rebuild switch --flake .#syryuauros --option binary-caches https://cache.nixos.org/ forced | [[https://unix.stackexchange.com/questions/563485/how-can-i-ignore-binary-caches-when-running-nix-channel-commands][ref]]                                                                                           |
+|                                                                                                  | nixos-rebuild switch --flake .#syryuauros --option substitute https://cache.nixos.org/ forced |
+|                                                                                                  |                                                                                               |
 
 * flake
 | [flake.nix가 있는 폴더]$nix build | nix build  github:syryuauros/myflakes/master |

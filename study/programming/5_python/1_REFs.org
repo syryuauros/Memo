@@ -9,7 +9,9 @@
 ***  py_compile, pyinstaller   [[https://www.codingfactory.net/12876][kdoc]]
 **  grammar
 ***  basic grammar [[https://bangu4.tistory.com/242][kdoc]]
-***  string [[https://wikidocs.net/2840][add]]
+*** variables
+****  string [[https://wikidocs.net/2840][add]]
+****  converting   [[https://pybasall.tistory.com/348][str list to int,float]]
 *** parameter input  [[https://devpouch.tistory.com/99][parameter as command input]]
 
 

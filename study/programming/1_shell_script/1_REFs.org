@@ -30,6 +30,7 @@
 ***  iteration (for, while) [[https://hbase.tistory.com/15][kdoc]]   [[https://codechacha.com/ko/shell-script-loop/][kdoc]]
 ***  variables
 ****  execution result as variables   [[https://codechacha.com/ko/shell-script-get-result-of-command/][kdoc]]
+**** array declare, allocate, length, contact [[https://codechacha.com/ko/shell-script-array/][kdoc]]
 
 *** parameter as input
 + array parameter  [[http://blog.redjini.com/282][kdoc]]
