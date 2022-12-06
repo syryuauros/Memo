@@ -15,6 +15,8 @@
 
 **  tutorial
 *** compiler-ghc, builder-cabal (+package manager, build command=runhaskell)  [[https://wikidocs.net/10915][kdoc]]
+*** compile & gtk3  [[https://www.youtube.com/watch?v=k1aq8ikO-8Q][serokell-youtube]]
+$ ghc ./Main.hs -outputdir _build -o gui-haskell-app -threaded -Wall -O2
 *** ktut [[https://1ambda.github.io/haskell/intro-to-haskell-1/][kdoc]]
 ** libraries
 
