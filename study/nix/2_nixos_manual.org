@@ -1,5 +1,12 @@
 #+SETUPFILE: 1Emacs.cfg
 
+* emergency
+| hydra.iohk.io break | 1. remove 'hydra.iohk.io' from binary-cache list fo configuration.nix & flake.nix, home.nix         |
+|                     | 2. # nixos-rebuild switch --option binary-cache https://cache.nixos.org                             |
+|                     | or # nixos-rebuild switch --option substitute false                                                 |
+|                     | 3. # nixos-rebuild switch --flake .#syryuhds --impure --option binary-cache https://cache.nixos.org |
+|                     |                                                                                                     |
+
 * nix- (nix original command)
 | $nix-env --list-generations | $nix-env -G 42  or $nix-env --switch-generation 42 |
 | $nix-env --rollback         |                                                    |
