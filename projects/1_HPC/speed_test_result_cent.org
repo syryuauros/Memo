@@ -1,4 +1,60 @@
-* sum of 1..32,0000,0000 = 512,0000,0016,0000,0000
+* sum of 1..3,2000,0000,0000  = 5,1200,0000,0001,6000,0000,0000 - compiled program (c++)
+| cpu#    | time(s,HPC) | time(s,miniPC) | time(s,dev PC) | sleep/sleep(s) |
+|         |             |                |                |                |
+| 1280pa  |             |                |                | 1/1            |
+| 640pa   |     109.642 |                |                | 1/1            |
+| 320pa   |     201.474 |                |                | 1/1            |
+| 160pa   |             |                |                | 1/1            |
+| 16pa    |             |                |                |                |
+| 1pa     |             |                |                |                |
+| no Sjob |             |                |                |                |
+
+
+* sum of 1..6400,0000,0000  = 512,0000,0000,1600,0000,0000 - compiled program (c++)
+| cpu#    | time(s,HPC) | time(s,miniPC) | time(s,dev PC) | sleep/sleep(s) |
+|         |             |                |                |                |
+| 1280pa  |             |                |                | 1/1            |
+| 640pa   |      43.268 |                |                | 1/1            |
+| 320pa   |      42.175 |                |                | 1/1            |
+| 160pa   |      80.358 |                |                | 1/1            |
+| 16pa    |             |                |                |                |
+| 1pa     |             |                |                |                |
+| no Sjob |             |                |                |                |
+
+* sum of 1..3200,0000,0000  = 512,0000,0000,1600,0000,0000 - compiled program (c++)
+| cpu#    | time(s,HPC) | time(s,miniPC) | time(s,dev PC) | sleep/sleep(s) |
+|         |             |                |                |                |
+| 1280pa  |             |                |                | 1/1            |
+| 640pa   |      28.031 |                |                | 1/1            |
+| 320pa   |      23.305 |                |                | 1/1            |
+| 160pa   |      40.753 |                |                | 1/1            |
+| 16pa    |     163.994 |                |                |                |
+| 1pa     |             |                |                |                |
+| no Sjob |             |                |        282.453 |                |
+
+* sum of 1..320,0000,0000  = 5,1200,0000,0160,0000,0000 - compiled program (c++)
+| cpu#    | time(s,HPC) | time(s,miniPC) | time(s,dev PC) | sleep/sleep(s) |
+|         |             |                |                |                |
+| 1280pa  |             |                |                | 1/1            |
+| 640pa   |             |                |                | 1/1            |
+| 320pa   |      11.981 |                |                | 1/1            |
+| 160pa   |       5.955 |                |                | 1/1            |
+| 16pa    |      37.592 |                |                |                |
+| 1pa     |     260.854 |                |                |                |
+| no Sjob |     259.052 |                |         28.100 |                |
+
+* sum of 1..32,0000,0000 = 512,0000,0016,0000,0000 - compiled program (c++)
+| cpu#    | time(s,HPC) | time(s,miniPC) | time(s,dev PC) | sleep/sleep(s) |
+|         |             |                |                |                |
+| 1280pa  |             |                |                | 1/1            |
+| 640pa   |             |                |                | 1/1            |
+| 320pa   |      12.169 |                |                | 1/1            |
+| 160pa   |       6.030 |                |                | 1/1            |
+| 1pa     |             |                |          2.859 |                |
+| no Sjob |      25.887 |                |          2.859 |                |
+
+
+* sum of 1..32,0000,0000 = 512,0000,0016,0000,0000 - shell script
 | cpu#   | time(s,HPC,5nodes) | time(s,HPC,1node) | time(s,miniPC) | sleep/sleep(s) |
 |        |                    |                   |                |                |
 | 1280pa |             72.113 |                   |                | 1/1            |
@@ -7,7 +63,7 @@
 | 160pa  |             91.337 |           193.567 |                | 1/1            |
 
 
-* sum of 1..3,2000,0000 = 5,1200,0001,6000,0000
+* sum of 1..3,2000,0000 = 5,1200,0001,6000,0000 - shell scrip
 | cpu#   | time(s,HPC,5nodes) | time(s,HPC,1node) | time(s,miniPC) | sleep/sleep(s) |
 |        |                    |                   |                |                |
 | 1280pa |             57.423 |            54.984 |                | 1/1            |
@@ -21,7 +77,7 @@
 | 8pa    |                    |           150.812 |        212.468 | 1/1            |
 | normal |                    |  1039.745(17m19s) |                | 0/0            |
 
-* sum of 1..3200,0000 = 512,0000,1600,0000
+* sum of 1..3200,0000 = 512,0000,1600,0000- shell scrip
 | cpu#   | time(s,HPC,5nodes) | time(s,HPC,1node) | time(s,miniPC) | sleep/sleep(s) |
 |        |                    |                   |                |                |
 | 32pa   |                    |                   |          8.078 | 1/1            |
@@ -31,7 +87,7 @@
 | 2pa    |                    |                   |         55.416 | 1/1            |
 | normal |                    |                   |        103.424 | 0/0            |
 
-* etc
+* etc- shell scrip
 | sum range                    | time(s,normal) | time(s,miniPC-16pa) | sleep/sleep(s) |
 |                              |                |                     |                |
 | 1..320,0000=5,1200,0160,0000 |        10.174s |              3.035s | 1/1            |

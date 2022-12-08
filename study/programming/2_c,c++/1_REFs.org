@@ -4,10 +4,13 @@
 **  internal [[/home/auros/gits/programming/cpp/][int]]
 
 **  single command
+*** cout
+ + 지수 표기법 방지 [[https://jlog1016.tistory.com/92][kdoc]]
 
 **  grammar
 ***  basic grammar [[https://min-zero.tistory.com/entry/C-%EA%B8%B0%EB%B3%B8-%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC-3-1-%EC%97%B0%EC%82%B0%EC%9E%90operator][kdoc]]   [[https://melonicedlatte.com/algorithm/2018/03/04/022437.html][ktbl]]
 ***  optimization  [[https://modoocode.com/129][kdoc]]
+***  부동소수점 (float, double, long double) 표기법 [[https://dojang.io/mod/page/view.php?id=46][kdoc]]
 
 
 **  examples
