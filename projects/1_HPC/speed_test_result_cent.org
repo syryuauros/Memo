@@ -1,7 +1,7 @@
 * spec compair
 |               |  HPC compute node |   miniPC |  dev PC |    HPC login node |
-| total CPU#    |               640 |       36 |       8 |               160 |
-| machine#      |                 5 |        3 |       1 |                 5 |
+| total CPU#    |               640 |       36 |       8 |                32 |
+| machine#      |                 5 |        3 |       1 |                 1 |
 | cpu#          |               128 |       12 |       8 |                32 |
 | thread/core   |                 1 |        2 |       1 |                 1 |
 | core/socket   |                64 |        6 |       8 |                16 |
