@@ -11,6 +11,7 @@
 ***  basic grammar [[https://bangu4.tistory.com/242][kdoc]]
 *** variables
 ****  string [[https://wikidocs.net/2840][add]]
+****  sting.split('구분기호')  [[https://bio-info.tistory.com/29][kodc]]
 ****  converting   [[https://pybasall.tistory.com/348][str list to int,float]]
 *** parameter input  [[https://devpouch.tistory.com/99][parameter as command input]]
 
