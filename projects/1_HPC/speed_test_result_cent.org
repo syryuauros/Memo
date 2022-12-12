@@ -1,20 +1,20 @@
 * spec compair
-|               |               HPC |   miniPC |  dev PC | sleep/sleep(s) |
-| total CPU#    |               160 |       36 |       8 |                |
-| machine#      |                 5 |        3 |       1 |                |
-| cpu#          |                32 |       12 |       8 |                |
-| thread/core   |                 1 |        2 |       1 |                |
-| core/socket   |                16 |        6 |       8 |                |
-| sockets       |                 2 |        1 |       1 |                |
-| BogoMIP       |           5988.88 |  5799.77 |    6000 |                |
-|               |                   |          |         |                |
-| CPU model     | EPYC 7313 16-core | i5-10400 | i7-9700 |                |
-| CPU GHz (Max) |             2.994 |     4.30 |    4.70 |                |
-| L1d           |               32k |     192k |    256k |                |
-| L1i           |               32k |     192k |    256k |                |
-| L2            |              512k |     1.5M |      2M |                |
-| L3            |            32768k |      12M |     12M |                |
-|               |                   |          |         |                |
+|               |  HPC compute node |   miniPC |  dev PC |    HPC login node |
+| total CPU#    |               640 |       36 |       8 |               160 |
+| machine#      |                 5 |        3 |       1 |                 5 |
+| cpu#          |               128 |       12 |       8 |                32 |
+| thread/core   |                 1 |        2 |       1 |                 1 |
+| core/socket   |                64 |        6 |       8 |                16 |
+| sockets       |                 2 |        1 |       1 |                 2 |
+| BogoMIP       |           3992.47 |  5799.77 |    6000 |           5988.88 |
+|               |                   |          |         |                   |
+| CPU model     | EPYC 7713 64-core | i5-10400 | i7-9700 | EPYC 7313 16-core |
+| CPU GHz (Max) |             1.996 |     4.30 |    4.70 |             2.994 |
+| L1d           |               32k |     192k |    256k |               32k |
+| L1i           |               32k |     192k |    256k |               32k |
+| L2            |              512k |     1.5M |      2M |              512k |
+| L3            |            32768k |      12M |     12M |            32768k |
+|               |                   |          |         |                   |
 
 
 * sum of 1..3,2000,0000,0000  = 5,1200,0000,0001,6000,0000,0000 - compiled program (c++)
