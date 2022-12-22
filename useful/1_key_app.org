@@ -15,12 +15,15 @@
 |                      | v i i                              |                                            |
 
 ** useful apps(small)
-  | * wormhole     | $magic-wormhole | sending & getting files between anonymous computers |
-  | * ffmpeg       | video editing   | [[https://walkaroundthedevelop.tistory.com/16][link]]                                                |
-  | * tmux         | C-b %, C-b "    | [[https://gist.github.com/MohamedAlaa/2961058][link]] [[https://tmuxcheatsheet.com/][link]] [[https://man.openbsd.org/OpenBSD-current/man1/tmux.1][odoc]] [[https://www.arp242.net/tmux.html][tut1]] [[https://medium.com/@jakemanger/bash-scripts-for-tmux-d77a0764833c][tut2]] [[https://stackoverflow.com/questions/5447278/bash-scripts-with-tmux-to-launch-a-4-paned-window][tut3]] [[https://fig.io/manual/tmux][clist]]           |
-  |                | C-b q num       |                                                     |
-  | * vanila emacs |                 | [[https://mwultong.blogspot.com/2006/06/emacs-exit-qna.html][link]]                                                |
-  |                |                 |                                                     |
+  | * wormhole     | $magic-wormhole       | sending & getting files between anonymous computers |
+  | * ffmpeg       | video editing         | [[https://walkaroundthedevelop.tistory.com/16][link]]                                                |
+  | * tmux         | C-b %, C-b "          | [[https://gist.github.com/MohamedAlaa/2961058][link]] [[https://tmuxcheatsheet.com/][link]] [[https://man.openbsd.org/OpenBSD-current/man1/tmux.1][odoc]] [[https://www.arp242.net/tmux.html][tut1]] [[https://medium.com/@jakemanger/bash-scripts-for-tmux-d77a0764833c][tut2]] [[https://stackoverflow.com/questions/5447278/bash-scripts-with-tmux-to-launch-a-4-paned-window][tut3]] [[https://fig.io/manual/tmux][clist]]                 |
+  |                | C-b q num             |                                                     |
+  |                | C-b C-arrow           | [[https://qa.apthow.com/archives/18948][pane size control]]                                   |
+  |                | C-b &, C-b x          | [[https://sarah950716.tistory.com/21][window close]]                                        |
+  | * vanila emacs |                       | [[https://mwultong.blogspot.com/2006/06/emacs-exit-qna.html][link]]                                                |
+  | * zip, unzip   | $zip -r [name] [path] | [[https://www.lesstif.com/lpt/linux-zip-unzip-80248839.html][link]]                                                |
+  |                |                       |                                                     |
 
 **  useful keys in emacs(windows, buffers)
 | * repeat command   | C-u 5 spc w >                  | spc w > (increase window width) 5times  |      |

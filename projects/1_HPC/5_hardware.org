@@ -1,0 +1,24 @@
+#+SETUPFILE: 0_format.cfg
+# [[https://raw.githubusercontent.com/GeneKao/orgmode-latex-templates/master/simple/simple.org]]
+* BMC (Baseboard Management Controller) - IPMI(Intelligent Platform Management Bus)tool
+| 'ILO' has almost same meaning |      |
+| BMC intro                     | [[https://velog.io/@minjung0067/bmc][kdoc]] |
+|                               |      |
+|                               |      |
+
+* HPC hardware reset
+| power button cannot power on/off    | disconnected physically inside the module | preventing mistakes |
+| the power cable connected multiple  | nodes serially so do not plug out!!       |                     |
+| if you want to power off some nodes | dessemble the module for more than 5sec   | and reassemble      |
+|                                     |                                           |                     |
+| module dessemble                    |                                           |                     |
+| node + bmc makes a module           |                                           |                     |
+| 1. loosen the volt with a hand      |                                           |                     |
+| 2. pull the tip under the bmc side  |                                           |                     |
+| 3. pull the module                  |                                           |                     |
+| 4. wait 5sec                        |                                           |                     |
+| 5. push the module again            |                                           |                     |
+
+* HPC connect in 'Auros'
+declarative-hpc/README.org
+ login >> make profile >> file moving >>pbs job test

@@ -15,12 +15,16 @@
 
 **  examples
 *** kexm [[https://oceancoding.blogspot.com/2020/06/c.html][kdoc]]  [[https://oceancoding.blogspot.com/2019/07/c.html][kdoc]]
+*** cmake project example  [[https://cpro95.tistory.com/47][kdoc]]
+*** cmake project example at ubuntu [[https://ladofa.blogspot.com/2018/07/c-1.html][kdoc]]  [[https://github.com/syryuauros/programming/tree/master/cpp/projects/cmakeex][mygit]]
 
 **  tutorial
 ***  ktut  [[https://wikidocs.net/14010][kdoc]]  [[https://modoocode.com/217][kdoc]]  [[https://www.joinc.co.kr/w/taglist?name=Linux%20%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98%20C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D][kdoc]]
 *** code-structure  [[https://www.joinc.co.kr/w/Site/C/Documents/CprogramingForLinuxEnv/Ch12_module][kdoc]]
 *** linking (difference between compile - gcc & build - make)  [[https://m.blog.naver.com/kiseop91/221516702986][kdoc]]
  + make vs Cmake  [[https://www.tuwlab.com/ece/27234][kdoc]]
+*** CGold [[https://cgold.readthedocs.io/en/latest/][doc]]   [[https://gist.github.com/luncliff/6e2d4eb7ca29a0afd5b592f72b80cb5c?permalink_comment_id=2831356][skdoc]]
+
 
 ** libraries
 *** gtkmm  [[https://developer-old.gnome.org/gtkmm-tutorial/unstable/gtkmm-tutorial.html][odoc]]

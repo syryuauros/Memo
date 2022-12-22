@@ -20,6 +20,7 @@
 **  work submit, delete, order control, per partition command,  wake-up nodes, slurm.conf PATH, etc [[https://dandyrilla.github.io/2017-04-11/jobsched-slurm/][kdoc]]
 
 * examples
+
 **  my code  [[https://github.com/haedosa/declarative-hpc/tree/apps_for_switching/pixiecore-mini-hpc/shell-scripts][link]]
 **  run 'C' code in job-scheduler  [[https://m.blog.naver.com/cjh226/220923055022][link]]
 
