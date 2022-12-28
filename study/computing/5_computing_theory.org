@@ -1,0 +1,53 @@
+
+* computer structure and abstract concepts
+** computing algorithm
+| * Turing vs Lambda             | [[https://mindule.tistory.com/16][link]]                     |
+| * computability theory         | [[https://yoda.wiki/wiki/Computability_theory][link]] [[https://ttl-blog.tistory.com/679][ktut]]                |
+| * Theory of computation        | [[http://www.aistudy.co.kr/computer/computation.htm][link]]  [[https://www.geeksforgeeks.org/introduction-of-theory-of-computation/][link2]] [[https://m.blog.naver.com/bestowing/221636494349][link2_korean]] |
+| * Entscheidungsproblem         | [[http://www.aistudy.co.kr/computer/Entscheidungsproblem.htm][link]]                     |
+| * First-order predicate logic  | [[http://www.aistudy.co.kr/logic/first_order_logic.htm][link]]                     |
+| * Automata (chomsky hierarchy) | [[https://brunch.co.kr/@toughrogrammer/11][link]] [[https://m.blog.naver.com/bestowing/221745385943][link_korean]]         |
+|                                |                          |
+|                                |                          |
+
+** concepts related
+ | predicate logic | --- set (category)theory | --- topology                    | --- algebra  |
+ |                 |                          |                                 | --- geometry |
+ |                 |                          |                                 |              |
+ | Turing machine  | recursive set            | recursively enumerable language |              |
+
+** chomsky hierarchy ([[https://m.blog.naver.com/bestowing/221774727354][link]]  [[https://namu.moe/w/%EC%98%A4%ED%86%A0%EB%A7%88%ED%83%80][link2]] [[https://ko.wikipedia.org/wiki/%EC%B4%98%EC%8A%A4%ED%82%A4_%EC%9C%84%EA%B3%84][wiki]] )
+|            |                             |                                       |   |                                             |
+|            |                             |                                       |   |                                             |
+|------------+-----------------------------+---------------------------------------+---+---------------------------------------------|
+| Language   | RL(Regular Language)        | CFL(Context Free Language)            |   |                                             |
+|            |                             | G = (V,T,P,S)                         |   |                                             |
+|            |                             |                                       |   |                                             |
+| Expression | RE(Regular Expression)      | CFG(Context Free Grammar)             |   |                                             |
+|            |                             |                                       |   |                                             |
+|            |                             |                                       |   |                                             |
+| Automata   | FA(Finite Automata)         | PA(Pushdown Automata = FA + stack)    |   | TM(Turing machine) [[https://raisonde.tistory.com/entry/%EC%98%A4%ED%86%A0%EB%A7%88%ED%83%80-Turing-Machine-%ED%8A%9C%EB%A7%81-%EB%A8%B8%EC%8B%A0][link]] [[https://dad-rock.tistory.com/449][link]]                |
+|            | DFA = NFA = e-NFA           |                                       |   |                                             |
+|            | FA M = (Q,sigma,q0,F,delta) | PDA M = (Q,sigma,q0,F,delta,gamma,Z0) |   | M = (Q, sigma, q0, F, delta, gamma, square) |
+|            |                             |                                       |   |                                             |
+
+** arithmetical hierarchy ( [[https://ko.wikipedia.org/wiki/%EC%82%B0%EC%88%A0%EC%A0%81_%EC%9C%84%EA%B3%84][link]] )
+
+
+** Category theory
+| category theory                | [[https://namu.moe/w/%EB%B2%94%EC%A3%BC%EB%A1%A0][link]]             |                                                                    |   |
+| category theory - introduction | [[https://wikidocs.net/7056][link]]  [[https://ko.wikipedia.org/wiki/%EB%B2%94%EC%A3%BC%EB%A1%A0][link]]       |                                                                    |   |
+| * isomorphysm                  | [[https://aerospacekim.tistory.com/50][link]]             |                                                                    |   |
+| * algebraic structure          | [[https://aerospacekim.tistory.com/category/%EC%88%98%ED%95%99/%EC%B6%94%EC%83%81%EB%8C%80%EC%88%98%ED%95%99][link]]             |                                                                    |   |
+|                                |                  |                                                                    |   |
+| * morphysm - monoid            | [[https://ko.wikipedia.org/wiki/%EC%82%AC%EC%83%81_(%EC%88%98%ED%95%99)][link]] [[https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%85%B8%EC%9D%B4%EB%93%9C][link_monoid]] | axioms: associative, identity morphysm (keeping)                   |   |
+| * isomorphysm - group          | [[https://ko.wikipedia.org/wiki/%EB%8F%99%ED%98%95_%EC%82%AC%EC%83%81][link]] [[https://ko.wikipedia.org/wiki/%EA%B5%B0_(%EC%88%98%ED%95%99)][link_group]]  | axioms: associative, identity morphysm (keeping), inverse morphysm |   |
+|                                |                  |                                                                    |   |
+| * abstract algebra             | [[https://jjycjnmath.tistory.com/228][ktut]]             |                                                                    |   |
+
+** algebraic topology ([[https://ko.wikipedia.org/wiki/%EB%8C%80%EC%88%98%EC%A0%81_%EC%9C%84%EC%83%81%EC%88%98%ED%95%99][link]])
+
+**  parsing
+**  BNF(Backus Naur Form)
+| BNF & parse tree | [[https://velog.io/@uchang903/%EC%9D%B4%EC%82%B0-%EC%88%98%ED%95%99-%EA%B5%AC-%EA%B5%AC%EC%A1%B0-%EA%B8%B0%EB%B0%98-%ED%8C%8C%EC%8A%A4-%ED%8A%B8%EB%A6%AC-Phrase-Structure-Parse-Tree-Backus-Naur-FormBNF][link]] |
+|                  |      |
