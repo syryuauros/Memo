@@ -1,0 +1,20 @@
+#
+
+* REFs
+**  internal [[/home/auros/gits/programming/cpp/projects/gtk_cmake/3_cmg22][int]]
+
+**  single command
+
+**  grammar
+
+
+**  examples
+
+**  tutorial
+***  manual
+*** Gnuplot-iostream (c++ interface)   [[http://stahlke.org/dan/gnuplot-iostream/][exm]]
+
+** libraries
+
+
+**  cpp in nixos
