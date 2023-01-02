@@ -10,6 +10,7 @@
 
 ** concepts
 *** resursion & mathemetical induction  [[https://imjeongwoo.tistory.com/17][kdoc]]
+*** Type & Type system  [[https://ahnheejong.name/articles/types-intro/][ktut]]
 
 **  examples
 
