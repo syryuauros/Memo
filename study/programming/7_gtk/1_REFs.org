@@ -12,7 +12,9 @@
 
 **  tutorial
 ***  manual  [[https://docs.huihoo.com/gtkmm/programming-with-gtkmm-3/3.4.1/en/index.html][gtkmm3]]  [[https://docs.huihoo.com/gtkmm/programming-with-gtkmm-3/3.4.1/en/sec-pushbuttons.html][gtkmm3-button]]  [[https://zetcode.com/gui/gtk2/firstprograms/][gtkh]]
-*** UI tool (glade)  [[https://www.kernelpanic.kr/26][ktut]]  [[https://www.youtube.com/watch?v=g-KDOH_uqPk][ytb]]
+*** UI tool (glade in cpp)  [[https://www.kernelpanic.kr/26][ktut]]  [[https://www.youtube.com/watch?v=g-KDOH_uqPk][ytb]]  [[https://riptutorial.com/gtk3/example/19806/-cplusplus--using-gtk--builder-in-gtkmm][exm]]
+*** UI tool (glade in haskell)  [[https://archives.haskell.org/projects.haskell.org/gtk2hs/docs/tutorial/glade/][tut]]
+
 
 ** libraries
 *** gtkmm  [[https://developer-old.gnome.org/gtkmm-tutorial/unstable/gtkmm-tutorial.html][odoc]]
