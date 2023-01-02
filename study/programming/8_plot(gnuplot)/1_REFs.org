@@ -12,8 +12,8 @@
 
 **  tutorial
 ***  manual
-*** Gnuplot-iostream (c++ interface)   [[http://stahlke.org/dan/gnuplot-iostream/][exm]]
-
+*** Gnuplot-iostream (c++ interface)   [[http://stahlke.org/dan/gnuplot-iostream/][exm]]   [[https://itecnote.com/tecnote/c-how-to-configure-gnuplot-iostream-with-c/][install guide]]  [[https://raw.githubusercontent.com/dstahlke/gnuplot-iostream/master/gnuplot-iostream.h][gnuplot-iostream.h]]
+ +  flake.nix:  pkgs::gnuplot, boost  >> nix develop >>  include 'gnuplot-iostream.h' in project folder
 ** libraries
 
 
