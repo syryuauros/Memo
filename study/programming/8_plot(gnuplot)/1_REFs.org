@@ -14,6 +14,11 @@
 ***  manual
 *** Gnuplot-iostream (c++ interface)   [[http://stahlke.org/dan/gnuplot-iostream/][exm]]   [[https://itecnote.com/tecnote/c-how-to-configure-gnuplot-iostream-with-c/][install guide]]  [[https://raw.githubusercontent.com/dstahlke/gnuplot-iostream/master/gnuplot-iostream.h][gnuplot-iostream.h]]
  +  flake.nix:  pkgs::gnuplot, boost  >> nix develop >>  include 'gnuplot-iostream.h' in project folder
+*** Gtkmm-PLplot [[https://tschoonj.github.io/gtkmm-plplot/usage.html][odoc]]
+*** plplot testing code compile  [[https://sourceforge.net/p/plplot/wiki/Linux/][odoc_wiki]]  [[https://sourceforge.net/projects/plplot/files/plplot/5.14.0%20Source/][sourceforge]]
+| g++ x01cc.cc -o x01.cc -Wl,-rpath -Wl,"/home/auros/gits/programming/cpp/projects/plplot/plplot/install_directory/lib" $(PKG_CONFIG_PATH="/home/auros/gits/programming/cpp/projects/plplot/plplot/install_directory/lib/pkgconfig" pkg-config --cflags --libs plplot-c++) |
+|                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                          |
 ** libraries
 
 
