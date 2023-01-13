@@ -1,0 +1,4 @@
+#+SETUPFILE: 1Emacs.cfg
+
+* pkgs install from c++ source
+  |   | [[https://blog.galowicz.de/2019/04/17/tutorial_nix_cpp_setup/][doc]] |
