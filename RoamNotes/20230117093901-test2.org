@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       824df47d-e1bf-487f-b256-20cdee2748f2
+:END:
+#+title: test2
+
+this is test2, and it has back link to test
