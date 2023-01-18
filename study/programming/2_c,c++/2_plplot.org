@@ -1,0 +1,10 @@
+#
+
+* nix-shell
+**  gtkmm3 version example [[http://transit.iut2.upmf-grenoble.fr/doc/gtkmm-3.0/tutorial/html/chapter-basics.html#sec-basics-simple-example][ref]]
+pwd:  /home/auros/gits/programming/cpp
+ + $ nix-shell -p pkgconfig gtkmm3
+ + (shell)$ pkg-config --list-all | grep gtk
+ + (shell)$ g++ -v ./projects/test/simple.cc -o ./projects/results/simple `pkg-config gtkmm-3.0 --cflags --libs`
+
+**  gtkmm4 >> need gcc version more than gcc11 (c++17), but Stdenv was set with gcc10.0.3 so compile error occurs

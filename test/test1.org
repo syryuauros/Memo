@@ -1,0 +1,14 @@
+#+name: test.sh
+#+begin_src shell :tangle "test.sh"
+ echo "Hello"
+ #+end_src
+
+ #+RESULTS:
+ : Hello
+
+ # example code referred
+        # https://orgmode.org/worg/org-contrib/babel/intro.html
+ # evaluating code blocks :: (M-x) org-babel-execute-src-block
+        # https://www.gnu.org/software/emacs/manual/html_node/org/Evaluating-Code-Blocks.html
+ # tangle src code blocks (current org file) :: (M-x) org-babel-tangle (C-c C-v t)
+ # tangle src code blocks (select org file) :: (M-x) org-babel-tangle-file (C-c C-v f)
