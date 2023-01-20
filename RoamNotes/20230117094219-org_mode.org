@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       78cfd89a-4bc7-407e-988a-f61c35491882
-:END:
-#+title: Org Mode
-#+roam_alias: "orgmode" "org-mode"
-
-I really like Org Mode. Org Mode is built in[[id:ffb2be1b-4f09-4682-9acb-cd9db8115603][Emacs]].
-[[id:ffb2be1b-4f09-4682-9acb-cd9db8115603][Emacs]]

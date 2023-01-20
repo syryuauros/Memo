@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       1b439bda-ed2f-4825-b621-5e6442063668
-:END:
-#+title: Org Roam
-#+roam_alias: "OrgRoam" "orgroam" "Org-roam"
-
-Let's say Org Roam is fantastic. Org Roam is built on top of [[id:78cfd89a-4bc7-407e-988a-f61c35491882][Org Mode]]
-
-Org Roam is a [[id:ffb2be1b-4f09-4682-9acb-cd9db8115603][Emacs]] tool.

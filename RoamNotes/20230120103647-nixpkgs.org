@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       10A85556-50E8-4A71-B5A2-AE152DAD4872
+:END:
+#+title: nixpkgs
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+
+nixpkgs official repo  [[https://github.com/NixOS/nixpkgs][git]]
+
+$nix repl ;'Ret'; nix-repl>:l <nixpkgs> ;'RET'; nix-repl>keyword(ex:rust) + ;'TAB';  [[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]

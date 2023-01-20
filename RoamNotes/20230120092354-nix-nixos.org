@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       43DAF100-F891-4E75-B0FE-7E4D67899D97
+:END:
+#+title: nix-nixos

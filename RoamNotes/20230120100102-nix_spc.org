@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       C4D5AC8E-A65E-4C51-B1E7-23C26AFAC5D9
+:END:
+#+title: nix<spc>
+#+filetags: :nix_profile:nix_flake:nix_develop:nix_repl:nix_copy:
+
+flake base command
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+
+$ nix help
+[[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
+
+flake --help >> check, show, update...
+
+profile --help >>; install, history, list, remove...
+
+repl --help >>  :l <nixpkgs>, :lf ., :q ...
+
+search
+
+build
+run
+develop
+
+store
+
+hash
+
+registry
+
+copy

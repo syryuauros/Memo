@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       11C97429-66E8-4E8F-A530-48EB2B8DE409
+:END:
+#+title: nix-
+#+filetags: :nix-env:nix-store:nix-shell:nix-prefetch-url:nix-copy-closure:nix-collect-garbage:
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+
+$ nix-< tab tab >
+[[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
+
+store
+
+env
+
+shell
+
+prefetch-url
+
+hash
+
+info
+
+channel
+
+build
+
+instantiate
+
+copy-closure
+
+collect-garbage
+
+daemon

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       099C1684-7F26-4A6B-966D-20655F09BCA7
+:END:
+#+title: nixos-
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+
+$nixos-<tab tab>
+[[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]

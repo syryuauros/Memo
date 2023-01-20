@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       1fcbc750-6ecd-481f-9228-7ebb55431b36
-:END:
-#+title: test
-
-test for links:  [[id:824df47d-e1bf-487f-b256-20cdee2748f2][test2]]
