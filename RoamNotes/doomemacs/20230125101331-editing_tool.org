@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2A62C128-AEF6-43F2-991B-97F23A7D47E1
+:END:
+#+title: editing-tool
+#+filetags: :emacs_grep:search:comment_out:
+
+
+[[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][doom-emacs]]

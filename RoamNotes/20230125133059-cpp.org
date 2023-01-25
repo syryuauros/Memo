@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7C0B7DA4-ABE6-407F-AE85-2F27E78F6C0E
+:END:
+#+title: cpp
+#+filetags: :c_plus:c++:
+
+[[id:F3231A7D-1656-40C7-BA97-D341B2A95D1A][programming-language]]

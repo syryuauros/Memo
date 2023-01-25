@@ -2,6 +2,6 @@
 :ID:       09CA4855-FF62-462C-82F4-D7FBA80EE492
 :END:
 #+title: org-export
-#+filetags: :ppt:pdf:export:org:
+#+filetags: :org-export:C-c_C-e:ppt:pdf:export:org:
 
 [[id:0484AAE1-7C76-4031-A8AF-80B4565B3D04][org-editing]]

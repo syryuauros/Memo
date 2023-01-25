@@ -2,5 +2,6 @@
 :ID:       91B4A0B4-52B8-46EC-8486-967663A2A47B
 :END:
 #+title: org-roam-ui
+#+filetags: :ui:roam:org:
 
 [[id:CB424208-464E-4FD6-9A6E-1EF8D41858EB][org-roam]]

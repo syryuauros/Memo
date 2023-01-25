@@ -3,4 +3,4 @@
 :END:
 #+title: nix-doom
 
-[[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][doom-emacs]]   [[id:EF693521-727D-4111-9C27-11C7A768DED1][nix-homemanager]]
+[[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][doom-emacs]] [[id:23FF8503-5E9A-4002-AA21-658DAA961580][nix-flake]]

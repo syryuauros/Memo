@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8A9D89EA-187B-4E34-88E3-AB4F70DBBE5D
+:END:
+#+title: my_nixos
+#+filetags: :nixos-rebuild:configuration:nixos:
+
+[[id:EF693521-727D-4111-9C27-11C7A768DED1][nix-homemanager]]

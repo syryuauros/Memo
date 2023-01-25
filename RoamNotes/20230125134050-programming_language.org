@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       F3231A7D-1656-40C7-BA97-D341B2A95D1A
+:END:
+#+title: programming-language
+
+[[id:4FCEBF8D-6A65-4055-9DFF-D6619920E1C9][programming]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       813FFB6D-7D13-4593-8F0D-47F4FBC44327
+:END:
+#+title: rust
+
+[[id:F3231A7D-1656-40C7-BA97-D341B2A95D1A][programming-language]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       A3AB6B0A-B0E7-4678-AD9F-395F465BDF44
+:END:
+#+title: haskell
+
+[[id:F3231A7D-1656-40C7-BA97-D341B2A95D1A][programming-language]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7E812E89-1820-4849-905F-2D609B3725E9
+:END:
+#+title: nix_development
+#+filetags: :dev_env:sand_box:programming_environment:nix_programming:
+
+[[id:23FF8503-5E9A-4002-AA21-658DAA961580][nix-flake]]
