@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       CB424208-464E-4FD6-9A6E-1EF8D41858EB
+:END:
+#+title: org-roam
+#+filetags: :org:roam:zetelkasten:
+
+[[id:1B376E59-1A53-44DC-8714-01384D61ADC8][org-mode]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       01C80E7F-8276-4D94-87F2-E48C37E7D236
+:END:
+#+title: REFs
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+
+nixos search [[https://search.nixos.org/packages][web]]

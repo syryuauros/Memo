@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       B8D65457-489B-4123-8B55-A729BFED035D
+:END:
+#+title: dired
+#+filetags: :folder:search:file:map:org_map:
+
+[[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][emacs]]

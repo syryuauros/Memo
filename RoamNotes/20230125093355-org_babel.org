@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       CF3DE846-0D50-4609-A278-14F92B863FA8
+:END:
+#+title: org-babel
+#+filetags: :org:code_block:src:tangle:
+
+[[id:1B376E59-1A53-44DC-8714-01384D61ADC8][org-mode]]

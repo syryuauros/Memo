@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       21A3563B-EEA8-4C92-9277-F9B22579D364
+:END:
+#+title: magit
+#+filetags: :emacs:git:magit:
+
+[[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][emacs]]

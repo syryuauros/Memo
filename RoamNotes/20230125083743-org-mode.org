@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1B376E59-1A53-44DC-8714-01384D61ADC8
+:END:
+#+title: org-mode
+#+filetags: :org:
+
+[[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][emacs]]

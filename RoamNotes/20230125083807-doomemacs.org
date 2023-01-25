@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F
+:END:
+#+title: doom-emacs
+
+[[id:5773EB9F-75B5-446F-A481-36D91CE2B8FC][vanila-emacs]]

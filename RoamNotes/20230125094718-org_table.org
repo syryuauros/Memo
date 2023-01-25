@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5B146686-1487-442F-9DA7-A428F8262122
+:END:
+#+title: org-table
+#+filetags: :spreadsheet:excel:org_excel:org:table:
+
+[[id:0484AAE1-7C76-4031-A8AF-80B4565B3D04][org-editing]]
