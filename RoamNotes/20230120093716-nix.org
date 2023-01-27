@@ -2,13 +2,12 @@
 :ID:       11C97429-66E8-4E8F-A530-48EB2B8DE409
 :END:
 #+title: nix-
-#+filetags: :vanila_nix:nix-env:nix-store:nix-shell:nix-prefetch-url:nix-copy-closure:nix-collect-garbage:
+#+filetags: :nix-hash:garbage_collect:garbage:vanila_nix:nix-env:nix-store:nix-shell:nix-prefetch-url:nix-copy-closure:nix-collect-garbage:
 [[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
-
+[[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120093716-nix.org][git]]
  $ nix-< tab tab >,   $ nix-env --help
-[[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
 
-** nix-env
+**  nix-env
 *** manage packages
   | - install       | : | $ nix-env -iA firefox               |
   | - list          | : | $ nix-env -q                        |
