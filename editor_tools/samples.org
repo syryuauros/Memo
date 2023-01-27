@@ -5,6 +5,8 @@
  [[./img/samples/samples1.png]]
 from https://orgmode.org/org.html
 
+https://orgmode.org/guide/Tables.html
+# M-S-arrow >> insert, S-arrow >> exchange
 #+CAPTION: Insert caption
 #+NAME: table: 1
   | Name  | phone | age |      |
@@ -23,8 +25,12 @@ from https://orgmode.org/org.html
 #+TBLFM: @3=@1+@2;%.2f
 # TBLFM execution >> C-c C-c(org-crtl-c-ctrl-c) with cursor on TBLFM line
 
+https://editor.codecogs.com/
 \overrightarrow{a}
 
+https://www.tablesgenerator.com/latex_tables   #Latex_grammer__not_adoptable_to_Katex
+https://katex.org/docs/support_table.html
+https://www.redgregory.com/notion/2020/12/23/a-katex-table-cheatsheet-for-notion
 \begin{array}{c:cc}
    a & b & e\\ \hline
    c & d & f\\ \hline
