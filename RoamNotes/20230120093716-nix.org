@@ -8,6 +8,8 @@
 $ nix-< tab tab >
 [[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
 
+| nix-env | --list-generations |
+
 store
 
 env
