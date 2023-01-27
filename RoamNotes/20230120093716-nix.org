@@ -10,16 +10,13 @@
 
 ** env
 *** manage packages
-\begin{table}[]
-\centering
-\begin{tabular}{|l|l|}
-\hline
-install       & \$ nix-env -iA firefox                          \\ \hline
-list          & \$ nix-env -q                                   \\ \hline
-possible list & $ nix-env -qa firefox or $nix-env -qaPs firefox \\ \hline
-remove        & \$ nix-env -e firefox                           \\ \hline
-\end{tabular}
-\end{table}
+\overrightarrow{a}
+
+\begin{array}{c:cc}
+   a & b & e\\ \hline
+   c & d & f\\ \hline
+   c & d & f\\ \hline
+\end{array}
 
  + | install            | $ nix-env -iA firefox |
  + |list                   | $ nix-env -q                |

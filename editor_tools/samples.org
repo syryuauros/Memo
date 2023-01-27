@@ -23,6 +23,13 @@ from https://orgmode.org/org.html
 #+TBLFM: @3=@1+@2;%.2f
 # TBLFM execution >> C-c C-c(org-crtl-c-ctrl-c) with cursor on TBLFM line
 
+\overrightarrow{a}
+
+\begin{array}{c:cc}
+   a & b & e\\ \hline
+   c & d & f\\ \hline
+   c & d & f\\ \hline
+\end{array}
 
 
 * Plain Lists | + TAB or - TAB |
