@@ -2,13 +2,13 @@
 :ID:       11C97429-66E8-4E8F-A530-48EB2B8DE409
 :END:
 #+title: nix-
-#+filetags: :nix-env:nix-store:nix-shell:nix-prefetch-url:nix-copy-closure:nix-collect-garbage:
+#+filetags: :vanila_nix:nix-env:nix-store:nix-shell:nix-prefetch-url:nix-copy-closure:nix-collect-garbage:
 [[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
 
  $ nix-< tab tab >,   $ nix-env --help
 [[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
 
-** env
+** nix-env
 *** manage packages
   | - install       | : | $ nix-env -iA firefox               |
   | - list          | : | $ nix-env -q                        |
@@ -19,25 +19,49 @@
   | - profile list | : | $ nix-env --list-generation |
   | - rollback     | : | $ nix-env --rollback        |
  + /nix/var/nix/prof iles/per-user/user-name/profile/manifest.nix
+*** cautions
+ + nix-env로 설치한 App의 profile은  manifest.nix 파일로 관리되지만, nix profile 로 설치한 App은 manifest.json으로 관리된다.
+ + nix profile로 App을 설치하면 profile의 관리 파일 자체가 바뀌기 때문에 더 이상 nix-env로 설치할 수 없다.
 
-** store
+**  nix-store
+*** All pkgs installed is here!!
+  | - path          | : | /nix/store                          |
+  | - find          | : | $ ls /nix/store [pl] grep firefox   |
+*** garbage-collection
+  | - forced delete      | : | $ sudo nix-store --delete firefox |
+  | - clear dependencies | : | $ nix-store --gc                  |
+  |                      |   | $ nix-collect-garbage -d          |
 
-** shell
+**  nix-channel
+*** manage channels
+  | - confirm  | : | $ nix-channel --list                                                   |
+  | - add      | : | $ nix-channel --add https://channels.nixos.org/nixos-unstable nixos-us |
+  | - update   | : | $ nix-channel --update nixos-us                                        |
+  | - remove   | : | $ nix-channel --remove nixos-us                                        |
+  | - rollback | : | $ nix-channel --rollback [list-number]                                  |
+ + ~/.nix-defexpr/channels_root/
+ + $ nixos-version, nix-version, nix-channel --version
+*** vanila nixos version update
 
-** prefetch-url
+**  nix-shell
+*** make development environment
+| $ nix-shell -p 'lua.withPackages(ps: with ps; [ busted luafilesystem ])'                        |
+| $ nix-shell '<nixpkgs>' -A pan --pure --command 'export NIX_DEBUG=1; export NIX_CORES=8; return |
+*** development phases in stdenv - typycal 'cmake' install process
+[[https://github.com/syryuauros/programming/blob/master/cpp/projects/gtkmm_plplot/gtkmm-plplot.nix][REFs below from]]
+  | [[https://nix-tutorial.gitlabpages.inria.fr/nix-tutorial/first-package.html][nix-tutorial]]                                                    |
+  | [[https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html][phase-detail1]] [[https://qfpl.io/posts/nix/building-things-with-nix/][phase-detail2]]  [[https://nixos.org/manual/nixpkgs/stable/#sec-stdenv-phases][phase-detail3]]  [[https://static.domenkozar.com/nixpkgs-manual-sphinx-exp/stdenv.xml.html#phases][phase-detail4]] |
+  | [[https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install][cmake]]  [[https://tomlee.co/2012/08/autotools-for-humans-part-1/][autotool]]                                                 |
 
-** hash
+**  nix-prefetch-url, nix-hash
+*** src(source file) fetch - 복사한 tar_ball이 저장된 nix store의 path를 hash화
+[[https://github.com/syryuauros/programming/blob/master/cpp/projects/gtkmm_plplot/gtkmm-plplot.nix][REFs below from]]
+  | [[https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs][NixOS wiki]] [[https://ryantm.github.io/nixpkgs/builders/fetchers/#fetchurl][fetchurl]] [[https://www.mankier.com/1/nix-hash][nix-hash]] |
 
-** info
+**  nix-build
+**  nix-instantiate
+**  nix-copy-closure
 
-** channel
-
-** build
-
-** instantiate
-
-** copy-closure
-
-**  collect-garbage
-
-**  daemon
+**  nix-info
+**  nix-collect-garbage
+**  nix-daemon
