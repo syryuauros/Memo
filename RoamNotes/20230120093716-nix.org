@@ -10,14 +10,14 @@
 
 ** env
 *** manage packages
-  | - install       | :   $ nix-env -iA firefox              |
-  | - list          | :   $ nix-env -q                       |
-  | - possible list | :   $ nix-env -qa                      |
-  | - remove        | :   $ nix-env -e firefox or list-number |
+  | - install       | : | $ nix-env -iA firefox               |
+  | - list          | : | $ nix-env -q                        |
+  | - possible list | : | $ nix-env -qa                       |
+  | - remove        | : | $ nix-env -e firefox or list-number |
  + ~/.nix-defexpr/channels_root/nixos/pkgs/top-level/all-packages.nix
 *** manage profiling
-  | - profile list | :   $ nix-env --list-generation |
-  | - rollback     | :   $ nix-env --rollback        |
+  | - profile list | : | $ nix-env --list-generation |
+  | - rollback     | : | $ nix-env --rollback        |
  + /nix/var/nix/prof iles/per-user/user-name/profile/manifest.nix
 
 ** store
