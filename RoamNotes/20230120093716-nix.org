@@ -10,7 +10,7 @@
 
 ** env
 *** manage packages
-  | <10>          | <5> | <20>                  |
+  | <10>          | <0> | <20>                  |
   | install       |     | $ nix-env -iA firefox |
   | list          |     | $ nix-env -q          |
   | possible list |     | $ nix-env -qa         |
