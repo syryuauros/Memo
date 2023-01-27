@@ -5,6 +5,7 @@
  [[./img/samples/samples1.png]]
 from https://orgmode.org/org.html
 
+https://orgmode.org/worg/org-tutorials/tables.html
 https://orgmode.org/guide/Tables.html
 # M-S-arrow >> insert, S-arrow >> exchange
 #+CAPTION: Insert caption
