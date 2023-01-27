@@ -7,10 +7,21 @@ from https://orgmode.org/org.html
 
 #+CAPTION: Insert caption
 #+NAME: table: 1
-  | Name  | phone | age |
-  |-------+-------+-----|
-  | peter |  1234 |  17 |
-  | Anna  |  4321 |  25 |
+  | Name  | phone | age |      |
+  |-------+-------+-----+------|
+  | peter |  1234 |  17 | 1251 |
+  | Anna  |  4321 |  25 | 4346 |
+  |       |       |     |    0 |
+#+TBLFM: $4=$2+$3
+
+#+CONSTANTS: pi=3.14 eps=2.4e-1
+#+tblname: grades
+ |    1 |    2 |  5.14 |
+ |    3 |    4 | 13.42 |
+ | 4.00 | 6.00 | 18.56 |
+#+TBLFM: $3=$2+$1*$pi;%.2f
+#+TBLFM: @3=@1+@2;%.2f
+# TBLFM execution >> C-c C-c(org-crtl-c-ctrl-c) with cursor on TBLFM line
 
 
 

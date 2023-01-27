@@ -5,12 +5,32 @@
 #+filetags: :nix-env:nix-store:nix-shell:nix-prefetch-url:nix-copy-closure:nix-collect-garbage:
 [[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
 
-$ nix-< tab tab >
+ $ nix-< tab tab >,   $ nix-env --help
 [[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
 
-** store
-
 ** env
+*** manage packages
+\begin{table}[]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+install       & \$ nix-env -iA firefox                          \\ \hline
+list          & \$ nix-env -q                                   \\ \hline
+possible list & $ nix-env -qa firefox or $nix-env -qaPs firefox \\ \hline
+remove        & \$ nix-env -e firefox                           \\ \hline
+\end{tabular}
+\end{table}
+
+ + | install            | $ nix-env -iA firefox |
+ + |list                   | $ nix-env -q                |
+ + |possible list | $ nix-env -qa |
+ + |remove          | $ nix-env -e firefox |
+ + /nix/var/nix/profiles/per-user/user-name/profile/
+*** manage profiling
+ + profile list
+ + rollback
+
+** store
 
 ** shell
 
