@@ -8,28 +8,26 @@
 $ nix-< tab tab >
 [[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
 
-| nix-env | --list-generations |
+** store
 
-store
+** env
 
-env
+** shell
 
-shell
+** prefetch-url
 
-prefetch-url
+** hash
 
-hash
+** info
 
-info
+** channel
 
-channel
+** build
 
-build
+** instantiate
 
-instantiate
+** copy-closure
 
-copy-closure
+**  collect-garbage
 
-collect-garbage
-
-daemon
+**  daemon
