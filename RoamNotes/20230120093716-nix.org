@@ -10,18 +10,11 @@
 
 ** env
 *** manage packages
-\overrightarrow{a}
 
-\begin{array}{c:cc}
-   a & b & e\\ \hline
-   c & d & f\\ \hline
-   c & d & f\\ \hline
-\end{array}
-
- + | install            | $ nix-env -iA firefox |
- + |list                   | $ nix-env -q                |
- + |possible list | $ nix-env -qa |
- + |remove          | $ nix-env -e firefox |
+ + |install | $ nix-env -iA firefox|
+ + |list  | $ nix-env -q|
+ + |possible list |$ nix-env -qa|
+ + |remove|$ nix-env -e firefox|
  + /nix/var/nix/profiles/per-user/user-name/profile/
 *** manage profiling
  + profile list
