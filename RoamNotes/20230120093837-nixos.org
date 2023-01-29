@@ -2,7 +2,15 @@
 :ID:       099C1684-7F26-4A6B-966D-20655F09BCA7
 :END:
 #+title: nixos-
-[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]  [[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120093837-nixos.org][git]]
 
 $nixos-<tab tab>
 [[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]
+
+** nixos-help
+ + open web browser for viewing manual guide
+ + for the 'help' of the other command like 'nixos-rebuild', use 'nixos-rebuild --help'
+** nixos-rebuild
+| $ nixos-rebuild switch --rollback                       |
+| $ sudo nixos-rebuild switch --flake .#syryuhds --impure |
+|                                                         |

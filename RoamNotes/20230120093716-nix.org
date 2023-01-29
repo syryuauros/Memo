@@ -39,7 +39,7 @@
   | - remove   | : | $ nix-channel --remove nixos-us                                        |
   | - rollback | : | $ nix-channel --rollback [list-number]                                  |
  + ~/.nix-defexpr/channels_root/
- + $ nixos-version, nix-version, nix-channel --version
+ + $ nixos-version, nix --version, nix-channel --version
 *** vanila nixos version update
 
 **  nix-shell
