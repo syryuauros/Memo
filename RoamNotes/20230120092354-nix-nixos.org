@@ -2,6 +2,8 @@
 :ID:       43DAF100-F891-4E75-B0FE-7E4D67899D97
 :END:
 #+title: nix-nixos
+**  nixos first_installation (by install usb)
+*** install [[https://github.com/syryuauros/my_nixos/tree/master/first_installation][instruction]]  [[https://nixos.org/manual/nixos/stable/index.html#ch-installation][official web]]
 
 **  apps or program management - install, config, upgrade, remove
 *** install
@@ -71,7 +73,7 @@
   | - install       | : | $ nix-env -iA firefox               |
  + ~/.nix-defexpr/channels_root/nixos/pkgs/top-level/all-packages.nix
 
-**  system management - kernel, network, I/O
+**  system management - pc manager, network, I/O
 *** manage packages
   | - install       | : | $ nix-env -iA firefox               |
  + ~/.nix-defexpr/channels_root/nixos/pkgs/top-level/all-packages.nix
