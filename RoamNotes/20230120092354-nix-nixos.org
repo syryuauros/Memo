@@ -2,3 +2,76 @@
 :ID:       43DAF100-F891-4E75-B0FE-7E4D67899D97
 :END:
 #+title: nix-nixos
+
+**  apps or program management - install, config, upgrade, remove
+*** install
+**** vanila nix
+ + declarative way :  edit 'environment.systemPackages' at  /etc/nixos/configuration.nix  [[https://github.com/syryuauros/my_nixos/tree/master/first_installation][ref-see base_config.txt]]
+                                           >> $ sudo nixos-rebuild switch
+ + imperative way  :  $ nix-env -iA [apps_name]    [[id:11C97429-66E8-4E8F-A530-48EB2B8DE409][nix-]]
+
+**** flake
+ + declarative way :  edit 'environment.systemPackages' at nixosConfigurations inside the flake.nix [[https://github.com/syryuauros/my_nixos][ref]]
+                                           >> $ sudo nixos-rebuild switch --flake .#[nixosconfigurations ID]
+ + imperative way  :  $ nix profile install nixpkgs# [apps_name] [[id:C4D5AC8E-A65E-4C51-B1E7-23C26AFAC5D9][nix<spc>]]
+
+**** flake - homemanager
+ + declarative way1 :  edit 'home.packages' at homeConfigurations inside the flake.nix [[https://github.com/syryuauros/my_nixos][ref]]
+ + declarative way2 :  config 'programs module options' at homeConfigurations inside the flake.nix [[https://github.com/syryuauros/my_nixos/blob/master/home.nix][ref]]
+                                           >> $ nixos-rebuild switch --flake .#[homeConfigurations ID]
+
+*** configuration setup
+**** modules in nix (declarative concept)
+ + NixOS has a modular system for declarative configuration. This system combines multiple modules to produce the full system configuration. One of the modules that constitute the configuration is */etc/nixos/configuration.nix*. Most of the others live in the *nixos/modules* subdirectory of the Nixpkgs tree.  [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_2_nix_basic_concepts.org][detail]]
+
+**** find module options defined - docs online
+ + vanila NixOS,  adoptable to any nixos system  [[https://search.nixos.org/options?][search.nixos.org, NixOS options]]
+ + flake options [[https://search.nixos.org/flakes?][search.nixos.org, Flakes]]
+ + homemanager options [[https://github.com/nix-community/home-manager][o-git]]  [[https://mipmip.github.io/home-manager-option-search/][option-search]]  [[https://nix-community.github.io/home-manager/index.html][home-manager-manual]]
+
+**** find module options pre-defined - local path
+ + /nix/var/nix/profiles/per-user/root/channels/nixos/nixos/modules/module-list.nix    [[https://github.com/NixOS/nixpkgs/blob/nixos-22.11/nixos/modules/services/editors/emacs.nix][ex)emacs-option]]
+
+**** how to set options
+ + detail about module  [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_2_nix_basic_concepts.org][detail]]
+ + setup examples  [[https://github.com/syryuauros/my_nixos/blob/master/home.nix][ref]]
+
+*** upgrade
+**** system upgrade - vanila nixos
+ + impossible to upgrade nixos version by editing /etc/nixos/configuration.nix
+        because the 'system.stateVersion' do not upgrade your system!! it just stated.
+
+   1. nix-channel update [[id:11C97429-66E8-4E8F-A530-48EB2B8DE409][nix-]]
+      a. nix-channel add
+      b. nix-channel update
+      c. nixos version check
+
+   2. $ sudo nixos-rebuild switch --upgrade-all
+
+**** system upgrade - flake
+ + edit 'inputs.nixpkgs.url' in the flake.nix    [[https://github.com/syryuauros/my_nixos/blob/master/flake.nix][ref]]
+ + $ sudo nixos-rebuild switch --flake .#[nixosConfigurations ID]
+
+**** individual apps
+ + $ nix-env --upgrade [pkgs-name]
+ + $ nix profile upgrade nixpkgs#[pkgs-name]
+
+*** remove
+  | - install       | : | $ nix-env -iA firefox               |
+ + ~/.nix-defexpr/channels_root/nixos/pkgs/top-level/all-packages.nix
+
+
+**  pkgs management - setup, update, overlay(Extend), override
+*** manage packages
+  | - install       | : | $ nix-env -iA firefox               |
+ + ~/.nix-defexpr/channels_root/nixos/pkgs/top-level/all-packages.nix
+
+**  development environment (dev_env) - dev_shell,
+*** manage packages
+  | - install       | : | $ nix-env -iA firefox               |
+ + ~/.nix-defexpr/channels_root/nixos/pkgs/top-level/all-packages.nix
+
+**  system management - kernel, network, I/O
+*** manage packages
+  | - install       | : | $ nix-env -iA firefox               |
+ + ~/.nix-defexpr/channels_root/nixos/pkgs/top-level/all-packages.nix
