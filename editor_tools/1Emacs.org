@@ -104,6 +104,9 @@ https://people.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
 | make .gitignore >> git push | [[https://programming119.tistory.com/105][link1]] |
 |                             |       |
 
+*git token approve (authentication problem, substitutes old 'password' method)
+https://amkorousagi-money.tistory.com/entry/Git-personal-access-token
+
 * etc
 ***  Emacs browser (wowser)  [[https://www.youtube.com/watch?v=GtFz19gj-m4][link]]
 
