@@ -2,9 +2,10 @@
 :ID:       01C80E7F-8276-4D94-87F2-E48C37E7D236
 :END:
 #+title: REFs
-[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]  [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_3_nix_hacking.org][old-git-nix-hacking]]
+#+filetags: :path:library:nix_repl:nix-repl:scope:options:
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]  [[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120112704-refs.org][git]]   [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_3_nix_hacking.org][old-git-nix-hacking]]
 
-** basic manuals
+** basic manuals  -  [[https://nix.dev/tutorials/nix-language#overview][overview]]
 *** [[https://nixos.org/learn.html#learn-guides][nixos.org/learn]]  >> from top, Learn/ Search/ Guides/ Manual/ Other resources
 ****  Learn
  + [[https://nixos.org/download.html#download-nix][Install Nix]]
@@ -55,12 +56,14 @@
 
        > [key-word1.key-word2...last-key-word]  RET  ------------ path will be out,  [[https://nix.dev/tutorials/nix-language#builtins][primop or primitve operations]]
 
-
-*** /nix/var/nix/profiles/per-user/root/channels/nixos[channel-name]/ - nixpkgs
+*** /nix/var/nix/profiles/per-user/root/channels/nixos[channel-name]/ - [[https://github.com/NixOS/nixpkgs][nixpkgs]]
 + confirm with '# nix-channel --list'
 + corresponding to [[https://github.com/NixOS/nixpkgs][nixpkgs]]
 + search-project-for-symbol-at-point (SPC *) at this path, to see libraries detail
 + builtins (Built-in functions)  [[https://nixos.org/manual/nix/stable/language/builtins.html][builtins]]
+*** /nix/var/nix/profiles/per-user/root/channels/nixos[channel-name]/nixos/modules/  [[https://github.com/NixOS/nixpkgs/tree/master/nixos/modules][modules]]
++ module-lsit.nix
++ options detail
 ** grammar
 ** packages
 ** modules
