@@ -30,18 +30,31 @@
 + $ ls /nix/store | grep [key-word]
 **** find path in scope
 + $ realpath [command-in-scope-name]
+
 + $ nix repl
        > :l <nixpkgs>
+
        > TAB TAB      to confirm what is in scope
+
        > [key-word1]. TAB TAB    ----------------------ex ) lib
+
        > [key-word1.key-word2.] TAB TAB ... -----------ex) lib.mapAttrs
+
        > [key-word1.key-word2...last-key-word]  RET  ------------ path will be out,  [[https://nix.dev/tutorials/nix-language#builtins][primop or primitve operations]]
+
+
 + $ nix repl
+
       > :lf .
+
        > TAB TAB      to confirm what is in scope
+
        > [key-word1]. TAB TAB    ----------------------ex ) inputs
+
        > [key-word1.key-word2.] TAB TAB ... -----------ex) inputs.pkgs.
+
        > [key-word1.key-word2...last-key-word]  RET  ------------ path will be out,  [[https://nix.dev/tutorials/nix-language#builtins][primop or primitve operations]]
+
 
 *** /nix/var/nix/profiles/per-user/root/channels/nixos[channel-name]/ - nixpkgs
 + confirm with '# nix-channel --list'
