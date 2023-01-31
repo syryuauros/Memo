@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       01C80E7F-8276-4D94-87F2-E48C37E7D236
 :END:
-#+title: REFs
+#+title: REF & manuals
 #+filetags: :path:library:nix_repl:nix-repl:scope:options:
 [[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]  [[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120112704-refs.org][git]]   [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_3_nix_hacking.org][old-git-nix-hacking]]
 
