@@ -2,6 +2,60 @@
 :ID:       01C80E7F-8276-4D94-87F2-E48C37E7D236
 :END:
 #+title: REFs
-[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]  [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_3_nix_hacking.org][old-git-nix-hacking]]
+
+** basic manuals
+*** [[https://nixos.org/learn.html#learn-guides][nixos.org/learn]]  >> from top, Learn/ Search/ Guides/ Manual/ Other resources
+****  Learn
+ + [[https://nixos.org/download.html#download-nix][Install Nix]]
+ + [[https://nixos.org/guides/ad-hoc-developer-environments.html][First steps with Nix]]
+ + [[https://nixos.org/guides/how-nix-works.html][How Nix works]]
+****  Search
+ + [[https://search.nixos.org][search]]
+****  Guides
+ + [[https://nixos.org/guides/nix-language.html][Nix language basics - overview]]
+****  Manuals
+ + [[https://nixos.org/manual/nix/stable/][Nix manual]]
+ + [[https://nixos.org/manual/nixpkgs/stable/][Nixpkgs Manual]]
+ + [[https://nixos.org/manual/nixos/stable/][NixOS Manual]]
+****  Other resources
+ + [[https://nix.dev/][nix.dev]]
+ + [[https://www.youtube.com/playlist?list=PLyzwHTVJlRc8yjlx4VR4LU5A5O44og9in][The Nix Hour]]  -- video
+ + [[https://nixos.wiki/][NixOS Wiki]]
+ + [[https://nixos.org/guides/nix-pills/][Nix Pills]]
+** organisation(path)
+*** /etc/nixos/ - configuration.nix, hardware-configuration.nix
+*** /nix/store/ - nix store
+**** confirm original path
++ $ ls /nix/store | grep [key-word]
+**** find path in scope
++ $ realpath [command-in-scope-name]
++ $ nix repl
+       > :l <nixpkgs>
+       > TAB TAB      to confirm what is in scope
+       > [key-word1]. TAB TAB    ----------------------ex ) lib
+       > [key-word1.key-word2.] TAB TAB ... -----------ex) lib.mapAttrs
+       > [key-word1.key-word2...last-key-word]  RET  ------------ path will be out,  [[https://nix.dev/tutorials/nix-language#builtins][primop or primitve operations]]
++ $ nix repl
+      > :lf .
+       > TAB TAB      to confirm what is in scope
+       > [key-word1]. TAB TAB    ----------------------ex ) inputs
+       > [key-word1.key-word2.] TAB TAB ... -----------ex) inputs.pkgs.
+       > [key-word1.key-word2...last-key-word]  RET  ------------ path will be out,  [[https://nix.dev/tutorials/nix-language#builtins][primop or primitve operations]]
+
+*** /nix/var/nix/profiles/per-user/root/channels/nixos[channel-name]/ - nixpkgs
++ confirm with '# nix-channel --list'
++ corresponding to [[https://github.com/NixOS/nixpkgs][nixpkgs]]
++ search-project-for-symbol-at-point (SPC *) at this path, to see libraries detail
++ builtins (Built-in functions)  [[https://nixos.org/manual/nix/stable/language/builtins.html][builtins]]
+** grammar
+** packages
+** modules
+***  options
+***  configs
+** libraries
+
 
 nixos search [[https://search.nixos.org/packages][web]]
+
+builtins (Built-in Functions)  [[https://nixos.org/manual/nix/stable/language/builtins.html][manual]]
