@@ -3,7 +3,8 @@
 :END:
 #+title: REF & manuals
 #+filetags: :path:library:nix_repl:nix-repl:scope:options:
-[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]  [[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120112704-refs.org][git]]   [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_3_nix_hacking.org][old-git-nix-hacking]]
+[[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
+[[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120112704-refs.org][git]]   [[https://github.com/syryuauros/Memo/blob/main/editor_tools/7_3_nix_hacking.org][old-git-nix-hacking]]
 
 ** basic manuals  -  [[https://nix.dev/tutorials/nix-language#overview][overview]]
 *** [[https://nixos.org/learn.html#learn-guides][nixos.org/learn]]  >> from top, Learn/ Search/ Guides/ Manual/ Other resources
