@@ -6,7 +6,7 @@
 
 flake base command
 [[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
-[[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120100102-nix_spc.org][git]]
+[[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120100102-nix_spc.org][git]]  [[https://nixos.org/manual/nix/stable/command-ref/new-cli/nix.html][manual]]
 
 $ nix help
 [[https://github.com/syryuauros/Memo/blob/main/editor_tools/3_nix.org][git]]

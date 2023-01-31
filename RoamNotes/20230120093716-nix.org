@@ -4,7 +4,7 @@
 #+title: nix-
 #+filetags: :nix-hash:garbage_collect:garbage:vanila_nix:nix-env:nix-store:nix-shell:nix-prefetch-url:nix-copy-closure:nix-collect-garbage:
 [[id:43DAF100-F891-4E75-B0FE-7E4D67899D97][nix-nixos]]
-[[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120093716-nix.org][git]]
+[[https://github.com/syryuauros/Memo/blob/main/RoamNotes/20230120093716-nix.org][git]]  [[https://nixos.org/manual/nix/stable/command-ref/nix-env.html][manual]]
  $ nix-< tab tab >,   $ nix-env --help
 
 **  nix-env
