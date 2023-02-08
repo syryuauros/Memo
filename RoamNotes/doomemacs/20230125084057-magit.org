@@ -5,3 +5,5 @@
 #+filetags: :emacs:git:magit:
 
 [[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][emacs]]
+
++ [[https://www.lainyzine.com/ko/article/git-reset-and-git-revert-and-git-commit-amend/][git-reset git-revert git-amend ko]]
