@@ -12,3 +12,5 @@
  + [[https://gobae.tistory.com/94][tokenizer, lexer, parser, linking & compiler]]
  + [[https://angeloyeo.github.io/2020/07/24/Jacobian.html][jacobian meaning ko]]
  + [[https://angeloyeo.github.io/2019/07/27/PCA.html][pca]]
+ + [[https://angeloyeo.github.io/2020/11/17/four_fundamental_subspaces.html][row, column, null, left-null space]]
+ + [[https://www.youtube.com/playlist?list=PLTGzWF3DajHQmyd3ES5IMhxOJ9pvtWOMR][linear_algebra_ko_youtube]]
