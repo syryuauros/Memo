@@ -8,3 +8,4 @@
  + [[http://tpholic.com/xe/8025449][xmonad, korean]]   [[https://xmonad.org/documentation.html][xmonad, official_doc]]
  + [[https://whatisthenext.tistory.com/123][nginx, korean]]   [[https://blog.illunex.com/nginx-%EC%9B%B9%EC%84%9C%EB%B2%84-%EB%9D%84%EC%9B%8C%EB%B3%B4%EA%B8%B0/][nginx, ex, korean]]
  + [[https://www.redhat.com/ko/topics/api/what-are-application-programming-interfaces][API=구현방식을 알지 못 하는 제품 또는 서비스 간 통신]]
+ + [[https://www.quora.com/What-are-the-Jacobian-Hessian-Wronskian-and-Laplacian][Wronskian, Jacobian, Hessian and Laplacian]]
