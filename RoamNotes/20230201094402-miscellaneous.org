@@ -15,3 +15,4 @@
  + [[https://angeloyeo.github.io/2020/11/17/four_fundamental_subspaces.html][row, column, null, left-null space]]  [[https://bskyvision.com/entry/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99-4%EA%B0%80%EC%A7%80-%EB%B6%80%EB%B6%84%EA%B3%B5%EA%B0%84-column-space-nullspace-row-space-left-nullspace%EC%9D%98-%EC%9D%B4%ED%95%B4][ref2]]
  + [[https://www.youtube.com/playlist?list=PLTGzWF3DajHQmyd3ES5IMhxOJ9pvtWOMR][linear_algebra_ko_youtube]]
 + [[https://twlab.tistory.com/17][linear space ko]]
++ [[https://m.blog.naver.com/joshua451/221240117492][knowledge-echology]]
