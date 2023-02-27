@@ -1,0 +1,91 @@
+#+title: ShapeMaster daily report
+
+* test-environment information
+ | deploy       | no install        | exe + libraries             | gitlab (auros-internal) |
+ | operating OS | windows 10        | notebook(LG syryu)          |                         |
+ | network      | wifi(ALab-office) |                             |                         |
+ | API path     | proxy server      | http://192.168.14.121/chaos | bastion-ip 20.20.100.1  |
+ |              |                   |                             |                         |
+
+* basic operation result
+**  Main
+**  Model
+ | function    | detail        | confirm | comment |
+ |-------------+---------------+---------+---------|
+ | GUI windows | open          | ok      |         |
+ | font        | break         | no      |         |
+ | menu bar    | open          | ok      |         |
+ | Hierachy    |               |         |         |
+ |             | sub-menu      | ok      |         |
+ |             | model         | ok      |     2,5 |
+ |             | configuration | ok      |         |
+ |             | store         | ok      |       6 |
+ |             |               |         |         |
+ |             |               |         |         |
+ |             |               |         |         |
+ | 3D Model    |               |         |         |
+ |             | display       | ok      |         |
+ |             | rotate        | ok      |         |
+ |             | scale         | ok      |         |
+ |             | move          | ok      |       1 |
+ |             | toggle        | ok      |         |
+ |             | re-tile       | ok      |         |
+ |             | color-change  | no      |         |
+ |             | axis control  | ok      |       7 |
+ |             |               |         |         |
+ |             |               |         |         |
+ |             |               |         |         |
+ |             |               |         |         |
+ | spectrum    | load          | ok      |         |
+ |             | simulated     | ok      |    3, 4 |
+ |             | etc           |         |       8 |
+ |             |               |         |         |
+ |             |               |         |         |
+ |             |               |         |         |
+ |             |               |         |         |
+ |             |               |         |         |
+ |             |               |         |         |
+
+| 1. hope to add 'axis-fix' function                                               | : |      |        |
+| 2. need related response to 3D model layer, hope to display for a selected block | : |      |        |
+| 3. +simulation spectrum of alpha is flipped (upside down)+                       | : | Done | 230224 |
+| 4. hope to display title, ex) Alpha, Beta                                        | : |      |        |
+| 5. hope to display block color for easy recognition                              | : |      |        |
+| 6. Material model config didn`t work                                             | : |      |        |
+| 7. hope to add 'pre-defined view button for genuine user'                        | : |      |        |
+| 8. clear calculated spectrum                                                     | : |      |        |
+| 9. fatal error:                                                                  | : |      |        |
+
++ Fatal error report
+| reason                                | solve | comment                                         |
+| 1. there is no model defined properly |       | 1. disable contols that have not to be activate |
+|                                       |       | 2. make error message when error occurs         |
+
+**  ML Library
+**  Parameter
+**  Batch
+*** setup
+*** Logs
+*** Utility
+
+* test-1
+| info   |                  |                  |                  |                 |      | comment |
+|--------+------------------+------------------+------------------+-----------------+------+---------|
+| Model  | Import from JSON | internal library | Golden test      | 2 films         |      |         |
+|--------+------------------+------------------+------------------+-----------------+------+---------|
+| gr2    | const            | cube             | bot w:100, l:100 | top w:100,l:100 | h:20 |         |
+| gr1    | const            | cube             | bot w:100, l:100 | top w:100,l:100 | h:20 |         |
+| sub    | const            |                  |                  |                 |      |         |
+| air    | const            |                  |                  |                 |      |         |
+|--------+------------------+------------------+------------------+-----------------+------+---------|
+| path   | proxy server     |                  |                  |                 |      |       1 |
+|--------+------------------+------------------+------------------+-----------------+------+---------|
+|--------+------------------+------------------+------------------+-----------------+------+---------|
+|--------+------------------+------------------+------------------+-----------------+------+---------|
+| result |                  |                  |                  |                 |      |         |
+|--------+------------------+------------------+------------------+-----------------+------+---------|
+|        |                  |                  |                  |                 |      |         |
+
+ + 1. option for define path not working
+
+* asdf
