@@ -3,4 +3,7 @@
 :END:
 #+title: nix-homemanager
 
-[[id:23FF8503-5E9A-4002-AA21-658DAA961580][nix-flake]]
+[[id:8A9D89EA-187B-4E34-88E3-AB4F70DBBE5D][my_nixos]]
+
+
+| home.nix | [[https://github.com/syryuauros/my_nixos/blob/main/home.nix][syryu]] |

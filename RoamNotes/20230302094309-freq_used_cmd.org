@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       CD511543-4125-43D6-A902-BC1FF1E0B559
+:END:
+#+title: freq-used-cmd
+[[id:5713D538-890A-4492-9838-9731E861FD1B][my_system]]
+
+* Display
+| opacity control in emacs | :: | M-x doom/set-frame-opacity               |   |
+| windows opacity control  | :: | picom -cf -i 0.8 --use-ewmh-active-win & |   |
+|                          |    |                                          |   |
+
+
+
+* system
+
+* searching
+| ls /nix/store [pl] grep [word] |                            |   |

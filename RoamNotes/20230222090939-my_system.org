@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       5713D538-890A-4492-9838-9731E861FD1B
+:END:
+#+title: my_system
+[[id:EF693521-727D-4111-9C27-11C7A768DED1][nix-homemanager]]
+
+| VPN                    | - | [[id:6B633E57-63D6-4455-A6D9-A6B2FD6B005C][wireguard]]  |
+| server_port-management | - | [[id:43A49253-7C88-4E36-86F6-A930A5CFAE3F][nginx]]      |
+| basic-editing-tool     | - | [[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][doom-emacs]] |
+| webUI_API              | - |            |
+| remote-display         | - | [[id:34440D18-81CF-4063-90FD-AE21B1597A21][xpra]]       |
+| Virtual-computing      | - | [[id:1436B4B5-FA6D-4A02-B8D4-26D2D7277D72][qemu]]       |
+| Windows-management     | - | [[id:A7BD8360-0355-4159-B819-5370B5BEF210][xmonad]]     |
+| keyboard-configuration | - | [[id:34E222C9-A017-45FC-93D1-52EFE5042C3B][kmonad]]     |
+|                        |   |            |

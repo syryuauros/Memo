@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6B633E57-63D6-4455-A6D9-A6B2FD6B005C
+:END:
+#+title: wireguard
+[[id:5713D538-890A-4492-9838-9731E861FD1B][my_system]]
+
+[[https://www.joinc.co.kr/w/Site/System_management/VPN/OpenVPN][openVPN-principal-korean]]
+[[https://itigic.com/ko/tell-if-a-tcp-or-udp-port-is-open-or-closed-in-linux/][TCP_UDP_confirm_nc_ss]]
