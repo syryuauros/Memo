@@ -3,3 +3,10 @@
 :END:
 #+title: nginx
 [[id:5713D538-890A-4492-9838-9731E861FD1B][my_system]]
+
+
+[[http://brownbears.tistory.com/191][nginx_for_roam_ui]]
+
+[[https://deepweller.tistory.com/16][kref]]
+
+[[https://opentutorials.org/module/384/4526][kre2]]

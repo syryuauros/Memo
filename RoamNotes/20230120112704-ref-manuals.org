@@ -25,6 +25,13 @@
  + [[https://www.youtube.com/playlist?list=PLyzwHTVJlRc8yjlx4VR4LU5A5O44og9in][The Nix Hour]]  -- video
  + [[https://nixos.wiki/][NixOS Wiki]]
  + [[https://nixos.org/guides/nix-pills/][Nix Pills]]
+
+** options & modules for flake, home-manager
+**** find module options defined - docs online
+ + vanila NixOS,  adoptable to any nixos system  [[https://search.nixos.org/options?][search.nixos.org, NixOS options]]
+ + flake options [[https://search.nixos.org/flakes?][search.nixos.org, Flakes]]
+ + homemanager options [[https://github.com/nix-community/home-manager][o-git]]  [[https://mipmip.github.io/home-manager-option-search/][option-search]]  [[https://nix-community.github.io/home-manager/index.html][home-manager-manual]]
+
 ** organisation(path)
 *** /etc/nixos/ - configuration.nix, hardware-configuration.nix
 *** /nix/store/ - nix store
