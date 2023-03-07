@@ -7,11 +7,13 @@
 * Display
 | opacity control in emacs  | :: | M-x doom/set-frame-opacity               |   |
 | windows opacity control   | :: | picom -cf -i 0.8 --use-ewmh-active-win & |   |
-| show hide folder in dired | :: | shift-h                                  |   |
+| show hide folder in dired | :: | S-h                                      |   |
+| command history           | :: | C-r                                      |   |
 
 
 
 * system
 
 * searching
-| ls /nix/store [pl] grep [word] |                            |   |
+| ls /nix/store [pl] grep [word] [pl] ws -l |   |   |
+|                                           |   |   |
