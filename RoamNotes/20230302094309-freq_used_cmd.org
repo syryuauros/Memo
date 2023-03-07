@@ -5,9 +5,9 @@
 [[id:5713D538-890A-4492-9838-9731E861FD1B][my_system]]
 
 * Display
-| opacity control in emacs | :: | M-x doom/set-frame-opacity               |   |
-| windows opacity control  | :: | picom -cf -i 0.8 --use-ewmh-active-win & |   |
-|                          |    |                                          |   |
+| opacity control in emacs  | :: | M-x doom/set-frame-opacity               |   |
+| windows opacity control   | :: | picom -cf -i 0.8 --use-ewmh-active-win & |   |
+| show hide folder in dired | :: | shift-h                                  |   |
 
 
 
