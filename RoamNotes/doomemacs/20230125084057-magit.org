@@ -7,3 +7,8 @@
 [[id:0C6C604A-DAF8-4AC9-A1B5-FF47BECF5D0F][emacs]]
 
 + [[https://www.lainyzine.com/ko/article/git-reset-and-git-revert-and-git-commit-amend/][git-reset git-revert git-amend ko]]
+
+recover a commit and branch after deletion [[https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git][ref]]
+$ git reflog --no-abbrev
+$ git checkout [sha_of_deleted_commit]
+$ git checkout -b [branch_name_deleted]

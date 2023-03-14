@@ -30,7 +30,7 @@
 **** find module options defined - docs online
  + vanila NixOS,  adoptable to any nixos system  [[https://search.nixos.org/options?][search.nixos.org, NixOS options]]
  + flake options [[https://search.nixos.org/flakes?][search.nixos.org, Flakes]]
- + homemanager options [[https://github.com/nix-community/home-manager][o-git]]  [[https://mipmip.github.io/home-manager-option-search/][option-search]]  [[https://nix-community.github.io/home-manager/index.html][home-manager-manual]]
+ + homemanager options [[https://nix-community.github.io/home-manager/options.html][o-option]]  [[https://github.com/nix-community/home-manager][o-git]]  [[https://mipmip.github.io/home-manager-option-search/][option-search]]  [[https://nix-community.github.io/home-manager/index.html][home-manager-manual]]
 
 ** organisation(path)
 *** /etc/nixos/ - configuration.nix, hardware-configuration.nix
