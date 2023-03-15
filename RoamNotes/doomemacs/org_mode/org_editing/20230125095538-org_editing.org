@@ -7,4 +7,5 @@
 [[id:1B376E59-1A53-44DC-8714-01384D61ADC8][org-mode]]
 
 [[https://edykim.com/ko/post/start-with-orgmode-basics/][org-fonts]] *굵게*, /기울임꼴/, _밑줄_, =코드=, ~요약~ 등의 마크업을 쓸 수 있다. 꼭 필요한 경우 +삭제선+
+
 [[https://github.com/yjwen/org-reveal][org-reveal-manual]]
