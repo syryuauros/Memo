@@ -11,7 +11,10 @@
 | command history           | :: | C-r                                      |   |
 
 
-
+* edit
+| process kill | :: | $ pkill [process name]  or $ kill -9 [process number] |
+| vim tutorial | :: | $ vimtutor                                            |
+|              |    |                                                       |
 * system
 
 * searching
