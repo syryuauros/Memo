@@ -1,4 +1,5 @@
 #+title: ShapeMaster daily report
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 
 * test-environment information
  | deploy       | no install        | exe + libraries             | gitlab (auros-internal) |
