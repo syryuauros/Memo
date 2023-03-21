@@ -7,6 +7,24 @@
 
 [[https://github.com/syryuauros/my_nixos/blob/main/nginx.nix][my_nginx_roam_ui]]
 
+[[https://nixos.wiki/wiki/Nginx][nix wiki]]
+
+[[https://soojong.tistory.com/entry/Nginx%EB%A1%9C-%EC%A0%95%EC%A0%81-%EC%BB%A8%ED%85%90%EC%B8%A0-%EC%A0%9C%EA%B3%B5%ED%95%98%EA%B8%B0][how to set autoindex(file tree)]]
+
+in nixos configuration
+
+    virtualHosts."__"= {
+      listen = [ {addr = "0.0.0.0"; port = 50696; ssl = false; } ];
+      #root = "/home/auros/gits/shapemaster/daily";
+      locations."/" = {
+        root = /home/auros/gits/shapemaster/daily;
+        extraConfig =
+          "autoindex on;"
+          ;
+        };
+      };
+
+
 [[https://deepweller.tistory.com/16][kref]]
 
 [[https://opentutorials.org/module/384/4526][kre2]]
