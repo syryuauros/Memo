@@ -4,3 +4,5 @@
 #+title: haskell
 
 [[id:F3231A7D-1656-40C7-BA97-D341B2A95D1A][programming-language]]
+
+[[https://wiki.haskell.org/Typeclassopedia][typeclassopedia ]] [[http://learnyouahaskell.com/chapters][learnyouahaskell]]

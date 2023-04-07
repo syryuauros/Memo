@@ -30,5 +30,6 @@
 * system
 
 * searching
-| ls /nix/store [pl] grep [word] [pl] ws -l |   |   |
-|                                           |   |   |
+| ls /nix/store [pl] grep [word] [pl] ws -l |    |                                         |
+| echo ${}                                  | :: | tab tab cursor inside the curly bracket |
+|                                           |    |                                         |

@@ -4,4 +4,10 @@
 #+title: xmonad
 [[id:5713D538-890A-4492-9838-9731E861FD1B][my_system]]
 
-a
+[[https://github.com/syryuauros/myxmonad/blob/master/xmonad/xmonad.hs][keybindings line237]]
+
+M-C-[ : prevScreen
+M-C-<Tab> : windows rotate in current stack
+M-n : moveFocus
+M-f : toggleFocusWithFullSizeWindow
+M-t : toTile

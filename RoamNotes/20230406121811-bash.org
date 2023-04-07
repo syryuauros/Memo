@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       982A12F4-C9BE-4A75-BC93-A179DA052BA6
+:END:
+#+title: bash
+[[id:F3231A7D-1656-40C7-BA97-D341B2A95D1A][programming-language]]
+
+[[http://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/][bash k manual]]
+
+[[http://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/x10468.html][regular expression]]
