@@ -18,6 +18,10 @@
 ***  compiler-rustc [[http://rust-lang.xyz/rust/article/3-Rust-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EA%B3%BC-%EC%8B%A4%ED%96%89][kdoc]]  builder-cargo(+package manager)   [[https://velog.io/@keum0821/Rust-Cargo-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0][kdoc]]
 *** rust-gtk, including examples  [[https://turbomack.github.io/posts/2019-07-28-rust-vs-gui.html][doc]]
 ** libraries
+*** graphs and networks [[https://github.com/alx741/graphite][graphite]]
+*** web-UI [[https://github.com/dmjio/miso][miso]]
 
+** useful tools or REFs
+*** compare and search libraries [[https://www.libhunt.com/compare-alx741--graphite-vs-miso?ref=compare][LibHunt]]
 
 **  haskell in nixos
