@@ -1,0 +1,5 @@
+#+title: Refs
+
+[[https://blog.naver.com/PostView.naver?blogId=pg365&logNo=223008100384&redirect=Dlog&widgetTypeCall=true&topReferer=https%3A%2F%2Fm.blog.naver.com%2F&directAccess=false][v2.3 manuals]]
+
+[[https://m.blog.naver.com/pg365/220047391918][v2 manuals]]
