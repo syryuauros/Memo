@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       3E3D1578-0CF5-4600-B327-20476E1FAF27
+:END:
+#+title: RCWA-refs
+
+[[https://github.com/syryuauros/S4/tree/master/examples][git-repo]]
+[[https://github.com/syryuauros/S4/tree/master/REFs][git-REFs]]
+
+*   from S4
+** 0D
+Phys. Rev. B, Vol. 60, No. 4, 1999:
+[[https://doi.org/10.1103/PhysRevB.60.2363]]
+"Electromagnetic forces in photonic crystals"
+antonoyiannakis1999.pdf
+
+Table.1 -- Optics Communications 162, p. 64-70 (1999)
+https://doi.org/10.1016/S0030-4018(99)00061-9
+"Multilayer films composed of periodic magneto-optical and dielectric layers for use as Faraday rotators"
+sakaguchi1999.pdf
+
+** 1D
+Optics Express, Vol. 17, No. 24, 2009
+http://dx.doi.org/10.1364/OE.17.021897
+"Resonance-enhanced optical forces between coupled photonic crystal slabs"
+    liu2009.pdf
+
+Optics Express, 18(11), 11969, 2010
+http://dx.doi.org/10.1364/OE.18.011969
+	"Design of rectangular-groove fused-silica gratings as polarizing beam splitters "
+    bi2010.pdf
+
+Optics Express, Vol. 14, No. 7, 2006
+http://dx.doi.org/10.1364/OE.14.002583
+	"Wideband four-level transmission gratings with flattened spectral efficiency"
+    pietarinen2006.pdf
+
+Optics Express, Vol. 19, No. 15, 2011
+http://dx.doi.org/10.1364/OE.19.014735
+	"Multilevel blazed gratings in resonance domain:an alternative to the classical fabrication approach"
+oliva2011.pdf
+
+** 2D
+Journal of the Optical Society of America A, Vol. 14, No. 10, p. 2758 (1997)
+https://doi.org/10.1364/JOSAA.14.002758
+"New formulation of the Fourier modal method for crossed surface-relief gratings"
+li1997.pdf
+
+Phys. Rev. B, Vol. 65, 235112
+https://doi.org/10.1103/PhysRevB.65.235112
+"Analysis of guided resonances in photonic crystal slabs"
+fan2002.pdf
+
+Appl. Phys. Letters, Vol. 82, No. 13, 2003
+https://doi.org/10.1063/1.1563739
+"Displacement-sensitive photonic crystal structures based on guided resonance in photonic crystal slabs"
+suh2003.pdf
+
+Phys. Rev. B 66, 45102 (2002)
+https://doi.org/10.1103/PhysRevB.66.045102
+Quasi-guided modes and optical properties of photonic crystal slabs
+tikhodeev2002.pdf
+
+
+*   RSOFT
+- [[https://www.nusod.org/nusod04/RSoft04nusod.pdf]]
