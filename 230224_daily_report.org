@@ -1,4 +1,7 @@
 #+title: ShapeMaster daily report
+* insert-test
+ [[./img/git_structure.png][img test]]
+[[./img/a.mp4][ video]]
 
 * test-environment information
  | deploy       | no install        | exe + libraries             | gitlab (auros-internal) |

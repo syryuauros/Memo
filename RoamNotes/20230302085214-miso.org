@@ -3,3 +3,5 @@
 :END:
 #+title: miso
 [[id:4E033C5E-6659-4476-85EA-35350413FC1F][haskell_nix]]
+
+[[https://haddocks.haskell-miso.org/][miso_manual]]
