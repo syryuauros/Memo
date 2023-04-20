@@ -63,3 +63,6 @@ Quasi-guided modes and optical properties of photonic crystal slabs
 
 *   RSOFT
 - [[https://www.nusod.org/nusod04/RSoft04nusod.pdf]]
+**   near-field to far-field transformation
+- [[https://eecs.wsu.edu/~schneidj/ufdtd/chap14.pdf]]
+- [[https://verkotan.com/2021/antenna-radiation-pattern-near-field-to-far-field-transformation/]]
