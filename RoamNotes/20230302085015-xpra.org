@@ -14,10 +14,11 @@
 ** xhost, xrandr, ssh -x ...
 [[https://m.cafe.daum.net/KingOfLinux/2LGG/46][xhost, remote display for one app]]
 [[https://m.blog.naver.com/occidere/221133121595]]
+[[https://hansub.tistory.com/entry/xhost]]
 
 ** xming(for Windows),
 [[https://m.blog.naver.com/sunchan683/221465317759]]
-
+[[https://m.blog.naver.com/monocho/221114374493][xming install setup]]
 ** x-windows
 [[https://sw-test.tistory.com/26]]
 
