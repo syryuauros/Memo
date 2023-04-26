@@ -20,6 +20,11 @@
 [[https://tlo-developer.tistory.com/216][X11 forwarding setup]]
 [[https://m.blog.naver.com/sunchan683/221465317759]]
 [[https://m.blog.naver.com/monocho/221114374493][xming install setup]]
+
+** mobaxterm
+[[services.openssh.]]
+[[https://err-bzz.oopy.io/223a9c02-7ac2-498c-afde-01db6cf873ae#223a9c02-7ac2-498c-afde-01db6cf873ae][k-manual]]
+
 ** x-windows
 [[https://sw-test.tistory.com/26]]
 
