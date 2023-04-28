@@ -7,6 +7,10 @@
 [[https://chat.openai.com/c/c4b6ac3e-9b31-4d83-a3ef-411fa567c550]]
 
 * remote display
+** xpra
+[[https://github.com/Xpra-org/xpra/blob/master/docs/Usage/README.md]]
+[[https://xpra.org/#download]]
+
 ** $DISPLAY
  + $ env | grep DISPLAY
  + $ echo DISPLAY

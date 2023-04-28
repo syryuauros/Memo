@@ -33,3 +33,9 @@
 | ls /nix/store [pl] grep [word] [pl] ws -l |    |                                         |
 | echo ${}                                  | :: | tab tab cursor inside the curly bracket |
 |                                           |    |                                         |
+
+* remote connect
+| xpra server start | :: | $ xpra start :100 --start=xterm                                                                      |
+| vnc view          | :: | $ vncviewer -geometry auto 192.168.13.40                                                             |
+| scp               | :: | $ scp -r auros@192.168.12.135:/home/auros/Downloads/test.jpg(file to send) ./Downloads(recieve path) |
+| ssh jump          | :: | $ ssh -J ID1@IP1(connecting PC) ID2@IP2(final target)                                                |
