@@ -2,7 +2,6 @@
 :ID:       CD511543-4125-43D6-A902-BC1FF1E0B559
 :END:
 #+title: freq-used-cmd
-[[id:5713D538-890A-4492-9838-9731E861FD1B][my_system]]
 
 * Display
 | opacity control in emacs  | :: | M-x doom/set-frame-opacity               |   |
@@ -35,7 +34,8 @@
 |                                           |    |                                         |
 
 * remote connect
-| xpra server start | :: | $ xpra start :100 --start=xterm                                                                      |
-| vnc view          | :: | $ vncviewer -geometry auto 192.168.13.40                                                             |
-| scp               | :: | $ scp -r auros@192.168.12.135:/home/auros/Downloads/test.jpg(file to send) ./Downloads(recieve path) |
-| ssh jump          | :: | $ ssh -J ID1@IP1(connecting PC) ID2@IP2(final target)                                                |
+| xpra server start        | :: | $ xpra start :100 --start=xterm                                                                      |
+| xpra remote server start | :: | $ xpra start ssh://USER@HOST/ --start=xterm                                                          |
+| vnc view                 | :: | $ vncviewer -geometry auto 192.168.13.40                                                             |
+| scp                      | :: | $ scp -r auros@192.168.12.135:/home/auros/Downloads/test.jpg(file to send) ./Downloads(recieve path) |
+| ssh jump                 | :: | $ ssh -J USER1@IP1(connecting PC) USER2@IP2(final target)                                            |
