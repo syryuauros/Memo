@@ -10,6 +10,8 @@
 ** xpra
 [[https://github.com/Xpra-org/xpra/blob/master/docs/Usage/README.md]]
 [[https://xpra.org/#download]]
+[[https://bytexd.com/xpra/][web-server xpra]]
+[[https://xpra.org/html5/connect.html][html5]]
 
 ** $DISPLAY
  + $ env | grep DISPLAY

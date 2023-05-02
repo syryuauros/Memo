@@ -34,11 +34,13 @@
 |                                           |    |                                         |
 
 * remote connect
-| xpra server start           | :: | $ xpra start :100 --start=xterm                                                                      |
-| xpra remote server start    | :: | $ xpra start ssh://USER@HOST/ --start=xterm  https://github.com/Xpra-org/xpra#installation           |
-| vnc view                    | :: | $ vncviewer -geometry auto 192.168.13.40                                                             |
-| scp                         | :: | $ scp -r auros@192.168.12.135:/home/auros/Downloads/test.jpg(file to send) ./Downloads(recieve path) |
-| ssh jump                    | :: | $ ssh -J USER1@IP1(connecting PC) USER2@IP2(final target)                                            |
-|                             |    |                                                                                                      |
-| org-roam-ui in remote(xpra) | :: | $ firefox localhost:35901                                                                            |
-|                             |    |                                                                                                      |
+| xpra server start              | :: | $ xpra start :100 --start=xterm                                                                      |
+| xpra remote server start       | :: | $ xpra start ssh://USER@HOST/ --start=xterm  https://github.com/Xpra-org/xpra#installation           |
+| xpra attach (display in local) | :: | $ xpra attach ssh://USER@HOST/                                                                       |
+|                                | :: | $ xpra attach tcp://IP:port                                                                          |
+| vnc view                       | :: | $ vncviewer -geometry auto 192.168.13.40                                                             |
+| scp                            | :: | $ scp -r auros@192.168.12.135:/home/auros/Downloads/test.jpg(file to send) ./Downloads(recieve path) |
+| ssh jump                       | :: | $ ssh -J USER1@IP1(connecting PC) USER2@IP2(final target)                                            |
+|                                |    |                                                                                                      |
+| org-roam-ui in remote(xpra)    | :: | $ firefox localhost:35901                                                                            |
+|                                |    |                                                                                                      |
