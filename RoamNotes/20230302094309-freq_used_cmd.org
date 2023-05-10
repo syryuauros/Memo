@@ -13,6 +13,8 @@
 | find & change    | :: | :%s/[word-to-find]/[word-target-for-changed]                     |                 |
 |                  | :: | :%s/[word-to-find]/[word-target-for-changed]/c                   | for checking    |
 |                  | :: | select range -> :`<,`>s/[word-to-find]/[word-target-for-changed] | for a range     |
+|                  | :: | C-v                                                              | vertical range  |
+|                  |    | C-v -> S-i -> [string-to-replace] -> ESC                         |                 |
 |                  |    |                                                                  |                 |
 | key binding      | :: | M-x describe key                                                 | confirm key     |
 |                  | :: | M-x global set key, global unset key                             | set key binding |
@@ -22,8 +24,7 @@
 | prev/next buffer | :: | M-x previous-buffer, next-buffer                                 |                 |
 |                  |    |                                                                  |                 |
 
-* edit
-| process kill | :: | $ pkill [process name]  or $ kill -9 [process number] |
+* edit| process kill | :: | $ pkill [process name]  or $ kill -9 [process number] |
 | vim tutorial | :: | $ vimtutor                                            |
 |              |    |                                                       |
 * system
