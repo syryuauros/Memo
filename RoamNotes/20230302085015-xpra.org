@@ -13,6 +13,10 @@
 [[https://bytexd.com/xpra/][web-server xpra]]
 [[https://xpra.org/html5/connect.html][html5]]
 
+$ sudo chmod -R 777 /run/xpra/
+$ sudo modprobe uinput
+$ xpra start --bind-tcp=0.0.0.0:9876 --html=on --ssl-cert=./certs/server.crt --ssl-key=./certs/server.key --start-child=xterm --pulseaudio=no --mdns=no --webcam=no --printing=no
+
 ** $DISPLAY
  + $ env | grep DISPLAY
  + $ echo DISPLAY
