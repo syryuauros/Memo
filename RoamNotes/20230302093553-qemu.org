@@ -11,3 +11,13 @@
 [[https://blog.naver.com/PostView.naver?blogId=alice_k106&logNo=221179347223&redirect=Dlog&widgetTypeCall=true&topReferer=https%3A%2F%2Fwww.google.com%2F&directAccess=false][VM, emulation Kdoc]]
 
 [[https://jy-p.tistory.com/29][windows install in qemu]]
+
+storage(hard-disk) making: $ qemu-img create windows.raw 200G
+install windows10        : $ sudo qemu-system-x86_64 -m 4G -cpu host -smp sockets=1,cores=2,threads=2 -cdrom /home/auros/Downloads/Win10_22H2_Korean_x64.iso -drive file=windows.raw,format=raw -enable-kvm
+run VM win10 installed   : $ sudo qemu-system-x86_64 -m 16G -cpu host -smp sockets=1,cores=4,threads=4 -drive file=windows.raw,format=raw -enable-kvm
+
+pkgs list
+1. qemu
+2. qemu_kvm
+3. libvirt
+4. virt-manager
