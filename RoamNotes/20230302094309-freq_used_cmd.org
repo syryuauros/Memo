@@ -29,6 +29,8 @@
 | vim tutorial | :: | $ vimtutor                                            |
 |              |    |                                                       |
 * system
+| nixos rebuild      | :: | $ sudo nixos-rebuild switch --flake .#syryuhds --impure |
+| nixos home-manager | :: | $ home-manager switch --flake .#auros --impure          |
 
 * searching
 | ls /nix/store [pl] grep [word] [pl] ws -l |    |                                         |
