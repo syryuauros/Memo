@@ -5,3 +5,9 @@
 [[id:5713D538-890A-4492-9838-9731E861FD1B][my_system]]
 
 [[https://www.qemu.org/docs/master/system/introduction.html#virtualisation-accelerators][OM]]
+
+[[https://virt-manager.org/][virt-manager]]
+
+[[https://blog.naver.com/PostView.naver?blogId=alice_k106&logNo=221179347223&redirect=Dlog&widgetTypeCall=true&topReferer=https%3A%2F%2Fwww.google.com%2F&directAccess=false][VM, emulation Kdoc]]
+
+[[https://jy-p.tistory.com/29][windows install in qemu]]
