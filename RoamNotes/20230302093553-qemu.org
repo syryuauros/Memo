@@ -27,7 +27,7 @@ pkgs list
 4. virt-manager
 
 quit qemu VGA mode
-C-M-2(quit and go to qemu cmd mode)
-C-M-1(come into VGA mode)
-C-M-f(full screen)
-recommend resolution : 1600 X
+- C-M-2(quit and go to qemu cmd mode)
+- C-M-1(come into VGA mode but mouse if free to move)
+- C-M-f(full screen)
+recommend resolution : 1680 X 1050
