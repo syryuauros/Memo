@@ -15,6 +15,7 @@
 |                  | :: | select range -> :`<,`>s/[word-to-find]/[word-target-for-changed] | for a range     |
 |                  | :: | C-v                                                              | vertical range  |
 |                  |    | C-v -> S-i -> [string-to-replace] -> ESC                         |                 |
+| auto-completion  | :: | C-p                                                              |                 |
 |                  |    |                                                                  |                 |
 | key binding      | :: | M-x describe key                                                 | confirm key     |
 |                  | :: | M-x global set key, global unset key                             | set key binding |
