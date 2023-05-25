@@ -31,11 +31,19 @@
 * system
 | nixos rebuild      | :: | $ sudo nixos-rebuild switch --flake .#syryuhds --impure |
 | nixos home-manager | :: | $ home-manager switch --flake .#auros --impure          |
+|                    |    |                                                         |
+
+* authority
+| change authority       | :: | $ sudo chown nginx /var/www/miso |
+| confirm authority list | :: | $ bat /etc/passwd                |
+|                        |    |                                  |
 
 * searching
-| ls /nix/store [pl] grep [word] [pl] ws -l |    |                                         |
-| echo ${}                                  | :: | tab tab cursor inside the curly bracket |
-|                                           |    |                                         |
+| $ ls /nix/store [pl] grep [word] [pl] ws -l                                                           |    |                                         |   |   |
+| $ echo ${}                                                                                            | :: | tab tab cursor inside the curly bracket |   |   |
+|                                                                                                       |    |                                         |   |   |
+| $ ls /nix/store [pl] grep nginx.conf [pl] xargs -I {} stat /nix/store/{} [pl] grep -E 'File[pl]Birth' | :: |                                         |   |   |
+|                                                                                                       |    |                                         |   |   |
 
 * remote connect
 | xpra server start              | :: | $ xpra start :100 --start=xterm                                                                      |
