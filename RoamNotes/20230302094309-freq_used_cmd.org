@@ -33,10 +33,12 @@
 | nixos home-manager | :: | $ home-manager switch --flake .#auros --impure          |
 |                    |    |                                                         |
 
-* authority
-| change authority       | :: | $ sudo chown nginx /var/www/miso |
-| confirm authority list | :: | $ bat /etc/passwd                |
-|                        |    |                                  |
+* folder management (authority, syncronize ...)
+| change authority       | :: | $ sudo chown -R nginx:nginx /var/www/miso             |
+| confirm authority list | :: | $ bat /etc/passwd                                     |
+|                        |    |                                                       |
+| syncronize folder      | :: | $ rsync -av --delete [PATH_source] [PATH_destination] |
+|                        |    |                                                       |
 
 * searching
 | $ ls /nix/store [pl] grep [word] [pl] ws -l                                                           |    |                                         |   |   |
