@@ -16,3 +16,4 @@
  + [[https://www.youtube.com/playlist?list=PLTGzWF3DajHQmyd3ES5IMhxOJ9pvtWOMR][linear_algebra_ko_youtube]]
 + [[https://twlab.tistory.com/17][linear space ko]]
 + [[https://m.blog.naver.com/joshua451/221240117492][knowledge-echology]]
++ [[https://ansohxxn.github.io/blog/markdown/#%EA%B0%95%EC%A1%B0][mark-down in github]]
