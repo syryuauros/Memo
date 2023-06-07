@@ -4,10 +4,13 @@
 #+title: freq-used-cmd
 
 * Display
-| opacity control in emacs  | :: | M-x doom/set-frame-opacity               |   |
-| windows opacity control   | :: | picom -cf -i 0.8 --use-ewmh-active-win & |   |
-| show hide folder in dired | :: | S-h                                      |   |
-| command history           | :: | C-r                                      |   |
+| opacity control in emacs       | :: | M-x doom/set-frame-opacity               |   |
+| windows opacity control        | :: | picom -cf -i 0.8 --use-ewmh-active-win & |   |
+| show hide folder in dired      | :: | S-h                                      |   |
+| command history                | :: | C-r                                      |   |
+| screen saver, auto-display-off | :: | $ xset s off -dpms                       |   |
+| screen saver on                | :: | $ xset s on                              |   |
+| screen saver time set          | :: | $ xset s 600                             |   |
 
 * edit (vim, emacs)
 | find & change    | :: | :%s/[word-to-find]/[word-target-for-changed]                     |                 |
