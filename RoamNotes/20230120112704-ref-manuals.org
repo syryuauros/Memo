@@ -73,6 +73,8 @@
 + module-lsit.nix
 + options detail
 ** grammar
+***  script
+****   insert double quote mark - \" ${variable} \"
 ** packages
 ** modules
 ***  options
