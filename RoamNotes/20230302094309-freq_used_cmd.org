@@ -35,6 +35,15 @@
 | nixos rebuild      | :: | $ sudo nixos-rebuild switch --flake .#syryuhds --impure |
 | nixos home-manager | :: | $ home-manager switch --flake .#auros --impure          |
 |                    |    |                                                         |
+|                    |    |                                                         |
+
+* nix & nix flake
+| nix repl              | :: | $ nix repl                                                 |
+| load pkgs             | :: | nix-repl> pkgs = import <nixpkgs> {}                       |
+| load flake            | :: | nix-repl> :lf .                                            |
+| find function in pkgs | :: | nix-repl> pkgs.writeT [Tab] -> makes pkgs.writeText        |
+| find builtin function | :: | nix-repl> :doc builtins.isP [Tab] -> makes builtins.isPath |
+|                       |    |                                                            |
 
 * folder management (authority, syncronize ...)
 | change authority       | :: | $ sudo chown -R nginx:nginx /var/www/miso             |
