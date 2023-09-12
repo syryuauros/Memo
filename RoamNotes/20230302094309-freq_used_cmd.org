@@ -39,6 +39,7 @@
 
 * nix & nix flake
 | nix repl              | :: | $ nix repl                                                 |
+| nix repl help         | :: | nix-repl> :help                                            |
 | load pkgs             | :: | nix-repl> pkgs = import <nixpkgs> {}                       |
 | load flake            | :: | nix-repl> :lf .                                            |
 | find function in pkgs | :: | nix-repl> pkgs.writeT [Tab] -> makes pkgs.writeText        |
