@@ -13,20 +13,23 @@
 | screen saver time set          | :: | $ xset s 600                             |   |
 
 * edit (vim, emacs)
-| find & change    | :: | :%s/[word-to-find]/[word-target-for-changed]                     |                 |
-|                  | :: | :%s/[word-to-find]/[word-target-for-changed]/c                   | for checking    |
-|                  | :: | select range -> :`<,`>s/[word-to-find]/[word-target-for-changed] | for a range     |
-|                  | :: | C-v                                                              | vertical range  |
-|                  |    | C-v -> S-i -> [string-to-replace] -> ESC                         |                 |
-| auto-completion  | :: | C-p                                                              |                 |
-|                  |    |                                                                  |                 |
-| key binding      | :: | M-x describe key                                                 | confirm key     |
-|                  | :: | M-x global set key, global unset key                             | set key binding |
-|                  |    | (if key binding is already exist then documentation appears)     |                 |
-|                  |    | (pre-fix like C-r or M-r must needed)                            |                 |
-| move to scope    | :: | M-x +lookup/(definition, reference, file)                        |                 |
-| prev/next buffer | :: | M-x previous-buffer, next-buffer                                 |                 |
-|                  |    |                                                                  |                 |
+| how to edit vim in emacs | :: | insert mode is same, when you want to save and out from vim      |                 |
+|                          | :: | 'Esc' -> 'C-c C-c' -> 'i' -> ':wq'                               |                 |
+| vim as a default editor  |    | $ export EDITOR=/run/current-system/sw/bin/vim                   |                 |
+| find & change            | :: | :%s/[word-to-find]/[word-target-for-changed]                     |                 |
+|                          | :: | :%s/[word-to-find]/[word-target-for-changed]/c                   | for checking    |
+|                          | :: | select range -> :`<,`>s/[word-to-find]/[word-target-for-changed] | for a range     |
+|                          | :: | C-v                                                              | vertical range  |
+|                          |    | C-v -> S-i -> [string-to-replace] -> ESC                         |                 |
+| auto-completion          | :: | C-p                                                              |                 |
+|                          |    |                                                                  |                 |
+| key binding              | :: | M-x describe key                                                 | confirm key     |
+|                          | :: | M-x global set key, global unset key                             | set key binding |
+|                          |    | (if key binding is already exist then documentation appears)     |                 |
+|                          |    | (pre-fix like C-r or M-r must needed)                            |                 |
+| move to scope            | :: | M-x +lookup/(definition, reference, file)                        |                 |
+| prev/next buffer         | :: | M-x previous-buffer, next-buffer                                 |                 |
+|                          |    |                                                                  |                 |
 
 * edit| process kill | :: | $ pkill [process name]  or $ kill -9 [process number] |
 | vim tutorial | :: | $ vimtutor                                            |
