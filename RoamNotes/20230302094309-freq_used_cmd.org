@@ -49,6 +49,13 @@
 | find builtin function | :: | nix-repl> :doc builtins.isP [Tab] -> makes builtins.isPath |
 |                       |    |                                                            |
 
+** how to set pwd as a specific folder,
+script = ''
+  cd /home/hproxy/secrets
+  ls -lah
+  ${pkgs.su}/bin/su - hproxy -c "${inputs.agenix.packages.x86_64-linux.default}/bin/agenix -d /home/hproxy/secrets/wg-hproxy.age | ${pkgs.sudo}/bin/sudo ${pkgs.coreutils}/bin/tee /run/agenix.d/1/wg"
+ '';
+
 * folder management (authority, syncronize ...)
 | change authority       | :: | $ sudo chown -R nginx:nginx /var/www/miso             |
 | confirm authority list | :: | $ bat /etc/passwd                                     |
