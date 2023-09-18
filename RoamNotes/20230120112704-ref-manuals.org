@@ -20,6 +20,7 @@
  + [[https://nixos.org/manual/nix/stable/][Nix manual]]
  + [[https://nixos.org/manual/nixpkgs/stable/][Nixpkgs Manual]]
  + [[https://nixos.org/manual/nixos/stable/][NixOS Manual]]
+ + [[https://ryantm.github.io/nixpkgs/builders/trivial-builders/][NixOS lib, builtins manual]]
 ****  Other resources
  + [[https://nix.dev/][nix.dev]]
  + [[https://www.youtube.com/playlist?list=PLyzwHTVJlRc8yjlx4VR4LU5A5O44og9in][The Nix Hour]]  -- video
