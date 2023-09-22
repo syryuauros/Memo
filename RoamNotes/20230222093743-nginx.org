@@ -32,6 +32,8 @@
 
     # find the latest target-os image
     # ls /nix/store/ | grep nixos-system-hproxy | grep -v .drv | xargs -I {} stat /nix/store/{} | grep -B 7 "$birth_tag" | grep /nix/store
+    # asking to chatgpt : if I want to find 3 items above when I found some Item with grep
+
 
     # $ cd /nix/var/nix/profiles/
     # remove unnecessary system-[number]-link/ folder
