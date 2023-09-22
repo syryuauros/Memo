@@ -30,6 +30,9 @@
     # | confirm authority list | :: | $ bat /etc/passwd  $ bat /etc/group               |
     # |ls /nix/store [pl] grep nginx.conf [pl] xargs -I {} stat /nix/store/{} [pl] grep -E 'File[pl]Birth'|
 
+    # find the latest target-os image
+    # ls /nix/store/ | grep nixos-system-hproxy | grep -v .drv | xargs -I {} stat /nix/store/{} | grep -B 7 "$birth_tag" | grep /nix/store
+
     # $ cd /nix/var/nix/profiles/
     # remove unnecessary system-[number]-link/ folder
     # be careful not to delete system/ folder!!!
