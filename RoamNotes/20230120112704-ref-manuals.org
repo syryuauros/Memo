@@ -26,6 +26,8 @@
  + [[https://www.youtube.com/playlist?list=PLyzwHTVJlRc8yjlx4VR4LU5A5O44og9in][The Nix Hour]]  -- video
  + [[https://nixos.wiki/][NixOS Wiki]]
  + [[https://nixos.org/guides/nix-pills/][Nix Pills]]
+ + [[https://www.sam.today/blog/creating-a-super-simple-derivation-learning-nix-pt-3][shell script mkDerivation]]
+ + [[https://ianthehenry.com/posts/how-to-learn-nix/my-first-derivation/][Ian Henry]]
 
 ** options & modules for flake, home-manager
 **** find module options defined - docs online
