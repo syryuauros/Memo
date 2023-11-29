@@ -30,7 +30,7 @@
 | move to scope            | :: |                                                                  |                                           |
 | prev/next buffer         | :: | M-x previous-buffer, next-buffer                                 |                                           |
 |                          |    |                                                                  |                                           |
-| auto-allign              | :: | select range -> F??                                              |                                           |
+| auto-allign              | :: | select range -> '='                                              |                                           |
 | Emacs menu               | :: | F10                                                              |                                           |
 
 * searching & navigating
