@@ -30,7 +30,8 @@
 | move to scope            | :: |                                                                  |                                           |
 | prev/next buffer         | :: | M-x previous-buffer, next-buffer                                 |                                           |
 |                          |    |                                                                  |                                           |
-|                          |    |                                                                  |                                           |
+| auto-allign              | :: | select range -> F??                                              |                                           |
+| Emacs menu               | :: | F10                                                              |                                           |
 
 * searching & navigating
 + https://chat.openai.com/c/6f494164-3e37-4c7d-bab3-37fab38736e0
