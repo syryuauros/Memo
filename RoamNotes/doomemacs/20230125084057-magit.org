@@ -12,3 +12,6 @@ recover a commit and branch after deletion [[https://stackoverflow.com/questions
 $ git reflog --no-abbrev
 $ git checkout [sha_of_deleted_commit]
 $ git checkout -b [branch_name_deleted]
+
+revert remote origin forcely | revert many times as you want
+https://jupiny.com/2019/03/19/revert-commits-in-remote-repository/
