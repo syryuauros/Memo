@@ -12,7 +12,8 @@
 | screen saver on                | :: | $ xset s on                              |   |
 | screen saver time set          | :: | $ xset s 600                             |   |
 
-* edit (vim, emacs)
+* edit (vim, emacs, sed)
+**  sed REFs  출처: https://engineer-mole.tistory.com/235 [매일 꾸준히, 더 깊이:티스토리]
 | how to edit vim in emacs | :: | insert mode is same, when you want to save and out from vim      |                                           |
 |                          | :: | 'Esc' -> 'C-c C-c' -> 'i' -> ':wq'                               |                                           |
 | vim as a default editor  |    | $ export EDITOR=/run/current-system/sw/bin/vim                   |                                           |
