@@ -88,3 +88,5 @@
 nixos search [[https://search.nixos.org/packages][web]]
 
 builtins (Built-in Functions)  [[https://nixos.org/manual/nix/stable/language/builtins.html][manual]]
+
+writeScriptBin, etc ... :: https://github.com/NixOS/nixpkgs/blob/nixos-23.05/pkgs/build-support/trivial-builders/default.nix
