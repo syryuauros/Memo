@@ -1,0 +1,3 @@
+#+title: ReFs
+
+https://otexts.com/fppkr/selecting-predictors.html
