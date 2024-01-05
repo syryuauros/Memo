@@ -1,0 +1,87 @@
+#+title: 2 Haskell On Boarding Lee Sk
+
+
+* Categories(?)
+** Functor < Applicative < Monad
+** Type class = Type of Type
+
+
+ fmap :: Functor f => (a -> b) -> f a -> f b
+
+class Functor f => Applicative f where
+ pure :: a -> f a
+ (<*>) :: f (a -> b) -> f a -> f b  // (<*>) : 'app'
+r e
+class Applicative m => Monad m where
+  (>>=) :: m a -> (a -> m b) -> m b   // m a means a kind of computation and a is the result of computation m a // (>>=) : 'bind' or 'programmable semicolon'
+
+ghci> :t getLine
+getLine :: IO String
+ context of above Line : get String from a side effect of reading user input
+
+Type 'Unit' has only one value '()' that has same meaning of 'void' in C language, haskell has distinguished 'void'
+
+
+writer (42, " step |\n") :: Writer String Int  // 'Writer String' = monad, 'Writer'
+  context:
+
+ghci> :t writer
+writer :: MonadWriter w m => (a, w) -> m a
+
+ghci> :i MonadWriter
+type MonadWriter :: * -> (* -> *) -> Constraint
+class (Monoid w, Monad m) => MonadWriter w m | m -> w where
+  writer :: (a, w) -> m a
+  tell :: w -> m ()
+  listen :: m a -> m (a, w)
+  pass :: m (a, w -> w) -> m a
+  {-# MINIMAL (writer | tell), listen, pass #-}
+        -- Defined in ‘Control.Monad.Writer.Class’
+instance [safe] (Monoid w, Monad m) => MonadWriter w (WriterT w m)
+  -- Defined in ‘Control.Monad.Writer.Class’
+instance [safe] Monoid w => MonadWriter w ((,) w)
+  -- Defined in ‘Control.Monad.Writer.Class’
+
+ newtype Writer w a = Writer { runWriter :: a -> (a, w) }
+
+ instance MonadWriter w (Writer w) \\ 'Writer w' has to be Monad
+
+ type of 'runWriter' has to be
+ runWriter :: Writer w a -> a -> (a, w) \\ here 'Writer w a' is a type
+
+ [1,2,3] :: [Int]
+   context: value :: 1 or 2 or 3 \\ none-deterministic
+   ex) ghci> pure (+) <*> [1,2,3] <*> [4,5,6]
+       [5,6,7,6,7,8,7,8,9]
+
+   another context: gathering of 1 2 3
+
+ghci> pure (+) <*> writer (42, "Step |\n") <*> writer (10, "Step |\n") :: Writer String Int
+WriterT (Identity (52,"Step |\nStep |\n"))
+ghci> pure (+) <*> writer (42, "Step |\n") <*> writer (10, "Step 2\n") :: Writer String Int
+WriterT (Identity (52,"Step |\nStep 2\n"))
+ghci> pure (+) <*> writer (42, "Step 1\n") <*> writer (10, "Step 2\n") :: Writer String Int
+WriterT (Identity (52,"Step 1\nStep 2\n"))
+ghci> pure (+) <*> writer (42, "Step 1\n,") <*> writer (10, "Step 2\n") :: Writer String Int
+WriterT (Identity (52,"Step 1\n,Step 2\n"))
+
+
+fmap (++ "!") getLine :: (String -> String) -> IO String -> IO String
+
+ghci> getLine >>= putStrLn
+hello^Jhello
+
+getLine :: m a
+putStrLn :: a -> m a
+role of (>>=) is removal of context
+
+Functor corresponding to functor in category theory
+Applicative corresponding to 'lax monoid functor'
+Mona 'monoid object from endo functor'
+
+Applicative has fixed context(context of Input)
+but Monad can change the context
+
+Applicative :: f (a -> b) -> f a -> f b
+lax functor :: f a -> f b -> f (a, b)
+ satisfying properties of tensor product(biproduct), product operation has to be satisfied
