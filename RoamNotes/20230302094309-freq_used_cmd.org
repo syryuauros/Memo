@@ -14,25 +14,28 @@
 
 * edit (vim, emacs, sed)
 **  sed REFs  출처: https://engineer-mole.tistory.com/235 [매일 꾸준히, 더 깊이:티스토리]
-| how to edit vim in emacs | :: | insert mode is same, when you want to save and out from vim      |                                           |
-|                          | :: | 'Esc' -> 'C-c C-c' -> 'i' -> ':wq'                               |                                           |
-| vim as a default editor  |    | $ export EDITOR=/run/current-system/sw/bin/vim                   |                                           |
-| find & change            | :: | :%s/[word-to-find]/[word-target-for-changed]                     |                                           |
-|                          | :: | :%s/[word-to-find]/[word-target-for-changed]/c                   | for checking                              |
-|                          | :: | select range -> :`<,`>s/[word-to-find]/[word-target-for-changed] | for a range                               |
-|                          | :: | C-v                                                              | vertical range                            |
-|                          |    | C-v -> S-i -> [string-to-replace] -> ESC                         |                                           |
-| auto-completion          | :: | C-p                                                              |                                           |
-|                          |    |                                                                  |                                           |
-| key binding              | :: | M-x describe key                                                 | confirm key                               |
-|                          | :: | M-x global set key, global unset key                             | set key binding                           |
-|                          |    | (if key binding is already exist then documentation appears)     | M-x +lookup/(definition, reference, file) |
-|                          |    | (pre-fix like C-r or M-r must needed)                            |                                           |
-| move to scope            | :: |                                                                  |                                           |
-| prev/next buffer         | :: | M-x previous-buffer, next-buffer                                 |                                           |
-|                          |    |                                                                  |                                           |
-| auto-allign              | :: | select range -> '='                                              |                                           |
-| Emacs menu               | :: | F10                                                              |                                           |
+| how to edit vim in emacs            | :: | insert mode is same, when you want to save and out from vim      |                                           |
+|                                     | :: | 'Esc' -> 'C-c C-c' -> 'i' -> ':wq'                               |                                           |
+| vim as a default editor             |    | $ export EDITOR=/run/current-system/sw/bin/vim                   |                                           |
+| find & change                       | :: | :%s/[word-to-find]/[word-target-for-changed]                     |                                           |
+|                                     | :: | :%s/[word-to-find]/[word-target-for-changed]/c                   | for checking                              |
+|                                     | :: | select range -> :`<,`>s/[word-to-find]/[word-target-for-changed] | for a range                               |
+|                                     | :: | C-v                                                              | vertical range                            |
+|                                     |    | C-v -> S-i -> [string-to-replace] -> ESC                         |                                           |
+| auto-completion                     | :: | C-p                                                              |                                           |
+|                                     |    |                                                                  |                                           |
+| key binding                         | :: | M-x describe key                                                 | confirm key                               |
+|                                     | :: | M-x global set key, global unset key                             | set key binding                           |
+|                                     |    | (if key binding is already exist then documentation appears)     | M-x +lookup/(definition, reference, file) |
+|                                     |    | (pre-fix like C-r or M-r must needed)                            |                                           |
+| move to scope                       | :: |                                                                  |                                           |
+| prev/next buffer                    | :: | M-x previous-buffer, next-buffer                                 |                                           |
+|                                     |    |                                                                  |                                           |
+| auto-allign                         | :: | select range -> '='                                              |                                           |
+| Emacs menu                          | :: | F10                                                              |                                           |
+|                                     |    |                                                                  |                                           |
+| marking                             | :: | C-spc                                                            | set-mark-command                          |
+| cursor jump back to marked position | :: | g-;                                                              | go-to-last-change                         |
 
 * searching & navigating
 + https://chat.openai.com/c/6f494164-3e37-4c7d-bab3-37fab38736e0
