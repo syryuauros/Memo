@@ -35,19 +35,20 @@
 | Emacs menu                          | :: | F10                                                              |                                           |
 |                                     |    |                                                                  |                                           |
 | marking                             | :: | C-spc                                                            | set-mark-command                          |
-| cursor jump back to marked position | :: | g-;                                                              | go-to-last-change                         |
+| cursor jump back to marked position | :: | g-;                                                              | evil-go-to-last-change                    |
+| cursor jump to line                 | :: | M-g g,  (locally add, M-s M-s)                                   | goto-line                                 |
 
 * searching & navigating
 + https://chat.openai.com/c/6f494164-3e37-4c7d-bab3-37fab38736e0
 + http://xahlee.info/emacs/emacs/emacs_grep_find.html
 | search-project-for-symbol-at-point | :: | M-*                               |
-| rg                                 | :: | M-x rg                            |
+| rg                                 | :: | M-x rg (locally add, M-s M-d)     |
 |                                    |    | $ rg "pattern" /path/to/directory |
 | lgrep                              | :: | M-x lgrep                         |
 
 * edit| process kill | :: | $ pkill [process name]  or $ kill -9 [process number] |
-| vim tutorial | :: | $ vimtutor                                            |
-|              |    |                                                       |
+| vim tutorial | :: | $ vimtutor |
+|              |    |            |
 * system
 | nixos rebuild      | :: | $ sudo nixos-rebuild switch --flake .#syryuhds --impure |
 | nixos home-manager | :: | $ home-manager switch --flake .#auros --impure          |
