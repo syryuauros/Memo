@@ -22,6 +22,7 @@
 |                                     | :: | select range -> :`<,`>s/[word-to-find]/[word-target-for-changed] | for a range                               |
 |                                     | :: | C-v                                                              | vertical range                            |
 |                                     |    | C-v -> S-i -> [string-to-replace] -> ESC                         |                                           |
+| find selected word                  |    | select range -> '*' or '#'                                       | '*' for forward, '#' for backward         |
 | auto-completion                     | :: | C-p                                                              |                                           |
 |                                     |    |                                                                  |                                           |
 | key binding                         | :: | M-x describe key                                                 | confirm key                               |
